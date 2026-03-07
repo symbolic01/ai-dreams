@@ -1,0 +1,15 @@
+# Project context (not part of submission)
+CLAUDE.md
+.claude/
+sessions/
+plans/
+icon.png
+nanobanana-prompt.md
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# OS
+.DS_Store

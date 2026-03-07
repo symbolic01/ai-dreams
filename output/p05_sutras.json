@@ -1,0 +1,207 @@
+{
+  "themes": [
+    {
+      "name": "The ADHD Creative Paradox",
+      "sutras": [
+        {
+          "text": "Your ADHD brain is a creative superpower that enables hyperfocus on design work, but you systematically avoid administrative tasks that could transform your business\u2014the revision policy you've started writing six times is more important than the next Blender tutorial.",
+          "importance": 9,
+          "kernel_indices": [
+            0,
+            15,
+            39,
+            64,
+            86,
+            113,
+            158,
+            167
+          ],
+          "cross_source": true,
+          "category": "truth"
+        },
+        {
+          "text": "You get sidetracked by perfectionist rabbit holes (font comparisons in Figma, donut iterations in Blender) when the real creative breakthrough comes from shipping incomplete work to real clients.",
+          "importance": 7,
+          "kernel_indices": [
+            30,
+            111,
+            128,
+            148,
+            156
+          ],
+          "cross_source": true,
+          "category": "pattern"
+        }
+      ]
+    },
+    {
+      "name": "Financial Self-Sabotage",
+      "sutras": [
+        {
+          "text": "You've achieved the freelance milestone of $2,200+ monthly recurring income and dropped the barista job, yet you still only pay the $116 minimum on your credit card\u2014your income problem is solved, your spending psychology isn't.",
+          "importance": 10,
+          "kernel_indices": [
+            66,
+            78,
+            131,
+            143,
+            145,
+            147,
+            149,
+            160,
+            169,
+            186,
+            210,
+            212,
+            216
+          ],
+          "cross_source": true,
+          "category": "contradiction"
+        },
+        {
+          "text": "You spend consistently on premium groceries at Whole Foods and daily $18 transportation while expressing anxiety about a $6k debt that your current income could eliminate in 6 months with basic budgeting.",
+          "importance": 8,
+          "kernel_indices": [
+            13,
+            17,
+            27,
+            67,
+            190,
+            207,
+            219,
+            221
+          ],
+          "cross_source": true,
+          "category": "contradiction"
+        }
+      ]
+    },
+    {
+      "name": "Professional Growth Bottlenecks",
+      "sutras": [
+        {
+          "text": "You've successfully raised your hourly rate and clients who left over price weren't worth keeping, but you still undercharge on time-intensive projects because you haven't completed the revision policy that would prevent scope creep.",
+          "importance": 9,
+          "kernel_indices": [
+            1,
+            8,
+            41,
+            53,
+            90,
+            100,
+            164,
+            182,
+            200
+          ],
+          "cross_source": true,
+          "category": "urgent"
+        },
+        {
+          "text": "Your portfolio hit 1,000 unique visitors from a single Instagram post, yet you struggle with networking anxiety at design meetups\u2014your work speaks louder than you think it does.",
+          "importance": 7,
+          "kernel_indices": [
+            25,
+            46,
+            88,
+            96,
+            102,
+            107,
+            109,
+            119,
+            189,
+            196
+          ],
+          "cross_source": true,
+          "category": "truth"
+        }
+      ]
+    },
+    {
+      "name": "Place & Belonging Tension",
+      "sutras": [
+        {
+          "text": "You've questioned staying in Austin due to rising costs at least six times over two years, but your social life, creative community, and client base are all rooted there\u2014the cost anxiety is masking a deeper fear about committing to your chosen path.",
+          "importance": 6,
+          "kernel_indices": [
+            4,
+            9,
+            11,
+            19,
+            31,
+            36,
+            47,
+            52,
+            63,
+            134
+          ],
+          "cross_source": true,
+          "category": "pattern"
+        }
+      ]
+    },
+    {
+      "name": "Completion & Follow-through",
+      "sutras": [
+        {
+          "text": "You have five major unfinished business items that would each unlock significant progress: the revision policy (client boundaries), tax forms (financial clarity), Blender course completion (3D skills), credit card payoff plan (debt freedom), and business development follow-ups (revenue growth).",
+          "importance": 10,
+          "kernel_indices": [
+            12,
+            18,
+            26,
+            50,
+            51,
+            58,
+            106,
+            118,
+            120,
+            125,
+            127,
+            140,
+            142,
+            171,
+            192,
+            211,
+            217,
+            224,
+            228
+          ],
+          "cross_source": true,
+          "category": "urgent"
+        },
+        {
+          "text": "You consistently start learning projects (Blender donut, motion design, 3D tutorials) but abandon them before completion, while your actual client work gets finished\u2014the difference is external accountability versus self-direction.",
+          "importance": 8,
+          "kernel_indices": [
+            3,
+            68,
+            74,
+            77,
+            133,
+            148,
+            176,
+            185
+          ],
+          "cross_source": true,
+          "category": "pattern"
+        }
+      ]
+    }
+  ],
+  "top_insights": [
+    "Your financial stress isn't about income (you've solved that)\u2014it's about spending psychology and avoiding administrative tasks like budget planning",
+    "The revision policy you keep starting but never finishing is the single biggest lever for transforming your freelance business from reactive to structured",
+    "Your ADHD creative superpowers need administrative scaffolding to be sustainable\u2014embrace boring systems to protect your creative flow"
+  ],
+  "unfinished_business": [
+    "Revision policy for freelance clients (started 6+ times, never completed)",
+    "Tax forms completion (started, got overwhelmed, left incomplete)",
+    "Blender donut tutorial series (multiple iterations, never finished properly)",
+    "Credit card debt payoff plan (drafted but not executed)",
+    "Motion design course completion (School of Motion subscription)",
+    "Business development follow-ups (multiple leads left hanging)",
+    "Portfolio case study photography shoot",
+    "Budget review for recurring subscriptions alignment"
+  ],
+  "data_story": "Theo achieved his freelance milestone of sustainable income and dropped part-time work, but paradoxically still struggles with financial anxiety due to avoidance of administrative tasks and spending psychology. His creative work thrives (1k portfolio visitors, rate increases, steady $2,200+ monthly income) while basic business infrastructure remains incomplete, creating a cycle where ADHD-driven creative hyperfocus succeeds but executive function gaps limit systematic growth."
+}

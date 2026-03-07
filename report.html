@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Dreams — Personal Data Synthesis</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg-deep: #0d0f14;
+  --bg-card: #151821;
+  --bg-hover: #1c2030;
+  --bg-surface: #1a1d28;
+  --text-primary: #e8e4dd;
+  --text-secondary: #8a8690;
+  --text-muted: #55525c;
+  --accent-warm: #d4956a;
+  --accent-gold: #c9a84c;
+  --accent-rose: #b86b78;
+  --accent-sage: #6b9b7d;
+  --accent-violet: #8b7bb5;
+  --accent-sky: #6a8fb5;
+  --border: #252836;
+  --border-subtle: #1e2130;
+  --glow-warm: rgba(212, 149, 106, 0.08);
+  --radius: 12px;
+  --radius-sm: 8px;
+  --radius-lg: 20px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background: var(--bg-deep);
+  color: var(--text-primary);
+  font-family: 'DM Sans', sans-serif;
+  line-height: 1.6;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Noise texture overlay */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  opacity: 0.025;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 9999;
+}
+
+.container {
+  max-width: 840px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* ── Ambient glow ── */
+.ambient-glow {
+  position: fixed;
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  filter: blur(120px);
+  opacity: 0.06;
+  pointer-events: none;
+  z-index: 0;
+}
+.glow-1 { top: -200px; right: -100px; background: var(--accent-warm); }
+.glow-2 { bottom: -200px; left: -200px; background: var(--accent-violet); }
+
+/* ── Header ── */
+.header {
+  padding: 80px 0 48px;
+  position: relative;
+  z-index: 1;
+}
+
+.brand {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 11px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: var(--accent-warm);
+  margin-bottom: 32px;
+  opacity: 0;
+  animation: fadeUp 0.8s ease forwards;
+}
+
+.profile-grid {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 32px;
+  align-items: end;
+  opacity: 0;
+  animation: fadeUp 0.8s ease 0.1s forwards;
+}
+
+.profile-name {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--text-primary);
+  margin-bottom: 8px;
+}
+
+.profile-meta {
+  font-size: 15px;
+  color: var(--text-secondary);
+}
+
+.profile-meta span {
+  display: inline-block;
+  margin-right: 16px;
+}
+
+.profile-meta span::before {
+  content: '';
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--text-muted);
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.profile-meta span:first-child::before { display: none; }
+
+.profile-stats {
+  text-align: right;
+}
+
+.stat-number {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 28px;
+  font-weight: 500;
+  color: var(--accent-warm);
+}
+
+.stat-label {
+  font-size: 11px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+/* ── Divider ── */
+.divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--border), transparent);
+  margin: 40px 0;
+}
+
+/* ── Data story ── */
+.data-story {
+  padding: 40px 0;
+  opacity: 0;
+  animation: fadeUp 0.8s ease 0.2s forwards;
+}
+
+.data-story-label {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 12px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--accent-gold);
+  margin-bottom: 16px;
+}
+
+.data-story-text {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 22px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.7;
+  color: var(--text-primary);
+  max-width: 720px;
+}
+
+/* ── Top insights ── */
+.insights-section {
+  padding: 24px 0 40px;
+}
+
+.section-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 12px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 24px;
+}
+
+.insight-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.insight-card {
+  background: linear-gradient(135deg, var(--bg-card), var(--bg-surface));
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius);
+  padding: 24px 28px;
+  position: relative;
+  overflow: hidden;
+  transition: border-color 0.3s, transform 0.2s;
+  opacity: 0;
+  animation: fadeUp 0.6s ease forwards;
+}
+
+.insight-card:nth-child(1) { animation-delay: 0.3s; }
+.insight-card:nth-child(2) { animation-delay: 0.4s; }
+.insight-card:nth-child(3) { animation-delay: 0.5s; }
+
+.insight-card::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+}
+
+.insight-card:nth-child(1)::before { background: var(--accent-warm); }
+.insight-card:nth-child(2)::before { background: var(--accent-gold); }
+.insight-card:nth-child(3)::before { background: var(--accent-sage); }
+
+.insight-card:hover {
+  border-color: var(--border);
+  transform: translateX(4px);
+}
+
+.insight-number {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+
+.insight-text {
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--text-primary);
+}
+
+/* ── Unfinished business ── */
+.unfinished-section {
+  padding: 24px 0 40px;
+  opacity: 0;
+  animation: fadeUp 0.8s ease 0.6s forwards;
+}
+
+.unfinished-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.unfinished-item {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  padding: 12px 16px;
+  border-radius: var(--radius-sm);
+  transition: background 0.2s;
+}
+
+.unfinished-item:hover {
+  background: var(--bg-card);
+}
+
+.unfinished-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  border: 1.5px solid var(--accent-rose);
+  flex-shrink: 0;
+  margin-top: 6px;
+}
+
+.unfinished-text {
+  font-size: 14px;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+/* ── Themes / Sutras ── */
+.themes-section {
+  padding: 24px 0 80px;
+}
+
+.theme-block {
+  margin-bottom: 40px;
+  opacity: 0;
+  animation: fadeUp 0.6s ease forwards;
+}
+
+.theme-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+  cursor: default;
+}
+
+.theme-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  flex-shrink: 0;
+}
+
+.theme-name {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.theme-count {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-left: auto;
+}
+
+.sutra-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding-left: 44px;
+}
+
+.sutra-item {
+  background: var(--bg-card);
+  border: 1px solid transparent;
+  border-radius: var(--radius-sm);
+  padding: 16px 20px;
+  cursor: pointer;
+  transition: all 0.25s;
+  position: relative;
+}
+
+.sutra-item:hover {
+  background: var(--bg-hover);
+  border-color: var(--border);
+}
+
+.sutra-item.expanded {
+  background: var(--bg-hover);
+  border-color: var(--border);
+}
+
+.sutra-top {
+  display: flex;
+  align-items: start;
+  gap: 12px;
+}
+
+.sutra-importance {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 2px 7px;
+  border-radius: 4px;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.importance-high { background: rgba(212, 149, 106, 0.15); color: var(--accent-warm); }
+.importance-med { background: rgba(201, 168, 76, 0.12); color: var(--accent-gold); }
+.importance-low { background: rgba(85, 82, 92, 0.2); color: var(--text-muted); }
+
+.sutra-text {
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--text-primary);
+  flex: 1;
+}
+
+.sutra-badges {
+  display: flex;
+  gap: 6px;
+  margin-top: 8px;
+  padding-left: 42px;
+}
+
+.badge {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 0.5px;
+  padding: 2px 8px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+.badge-cross {
+  background: rgba(139, 123, 181, 0.12);
+  color: var(--accent-violet);
+}
+
+.badge-category {
+  background: rgba(106, 143, 181, 0.1);
+  color: var(--accent-sky);
+}
+
+/* ── Drill-down panel ── */
+.drill-down {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease, opacity 0.3s;
+  opacity: 0;
+}
+
+.drill-down.open {
+  max-height: none;
+  opacity: 1;
+}
+
+.drill-content {
+  padding: 16px 0 8px 42px;
+}
+
+.drill-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+
+.kernel-item {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-sm);
+  padding: 12px 16px;
+  margin-bottom: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.kernel-item:hover {
+  border-color: var(--border);
+}
+
+.kernel-item.expanded {
+  border-color: var(--accent-warm);
+}
+
+.kernel-type {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 4px;
+}
+
+.type-truth { color: var(--accent-gold); }
+.type-learning { color: var(--accent-sage); }
+.type-pattern { color: var(--accent-violet); }
+.type-urgent { color: var(--accent-rose); }
+.type-unfinished { color: var(--accent-warm); }
+.type-empathy { color: var(--accent-sky); }
+.type-question { color: var(--text-secondary); }
+
+.kernel-content {
+  font-size: 13px;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+.kernel-refs {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  color: var(--text-muted);
+  margin-top: 4px;
+}
+
+/* ── Raw entries (nested drill) ── */
+.raw-entries {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.raw-entries.open {
+  max-height: none;
+}
+
+.raw-entry {
+  background: var(--bg-deep);
+  border-left: 2px solid var(--border);
+  padding: 10px 14px;
+  margin: 6px 0 6px 12px;
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+
+.raw-entry-header {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.raw-entry-id {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  color: var(--accent-warm);
+}
+
+.raw-entry-date {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  color: var(--text-muted);
+}
+
+.raw-entry-source {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 1px 5px;
+  border-radius: 3px;
+  background: rgba(106, 143, 181, 0.1);
+  color: var(--accent-sky);
+}
+
+.raw-entry-text {
+  font-size: 13px;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+.raw-entry-tags {
+  display: flex;
+  gap: 4px;
+  margin-top: 6px;
+  flex-wrap: wrap;
+}
+
+.raw-tag {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 9px;
+  padding: 1px 6px;
+  border-radius: 3px;
+  background: rgba(85, 82, 92, 0.2);
+  color: var(--text-muted);
+}
+
+/* ── Pipeline footer ── */
+.pipeline-footer {
+  padding: 40px 0 60px;
+  border-top: 1px solid var(--border-subtle);
+}
+
+.pipeline-steps {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.pipeline-step {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  color: var(--text-muted);
+  padding: 4px 10px;
+  border-radius: 4px;
+  background: var(--bg-card);
+}
+
+.pipeline-arrow {
+  color: var(--text-muted);
+  font-size: 12px;
+}
+
+.pipeline-label {
+  text-align: center;
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-top: 16px;
+}
+
+.pipeline-label a {
+  color: var(--accent-warm);
+  text-decoration: none;
+}
+
+.consent-banner {
+  text-align: center;
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-top: 12px;
+  letter-spacing: 0.5px;
+}
+
+.consent-banner span {
+  color: var(--accent-sage);
+}
+
+/* ── Loading ── */
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 18px;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+/* ── Animations ── */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ── Responsive ── */
+@media (max-width: 640px) {
+  .profile-name { font-size: 32px; }
+  .profile-grid { grid-template-columns: 1fr; }
+  .profile-stats { text-align: left; }
+  .data-story-text { font-size: 19px; }
+  .unfinished-grid { grid-template-columns: 1fr; }
+  .sutra-list { padding-left: 0; }
+  .drill-content { padding-left: 0; }
+  .header { padding: 48px 0 32px; }
+}
+</style>
+</head>
+<body>
+
+<div class="ambient-glow glow-1"></div>
+<div class="ambient-glow glow-2"></div>
+
+<div id="app" class="container">
+  <div class="loading">Distilling your data…</div>
+</div>
+
+<script>
+const THEME_COLORS = [
+  { bg: 'rgba(212,149,106,0.08)', border: 'var(--accent-warm)', icon: '◈' },
+  { bg: 'rgba(201,168,76,0.08)', border: 'var(--accent-gold)', icon: '◇' },
+  { bg: 'rgba(107,155,125,0.08)', border: 'var(--accent-sage)', icon: '○' },
+  { bg: 'rgba(139,123,181,0.08)', border: 'var(--accent-violet)', icon: '△' },
+  { bg: 'rgba(184,107,120,0.08)', border: 'var(--accent-rose)', icon: '□' },
+  { bg: 'rgba(106,143,181,0.08)', border: 'var(--accent-sky)', icon: '◎' },
+];
+
+let DATA = null;
+let entryMap = {};
+
+async function loadData() {
+  try {
+    const res = await fetch('output/p05_report_data.json');
+    DATA = await res.json();
+    DATA.timeline_entries.forEach(e => entryMap[e.id] = e);
+    render();
+  } catch (err) {
+    document.getElementById('app').innerHTML =
+      `<div class="loading">Could not load report data. Run: python3 pipeline.py all</div>`;
+  }
+}
+
+function importanceClass(n) {
+  if (n >= 8) return 'importance-high';
+  if (n >= 5) return 'importance-med';
+  return 'importance-low';
+}
+
+function typeClass(type) {
+  return 'type-' + (type || 'truth').replace(/\s/g, '_');
+}
+
+function render() {
+  const { profile, sutras, kernels, timeline_entries } = DATA;
+  const p = profile;
+  const s = sutras;
+
+  const totalEntries = timeline_entries.length;
+  const dateRange = timeline_entries.length
+    ? `${timeline_entries[0].ts.slice(0,10)} — ${timeline_entries[timeline_entries.length-1].ts.slice(0,10)}`
+    : '';
+
+  document.getElementById('app').innerHTML = `
+    <header class="header">
+      <div class="brand">AI Dreams · Personal Data Synthesis</div>
+      <div class="profile-grid">
+        <div>
+          <h1 class="profile-name">${p.name}</h1>
+          <div class="profile-meta">
+            <span>${p.age}</span>
+            <span>${p.job}</span>
+            <span>${p.location}</span>
+          </div>
+        </div>
+        <div class="profile-stats">
+          <div class="stat-number">${totalEntries}</div>
+          <div class="stat-label">data points</div>
+          <div style="margin-top:8px">
+            <div class="stat-number">${kernels.length}</div>
+            <div class="stat-label">kernels extracted</div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="divider"></div>
+
+    <section class="data-story">
+      <div class="data-story-label">The Arc</div>
+      <p class="data-story-text">${s.data_story || ''}</p>
+    </section>
+
+    <div class="divider"></div>
+
+    <section class="insights-section">
+      <div class="section-title">What You Need to Hear</div>
+      <div class="insight-cards">
+        ${(s.top_insights || []).map((insight, i) => `
+          <div class="insight-card">
+            <div class="insight-number">0${i + 1}</div>
+            <div class="insight-text">${insight}</div>
+          </div>
+        `).join('')}
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section class="unfinished-section">
+      <div class="section-title">Unfinished Business</div>
+      <div class="unfinished-grid">
+        ${(s.unfinished_business || []).map(item => `
+          <div class="unfinished-item">
+            <div class="unfinished-dot"></div>
+            <div class="unfinished-text">${item}</div>
+          </div>
+        `).join('')}
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section class="themes-section">
+      <div class="section-title">Themes & Sutras</div>
+      ${(s.themes || []).map((theme, ti) => {
+        const tc = THEME_COLORS[ti % THEME_COLORS.length];
+        return `
+          <div class="theme-block" style="animation-delay:${0.7 + ti * 0.1}s">
+            <div class="theme-header">
+              <div class="theme-icon" style="background:${tc.bg};color:${tc.border}">${tc.icon}</div>
+              <div class="theme-name">${theme.name}</div>
+              <div class="theme-count">${theme.sutras.length} sutras</div>
+            </div>
+            <div class="sutra-list">
+              ${theme.sutras.map((sutra, si) => {
+                const imp = sutra.importance || 5;
+                const kidx = sutra.kernel_indices || [];
+                const sutraId = `sutra-${ti}-${si}`;
+                return `
+                  <div class="sutra-item" id="${sutraId}" onclick="toggleDrill('${sutraId}')">
+                    <div class="sutra-top">
+                      <div class="sutra-importance ${importanceClass(imp)}">${imp}</div>
+                      <div class="sutra-text">${sutra.text}</div>
+                    </div>
+                    <div class="sutra-badges">
+                      ${sutra.cross_source ? '<span class="badge badge-cross">cross-source</span>' : ''}
+                      <span class="badge badge-category">${sutra.category || 'insight'}</span>
+                    </div>
+                    <div class="drill-down" id="drill-${sutraId}">
+                      <div class="drill-content">
+                        <div class="drill-label">Backing kernels (${kidx.length})</div>
+                        ${kidx.map(ki => {
+                          const k = kernels[ki];
+                          if (!k) return '';
+                          const kernelId = `kernel-${ti}-${si}-${ki}`;
+                          const refs = (k.source_refs || []);
+                          return `
+                            <div class="kernel-item" id="${kernelId}" onclick="event.stopPropagation(); toggleRaw('${kernelId}')">
+                              <div class="kernel-type ${typeClass(k.type)}">${k.type || 'unknown'}</div>
+                              <div class="kernel-content">${k.content || ''}</div>
+                              <div class="kernel-refs">refs: ${refs.join(', ')}</div>
+                              <div class="raw-entries" id="raw-${kernelId}">
+                                ${refs.map(refId => {
+                                  const entry = entryMap[refId];
+                                  if (!entry) return `<div class="raw-entry"><div class="raw-entry-text" style="color:var(--text-muted)">Entry ${refId} not found</div></div>`;
+                                  return `
+                                    <div class="raw-entry">
+                                      <div class="raw-entry-header">
+                                        <span class="raw-entry-id">${entry.id}</span>
+                                        <span class="raw-entry-date">${entry.ts ? entry.ts.slice(0,10) : ''}</span>
+                                        <span class="raw-entry-source">${entry.source || ''}</span>
+                                      </div>
+                                      <div class="raw-entry-text">${entry.text || ''}</div>
+                                      <div class="raw-entry-tags">
+                                        ${(entry.tags || []).map(t => `<span class="raw-tag">${t}</span>`).join('')}
+                                      </div>
+                                    </div>
+                                  `;
+                                }).join('')}
+                              </div>
+                            </div>
+                          `;
+                        }).join('')}
+                      </div>
+                    </div>
+                  </div>
+                `;
+              }).join('')}
+            </div>
+          </div>
+        `;
+      }).join('')}
+    </section>
+
+    <div class="pipeline-footer">
+      <div class="pipeline-steps">
+        <span class="pipeline-step">${totalEntries} entries</span>
+        <span class="pipeline-arrow">→</span>
+        <span class="pipeline-step">timeline merge</span>
+        <span class="pipeline-arrow">→</span>
+        <span class="pipeline-step">${kernels.length} kernels</span>
+        <span class="pipeline-arrow">→</span>
+        <span class="pipeline-step">sutra synthesis</span>
+        <span class="pipeline-arrow">→</span>
+        <span class="pipeline-step">${(s.themes||[]).reduce((a,t) => a + t.sutras.length, 0)} sutras</span>
+      </div>
+      <div class="pipeline-label">
+        Built with <a href="https://github.com/">AI Dreams</a> · Ollama (local) + Claude API
+      </div>
+      <div class="consent-banner">
+        <span>●</span> All data processed locally. Your data never leaves your machine.
+      </div>
+    </div>
+  `;
+}
+
+function toggleDrill(sutraId) {
+  const el = document.getElementById('drill-' + sutraId);
+  const item = document.getElementById(sutraId);
+  el.classList.toggle('open');
+  item.classList.toggle('expanded');
+}
+
+function toggleRaw(kernelId) {
+  const el = document.getElementById('raw-' + kernelId);
+  const item = document.getElementById(kernelId);
+  el.classList.toggle('open');
+  item.classList.toggle('expanded');
+}
+
+loadData();
+</script>
+</body>
+</html>
