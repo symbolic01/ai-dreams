@@ -2745,5 +2745,17 @@
       "subscriptions",
       "budget"
     ]
+  },
+  {
+    "type": "learning",
+    "content": "Theo is investing in his design skills through various subscriptions and self-study, indicating a commitment to professional growth.",
+    "source_refs": [
+      "t_0017",
+      "f_0008"
+    ],
+    "tags": [
+      "design",
+      "education"
+    ]
   }
 ]
