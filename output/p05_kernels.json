@@ -116,7 +116,8 @@
     ],
     "tags": [
       "uncertainty",
-      "Austin"
+      "Austin",
+      "future"
     ]
   },
   {
@@ -130,19 +131,6 @@
     "tags": [
       "finances",
       "boundaries"
-    ]
-  },
-  {
-    "type": "pattern",
-    "content": "Theo frequently revisits the question of his future in Austin, suggesting a pattern of indecision.",
-    "source_refs": [
-      "ll_0006",
-      "ll_0011",
-      "ll_0014"
-    ],
-    "tags": [
-      "Austin",
-      "future"
     ]
   },
   {
@@ -214,18 +202,6 @@
     "tags": [
       "finances",
       "debt"
-    ]
-  },
-  {
-    "type": "unfinished",
-    "content": "Theo keeps saying he will write a revision policy but has not completed it.",
-    "source_refs": [
-      "ll_0015",
-      "ll_0020"
-    ],
-    "tags": [
-      "freelance",
-      "boundaries"
     ]
   },
   {
@@ -344,17 +320,6 @@
     "tags": [
       "ai_use",
       "productivity"
-    ]
-  },
-  {
-    "type": "urgent",
-    "content": "Theo needs to address his credit card debt, with a high balance and limited available credit, which is time-sensitive.",
-    "source_refs": [
-      "e_0005"
-    ],
-    "tags": [
-      "finances",
-      "debt"
     ]
   },
   {
@@ -494,14 +459,16 @@
     ]
   },
   {
-    "type": "pattern",
-    "content": "Theo often works late hours to meet deadlines, which can lead to overworking but also delivers high-quality results for clients.",
+    "type": "unfinished",
+    "content": "Theo started a brand identity project but delivered it at a lower price than initially quoted, indicating he may need to set clearer boundaries for his work.",
     "source_refs": [
       "ll_0039"
     ],
     "tags": [
       "work",
-      "admin"
+      "admin",
+      "freelance",
+      "pricing"
     ]
   },
   {
@@ -513,17 +480,6 @@
     "tags": [
       "learning",
       "subscriptions"
-    ]
-  },
-  {
-    "type": "unfinished",
-    "content": "Theo started a brand identity project but delivered it at a lower price than initially quoted, indicating he may need to set clearer boundaries for his work.",
-    "source_refs": [
-      "ll_0039"
-    ],
-    "tags": [
-      "freelance",
-      "pricing"
     ]
   },
   {
@@ -585,8 +541,8 @@
     ]
   },
   {
-    "type": "urgent",
-    "content": "Theo needs to write a revision policy for his freelance work, as the current process is draining him.",
+    "type": "unfinished",
+    "content": "Theo started writing a revision policy but has not completed it, showing an ongoing struggle with client management.",
     "source_refs": [
       "ll_0052"
     ],
@@ -653,17 +609,6 @@
     ]
   },
   {
-    "type": "learning",
-    "content": "Theo is developing a revision policy for his freelance work to manage client requests more effectively.",
-    "source_refs": [
-      "ll_0052"
-    ],
-    "tags": [
-      "freelance",
-      "boundaries"
-    ]
-  },
-  {
     "type": "pattern",
     "content": "Theo frequently revisits the idea of raising his hourly rate but has not fully committed to it, indicating a pattern of hesitation.",
     "source_refs": [
@@ -674,17 +619,6 @@
     "tags": [
       "identity",
       "freelance"
-    ]
-  },
-  {
-    "type": "unfinished",
-    "content": "Theo started writing a revision policy but has not completed it, showing an ongoing struggle with client management.",
-    "source_refs": [
-      "ll_0052"
-    ],
-    "tags": [
-      "freelance",
-      "boundaries"
     ]
   },
   {
@@ -838,7 +772,7 @@
   },
   {
     "type": "urgent",
-    "content": "Theo needs to decide whether to upgrade his subscription with School of Motion before it ends in three days, as he is currently on a free trial.",
+    "content": "Theo's free trial with School of Motion is ending soon, and he needs to decide whether to upgrade his subscription. This decision is urgent as it affects his learning journey.",
     "source_refs": [
       "e_0019"
     ],
@@ -900,17 +834,6 @@
     ]
   },
   {
-    "type": "urgent",
-    "content": "Theo's free trial with School of Motion is ending soon, and he needs to decide whether to upgrade his subscription. This decision is urgent as it affects his learning journey.",
-    "source_refs": [
-      "e_0019"
-    ],
-    "tags": [
-      "learning",
-      "subscription"
-    ]
-  },
-  {
     "type": "unfinished",
     "content": "Theo started learning Blender and making a donut but did not complete the project, indicating an unfinished task. He acknowledges that it is his donut despite not being perfect.",
     "source_refs": [
@@ -959,7 +882,8 @@
     "tags": [
       "skills",
       "learning"
-    ]
+    ],
+    "source_refs": []
   },
   {
     "type": "pattern",
@@ -970,7 +894,8 @@
     ],
     "tags": [
       "unfinished"
-    ]
+    ],
+    "source_refs": []
   },
   {
     "type": "truth",
@@ -982,7 +907,8 @@
     "tags": [
       "finances",
       "debt"
-    ]
+    ],
+    "source_refs": []
   },
   {
     "type": "urgent",
@@ -995,7 +921,8 @@
     "tags": [
       "finances",
       "business_development"
-    ]
+    ],
+    "source_refs": []
   },
   {
     "type": "question",
@@ -1007,7 +934,8 @@
     "tags": [
       "future",
       "identity"
-    ]
+    ],
+    "source_refs": []
   },
   {
     "type": "empathy",
@@ -1018,7 +946,8 @@
     "tags": [
       "self_care",
       "creativity"
-    ]
+    ],
+    "source_refs": []
   },
   {
     "type": "truth",
@@ -1070,8 +999,8 @@
     ]
   },
   {
-    "type": "learning",
-    "content": "Theo is growing in confidence by raising his hourly rate and successfully negotiating with clients.",
+    "type": "truth",
+    "content": "Theo has successfully raised his hourly rate and received positive feedback, indicating a successful negotiation.",
     "source_refs": [
       "s_0020"
     ],
@@ -1115,13 +1044,14 @@
     ]
   },
   {
-    "type": "truth",
-    "content": "Theo's credit card balance remains high, indicating persistent financial stress.",
+    "type": "empathy",
+    "content": "Theo feels a mix of pride and anxiety about his financial situation, highlighting the emotional toll it takes.",
     "source_refs": [
       "ll_0084",
       "ll_0085"
     ],
     "tags": [
+      "anxiety",
       "finances",
       "debt"
     ]
@@ -1173,29 +1103,6 @@
     "tags": [
       "business",
       "freelance"
-    ]
-  },
-  {
-    "type": "empathy",
-    "content": "Theo feels a mix of pride and anxiety about his financial situation, highlighting the emotional toll it takes.",
-    "source_refs": [
-      "ll_0084",
-      "ll_0085"
-    ],
-    "tags": [
-      "anxiety",
-      "finances"
-    ]
-  },
-  {
-    "type": "truth",
-    "content": "Theo has successfully raised his hourly rate and received positive feedback, indicating a successful negotiation.",
-    "source_refs": [
-      "s_0020"
-    ],
-    "tags": [
-      "freelance",
-      "confidence"
     ]
   },
   {
@@ -1411,6 +1318,8 @@
       "ll_0103"
     ],
     "tags": [
+      "work_process",
+      "to_do",
       "work_boundaries",
       "client_management"
     ]
@@ -1424,17 +1333,6 @@
     "tags": [
       "online_presence",
       "portfolio"
-    ]
-  },
-  {
-    "type": "unfinished",
-    "content": "Theo started working on a revision policy but did not complete it, indicating an ongoing challenge in client management.",
-    "source_refs": [
-      "ll_0103"
-    ],
-    "tags": [
-      "work_process",
-      "to_do"
     ]
   },
   {
@@ -1461,8 +1359,8 @@
     ]
   },
   {
-    "type": "pattern",
-    "content": "There's a pattern of clients requesting numerous revisions on logos, leading to frustration and the need for a revision policy.",
+    "type": "unfinished",
+    "content": "Theo has started writing a revision policy multiple times but hasn't completed it, indicating an ongoing struggle with setting boundaries.",
     "source_refs": [
       "ll_0104",
       "ll_0103",
@@ -1470,7 +1368,9 @@
     ],
     "tags": [
       "client_management",
-      "freelance"
+      "freelance",
+      "boundaries",
+      "policy"
     ]
   },
   {
@@ -1483,18 +1383,6 @@
     "tags": [
       "revenue",
       "pricing"
-    ]
-  },
-  {
-    "type": "unfinished",
-    "content": "Theo has started writing a revision policy multiple times but hasn't completed it, indicating an ongoing struggle with setting boundaries.",
-    "source_refs": [
-      "ll_0103",
-      "ll_0108"
-    ],
-    "tags": [
-      "boundaries",
-      "policy"
     ]
   },
   {
@@ -1604,10 +1492,11 @@
   },
   {
     "type": "learning",
-    "content": "Theo finds that working in a library setting enhances his productivity, likely due to the environment and energy of other students.",
+    "content": "Theo has developed a productive routine that includes working at the UT library and using AI tools like Claude to boost his productivity.",
     "source_refs": [
       "ll_0115",
-      "cal_0047"
+      "cal_0047",
+      "e_0036"
     ],
     "tags": [
       "productivity",
@@ -1652,19 +1541,6 @@
     ]
   },
   {
-    "type": "learning",
-    "content": "Theo has developed a productive routine that includes working at the UT library and using AI tools like Claude to boost his productivity.",
-    "source_refs": [
-      "ll_0115",
-      "cal_0047",
-      "e_0036"
-    ],
-    "tags": [
-      "productivity",
-      "learning"
-    ]
-  },
-  {
     "type": "urgent",
     "content": "Theo needs to address his tax situation, which has become overwhelming and requires consistent effort.",
     "source_refs": [
@@ -1689,17 +1565,6 @@
     ]
   },
   {
-    "type": "unfinished",
-    "content": "Theo started working on a tax situation but got overwhelmed, leaving it unfinished for a while.",
-    "source_refs": [
-      "ll_0123"
-    ],
-    "tags": [
-      "taxes",
-      "finances"
-    ]
-  },
-  {
     "type": "learning",
     "content": "Theo has successfully transitioned to relying solely on freelance income, marking a significant milestone in his business growth.",
     "source_refs": [
@@ -1711,8 +1576,8 @@
     ]
   },
   {
-    "type": "learning",
-    "content": "Theo is making progress in 3D design, having successfully created a donut model that looks like the tutorial.",
+    "type": "unfinished",
+    "content": "Theo started learning Blender but did not complete the project, only reaching a third iteration of the donut model.",
     "source_refs": [
       "f_0025",
       "ll_0134",
@@ -1721,32 +1586,6 @@
     "tags": [
       "skills",
       "learning"
-    ]
-  },
-  {
-    "type": "truth",
-    "content": "Theo's credit card balance remains high, with a minimum payment being the only action taken each time he checks.",
-    "source_refs": [
-      "e_0039",
-      "f_0024",
-      "ll_0133"
-    ],
-    "tags": [
-      "finances",
-      "debt"
-    ]
-  },
-  {
-    "type": "urgent",
-    "content": "Theo needs to find a way to increase his income or reduce expenses, as he is consistently only paying the minimum on his credit card.",
-    "source_refs": [
-      "e_0039",
-      "f_0024",
-      "ll_0133"
-    ],
-    "tags": [
-      "finances",
-      "debt"
     ]
   },
   {
@@ -1759,31 +1598,8 @@
     ],
     "tags": [
       "finances",
-      "debt"
-    ]
-  },
-  {
-    "type": "unfinished",
-    "content": "Theo started learning Blender but did not complete the project, only reaching a third iteration of the donut model.",
-    "source_refs": [
-      "f_0025",
-      "ll_0134"
-    ],
-    "tags": [
-      "skills",
-      "learning"
-    ]
-  },
-  {
-    "type": "empathy",
-    "content": "Theo feels anxious and frustrated about his credit card balance, expressing hate for paying only the minimum each time.",
-    "source_refs": [
-      "e_0039",
-      "ll_0133"
-    ],
-    "tags": [
-      "emotions",
-      "finances"
+      "debt",
+      "emotions"
     ]
   },
   {
@@ -1812,8 +1628,8 @@
     ]
   },
   {
-    "type": "learning",
-    "content": "Theo has successfully integrated new skills and tools, such as Blender and Figma, into his freelance work.",
+    "type": "unfinished",
+    "content": "Theo started learning Blender but has not yet completed a complex project, as seen in the donut render iterations.",
     "source_refs": [
       "ll_0135",
       "f_0026",
@@ -1821,7 +1637,8 @@
     ],
     "tags": [
       "skills",
-      "learning"
+      "learning",
+      "project"
     ]
   },
   {
@@ -1858,18 +1675,6 @@
     "tags": [
       "time_management",
       "finances"
-    ]
-  },
-  {
-    "type": "unfinished",
-    "content": "Theo started learning Blender but has not yet completed a complex project, as seen in the donut render iterations.",
-    "source_refs": [
-      "ll_0135",
-      "f_0026"
-    ],
-    "tags": [
-      "learning",
-      "project"
     ]
   },
   {
@@ -1974,7 +1779,8 @@
     "tags": [
       "business_development",
       "networking"
-    ]
+    ],
+    "source_refs": []
   },
   {
     "type": "empathy",
@@ -2077,7 +1883,8 @@
     "tags": [
       "adhd",
       "creativity"
-    ]
+    ],
+    "source_refs": []
   },
   {
     "type": "pattern",
@@ -2090,7 +1897,8 @@
     "tags": [
       "finances",
       "debt"
-    ]
+    ],
+    "source_refs": []
   },
   {
     "type": "unfinished",
@@ -2102,7 +1910,8 @@
     "tags": [
       "learning",
       "3d_design"
-    ]
+    ],
+    "source_refs": []
   },
   {
     "type": "urgent",
@@ -2113,7 +1922,8 @@
     "tags": [
       "learning",
       "skills"
-    ]
+    ],
+    "source_refs": []
   },
   {
     "type": "truth",
@@ -2124,7 +1934,8 @@
     "tags": [
       "portfolio",
       "social_media"
-    ]
+    ],
+    "source_refs": []
   },
   {
     "type": "learning",
@@ -2136,7 +1947,8 @@
     "tags": [
       "freelance",
       "rates"
-    ]
+    ],
+    "source_refs": []
   },
   {
     "type": "learning",
@@ -2148,7 +1960,8 @@
     "tags": [
       "networking",
       "business_development"
-    ]
+    ],
+    "source_refs": []
   },
   {
     "type": "question",
@@ -2159,7 +1972,8 @@
     "tags": [
       "freelance",
       "rates"
-    ]
+    ],
+    "source_refs": []
   },
   {
     "type": "truth",
@@ -2405,7 +2219,8 @@
     "tags": [
       "education",
       "freelance"
-    ]
+    ],
+    "source_refs": []
   },
   {
     "type": "truth",
@@ -2417,7 +2232,8 @@
     "tags": [
       "revenue",
       "income"
-    ]
+    ],
+    "source_refs": []
   },
   {
     "type": "pattern",
@@ -2431,7 +2247,8 @@
     "tags": [
       "finances",
       "debt"
-    ]
+    ],
+    "source_refs": []
   },
   {
     "type": "urgent",
@@ -2445,7 +2262,8 @@
     "tags": [
       "debt",
       "finances"
-    ]
+    ],
+    "source_refs": []
   },
   {
     "type": "unfinished",
@@ -2456,7 +2274,8 @@
     "tags": [
       "portfolio",
       "design"
-    ]
+    ],
+    "source_refs": []
   },
   {
     "type": "learning",
@@ -2469,7 +2288,8 @@
     "tags": [
       "business_development",
       "networking"
-    ]
+    ],
+    "source_refs": []
   },
   {
     "type": "truth",
@@ -2481,7 +2301,8 @@
     "tags": [
       "groceries",
       "expenses"
-    ]
+    ],
+    "source_refs": []
   },
   {
     "type": "learning",
@@ -2607,7 +2428,10 @@
     ],
     "tags": [
       "business_development",
-      "freelance"
+      "follow_up",
+      "freelance",
+      "project_management",
+      "communication"
     ]
   },
   {
@@ -2678,28 +2502,6 @@
     ]
   },
   {
-    "type": "urgent",
-    "content": "Theo has not completed any projects or tasks mentioned in his emails, indicating potential delays.",
-    "source_refs": [
-      "e_0080"
-    ],
-    "tags": [
-      "project_management",
-      "communication"
-    ]
-  },
-  {
-    "type": "unfinished",
-    "content": "Theo started a project with the referral.client@designneed.com but has not followed up since September 18th.",
-    "source_refs": [
-      "e_0080"
-    ],
-    "tags": [
-      "business_development",
-      "follow_up"
-    ]
-  },
-  {
     "type": "learning",
     "content": "Theo is using various subscription services for his work, including Figma and Adobe CC, to stay competitive in his field.",
     "source_refs": [
@@ -2720,7 +2522,9 @@
     ],
     "tags": [
       "spending",
-      "freelance"
+      "freelance",
+      "subscriptions",
+      "budget"
     ]
   },
   {
@@ -2732,18 +2536,6 @@
     "tags": [
       "financial_growth",
       "freelance"
-    ]
-  },
-  {
-    "type": "unfinished",
-    "content": "Theo has started multiple recurring subscriptions but hasn't completed a budget review to ensure they align with his financial goals.",
-    "source_refs": [
-      "t_0118",
-      "t_0119"
-    ],
-    "tags": [
-      "subscriptions",
-      "budget"
     ]
   },
   {

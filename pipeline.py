@@ -230,7 +230,7 @@ def run_kernel_extraction(timeline, persona_name="Theo Nakamura", model="qwen2.5
         print(f"{len(kernels)} kernels")
         all_kernels.extend(kernels)
 
-    # Deduplicate by content similarity (exact match for now)
+    # Deduplicate: exact content match, then merge kernels with >50% ref overlap
     seen = set()
     unique_kernels = []
     for k in all_kernels:
@@ -239,8 +239,54 @@ def run_kernel_extraction(timeline, persona_name="Theo Nakamura", model="qwen2.5
             seen.add(key)
             unique_kernels.append(k)
 
-    print(f"\nTotal: {len(all_kernels)} raw → {len(unique_kernels)} unique kernels")
-    return unique_kernels
+    # Semantic dedup: cluster by source_ref overlap, keep longest content, merge refs/tags
+    clusters = []
+    assigned = set()
+    for i, a in enumerate(unique_kernels):
+        if i in assigned:
+            continue
+        cluster = {i}
+        a_refs = set(a.get("source_refs", []))
+        if not a_refs:
+            clusters.append(cluster)
+            assigned.add(i)
+            continue
+        for j, b in enumerate(unique_kernels):
+            if j <= i or j in assigned:
+                continue
+            b_refs = set(b.get("source_refs", []))
+            if not b_refs:
+                continue
+            overlap = a_refs & b_refs
+            union = a_refs | b_refs
+            if len(overlap) / len(union) > 0.5:
+                cluster.add(j)
+                assigned.add(j)
+        assigned.add(i)
+        clusters.append(cluster)
+
+    deduped = []
+    for cluster in clusters:
+        members = [unique_kernels[i] for i in cluster]
+        best = max(members, key=lambda k: len(k.get("content", "")))
+        all_refs, seen_r = [], set()
+        all_tags, seen_t = [], set()
+        for m in members:
+            for r in m.get("source_refs", []):
+                if r not in seen_r:
+                    all_refs.append(r)
+                    seen_r.add(r)
+            for t in m.get("tags", []):
+                if t not in seen_t:
+                    all_tags.append(t)
+                    seen_t.add(t)
+        best["source_refs"] = all_refs
+        best["tags"] = all_tags
+        deduped.append(best)
+
+    merged = len(unique_kernels) - len(deduped)
+    print(f"\nTotal: {len(all_kernels)} raw → {len(unique_kernels)} unique → {len(deduped)} deduped ({merged} merged)")
+    return deduped
 
 
 def save_kernels(kernels, persona_id="p05"):
