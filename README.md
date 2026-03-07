@@ -54,7 +54,7 @@ Built for [The Data Portability Hackathon](https://trapezoidal-shake-91a.notion.
 
 ```bash
 # Clone
-git clone https://github.com/jayamarks/ai-dreams.git
+git clone https://github.com/symbolic01/ai-dreams.git
 cd ai-dreams
 
 # Dependencies
@@ -185,6 +185,8 @@ ai-dreams/
 ## Vision
 
 AI Dreams is a visible fragment of a larger research program called [Superempathy](https://github.com/jayamarks) — the thesis that superintelligence without proportional empathy is incomplete.
+
+<!-- TODO: link to superempathy repo when public -->
 
 This pipeline demonstrates a core capability: turning exported personal data into navigable, provenanced insight with full drill-down from compressed truth back to raw evidence. The person's data tells them something they couldn't see before — and they can verify every claim.
 
