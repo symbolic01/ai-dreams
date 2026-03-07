@@ -12,41 +12,7 @@ Built for [The Data Portability Hackathon](https://trapezoidal-shake-91a.notion.
 
 ## Architecture
 
-```
- ┌──────────────────────────────────────────────────┐
- │  7 DATA SOURCES                                  │
- │  conversations · lifelog · emails · calendar      │
- │  transactions · social posts · files index        │
- └────────────────────┬─────────────────────────────┘
-                      │ 528 entries
-                      ▼
- ┌──────────────────────────────────────────────────┐
- │  TIMELINE MERGE                        [LOCAL]   │
- │  Unified chronological stream — pure Python      │
- └────────────────────┬─────────────────────────────┘
-                      │ 528 entries
-                      ▼
- ┌──────────────────────────────────────────────────┐
- │  KERNEL EXTRACTION                     [LOCAL]   │
- │  Ollama · Qwen 2.5 7B · 20-entry windows        │
- │  → typed kernels: truth | learning | urgent |    │
- │    question | empathy | pattern | unfinished     │
- └────────────────────┬─────────────────────────────┘
-                      │ 229 kernels
-                      ▼
- ┌──────────────────────────────────────────────────┐
- │  SUTRA SYNTHESIS                       [CLOUD]   │
- │  Claude Sonnet · single API call                 │
- │  → ranked, themed insights with provenance       │
- └────────────────────┬─────────────────────────────┘
-                      │ 9 sutras · 5 themes
-                      ▼
- ┌──────────────────────────────────────────────────┐
- │  INTERACTIVE REPORT                    [STATIC]  │
- │  Drill-down: sutra → kernels → raw entries       │
- │  Every insight traces back to source data         │
- └──────────────────────────────────────────────────┘
-```
+<img width="848" height="1264" alt="Gemini_Generated_Image_6bsg3f6bsg3f6bsg" src="https://github.com/user-attachments/assets/aa13938c-25a2-4ef5-b414-91abb78c0e18" />
 
 **95% of computation runs locally.** The only cloud step is a single Claude API call for final synthesis (~15K tokens). All raw data stays on your machine.
 
