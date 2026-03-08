@@ -71,8 +71,8 @@
     "type": "learning",
     "content": "Jordan's manager's response about the Director role was ambiguous, causing uncertainty and anxiety.",
     "source_refs": [
-      "[ll_0003]",
-      "[ll_0005]"
+      "ll_0003",
+      "ll_0005"
     ],
     "tags": [
       "career",
@@ -83,7 +83,7 @@
     "type": "truth",
     "content": "Jordan's social life is limited to specific activities, such as dining out with friends, suggesting a narrow social circle.",
     "source_refs": [
-      "[t_0001]"
+      "t_0001"
     ],
     "tags": [
       "social_life",
@@ -1509,10 +1509,10 @@
     "type": "truth",
     "content": "Jordan's financial situation is stable, with a high savings rate and sufficient income to meet his obligations.",
     "source_refs": [
-      "[ll_0132]",
-      "[t_0051]",
-      "[e_0039]",
-      "[cal_0045]"
+      "ll_0132",
+      "t_0051",
+      "e_0039",
+      "cal_0045"
     ],
     "tags": [
       "finances",
@@ -1523,8 +1523,8 @@
     "type": "urgent",
     "content": "Jordan is experiencing a burnout at work, as he hasn't felt genuinely excited about any problem in his role for two months.",
     "source_refs": [
-      "[ll_0136]",
-      "[ll_0137]"
+      "ll_0136",
+      "ll_0137"
     ],
     "tags": [
       "work",
@@ -1535,8 +1535,8 @@
     "type": "pattern",
     "content": "Jordan's spending on groceries is often followed by a lack of consumption, as seen in his purchase on September 15 and the realization that they won't cook all the vegetables.",
     "source_refs": [
-      "[ll_0138]",
-      "[t_0052]"
+      "ll_0138",
+      "t_0052"
     ],
     "tags": [
       "groceries",
@@ -1547,8 +1547,8 @@
     "type": "unfinished",
     "content": "Jordan has been working on a product roadmap since at least September 9, as evidenced by the 'q2_roadmap_v3_final.notion' document.",
     "source_refs": [
-      "[f_0022]",
-      "[ll_0135]"
+      "f_0022",
+      "ll_0135"
     ],
     "tags": [
       "work",
@@ -1559,8 +1559,8 @@
     "type": "empathy",
     "content": "Jordan feels a sense of distance in his relationship with Alex, which is causing him emotional distress.",
     "source_refs": [
-      "[ll_0136]",
-      "[ll_0138]"
+      "ll_0136",
+      "ll_0138"
     ],
     "tags": [
       "relationship",
@@ -1571,9 +1571,9 @@
     "type": "learning",
     "content": "Jordan is grappling with the balance between his professional and personal life, as seen in his work milestones and social activities.",
     "source_refs": [
-      "[ll_0135]",
-      "[cal_0044]",
-      "[ll_0138]"
+      "ll_0135",
+      "cal_0044",
+      "ll_0138"
     ],
     "tags": [
       "work-life balance"
@@ -1583,8 +1583,8 @@
     "type": "truth",
     "content": "Jordan's performance review indicates a strong delivery capability but room for improvement in leadership, which may impact his career progression.",
     "source_refs": [
-      "[e_0040]",
-      "[ll_0137]"
+      "e_0040",
+      "ll_0137"
     ],
     "tags": [
       "career",
@@ -2276,7 +2276,6 @@
     "content": "Jordan's work involves constant planning and prioritization, as evidenced by the numerous roadmap documents and sprint meetings.",
     "source_refs": [
       "f_0037",
-      "q2_roadmap_v3_final.notion",
       "cal_0072",
       "cal_0073",
       "cal_0074",
@@ -2291,8 +2290,7 @@
     "type": "unfinished",
     "content": "Jordan started a house budget calculator but hasn't completed it, possibly due to other priorities.",
     "source_refs": [
-      "f_0039",
-      "house_budget_calculator.xlsx"
+      "f_0039"
     ],
     "tags": [
       "finance",

@@ -602,8 +602,8 @@
     "type": "learning",
     "content": "Darius is developing his leadership skills by reflecting on the growth and progress of Roth Creative, celebrating its milestones.",
     "source_refs": [
-      "[ll_0053]",
-      "[ll_0055]"
+      "ll_0053",
+      "ll_0055"
     ],
     "tags": [
       "leadership",
@@ -614,8 +614,8 @@
     "type": "truth",
     "content": "Darius's financial management is a challenge, as evidenced by the ongoing issues with cash flow despite revenue growth.",
     "source_refs": [
-      "[ll_0056]",
-      "[t_0026]"
+      "ll_0056",
+      "t_0026"
     ],
     "tags": [
       "finances",
@@ -626,7 +626,7 @@
     "type": "learning",
     "content": "Darius is recognizing the importance of self-care and setting a proper table for himself, indicating a growing awareness of his emotional needs.",
     "source_refs": [
-      "[ll_0052]"
+      "ll_0052"
     ],
     "tags": [
       "self_care",
@@ -637,8 +637,8 @@
     "type": "pattern",
     "content": "Darius frequently attends team happy hours and mentions these as moments he cherishes, suggesting they are important for his company culture.",
     "source_refs": [
-      "[s_0013]",
-      "[ll_0053]"
+      "s_0013",
+      "ll_0053"
     ],
     "tags": [
       "team",
@@ -649,7 +649,7 @@
     "type": "learning",
     "content": "Darius is improving his time management by using an AI assistant to audit his week, identifying areas for improvement.",
     "source_refs": [
-      "[ll_0050]"
+      "ll_0050"
     ],
     "tags": [
       "productivity",
@@ -2348,9 +2348,9 @@
     "type": "pattern",
     "content": "Darius frequently mentions client meetings, indicating a busy schedule focused on business growth.",
     "source_refs": [
-      "[cal_0079]",
-      "[e_0072]",
-      "[cal_0080]"
+      "cal_0079",
+      "e_0072",
+      "cal_0080"
     ],
     "tags": [
       "business",

@@ -1750,8 +1750,8 @@
     "type": "truth",
     "content": "Theo's freelance income is now sufficient to cover his expenses, marking a significant milestone.",
     "source_refs": [
-      "[t_0058]",
-      "[ll_0140]"
+      "t_0058",
+      "ll_0140"
     ],
     "tags": [
       "freelance",

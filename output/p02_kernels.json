@@ -1437,8 +1437,7 @@
     "type": "urgent",
     "content": "Maya has ongoing health issues that require attention, including knee pain and missed signals in clinical diagnosis.",
     "source_refs": [
-      "ll_0100",
-      "pe_case_notes_may2024.txt"
+      "ll_0100"
     ],
     "tags": [
       "health",
