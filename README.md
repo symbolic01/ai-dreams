@@ -51,7 +51,7 @@ Then open `report.html` in a browser — it loads `output/p05_report_data.json` 
 |-------|-------|-------------|------|
 | **Timeline Merge** | Python (no LLM) | Merges 7 data sources into one chronological stream | Free |
 | **Kernel Extraction** | Qwen 2.5 7B (Ollama) | Processes 20-entry sliding windows, extracts typed insight kernels with source refs | Free (local) |
-| **Sutra Synthesis** | Claude Sonnet (API) | Compresses 209 kernels into 9 ranked sutras organized by theme | ~15K tokens |
+| **Sutra Synthesis** | Claude Sonnet (API) | Compresses kernels into ranked sutras organized by theme | ~15K tokens/persona |
 | **Report Generation** | Template (no LLM) | Assembles JSON from all pipeline artifacts for the interactive UI | Free |
 
 ### Kernel Types
@@ -88,17 +88,19 @@ The most valuable insights emerge at intersections between data sources:
 
 The sutra synthesis prompt explicitly targets these cross-source patterns and flags contradictions between stated goals and actual behavior.
 
-## Demo Persona: Theo Nakamura (p05)
+## Personas
 
-- 23-year-old freelance graphic designer + barista in Austin, TX
-- 528 timeline entries across 7 data sources
-- Pipeline surfaced 209 kernels (after semantic dedup) → 9 sutras across 5 themes:
-  - The ADHD Creative Paradox
-  - Financial Self-Sabotage
-  - Professional Growth Bottlenecks
-  - Place & Belonging Tension
-  - Completion & Follow-through
-- 8 unfinished business items detected (revision policy started 6 times, never shipped)
+Pipeline tested on all 5 hackathon personas (2,641 total entries → 1,071 kernels → 51 sutras):
+
+| Persona | Age | Role | Entries | Kernels | Sutras |
+|---------|-----|------|---------|---------|--------|
+| **Jordan Lee** (p01) | 32 | Senior Product Manager | 530 | 215 | 10 |
+| **Maya Patel** (p02) | 26 | Medical Resident | 528 | 218 | 10 |
+| **Darius Webb** (p03) | 41 | Founder & CEO | 528 | 210 | 10 |
+| **Sunita Rajan** (p04) | 58 | Chemistry Teacher | 527 | 219 | 12 |
+| **Theo Nakamura** (p05) | 23 | Freelance Designer | 528 | 209 | 9 |
+
+Each persona surfaces unique themes — from Darius's "Revenue-Cash Flow Paradox" to Maya's "AI as Surrogate Emotional Support" to Theo's revision policy started 6 times and never shipped.
 
 ## Tech Stack
 
@@ -121,7 +123,7 @@ Uses the [hackathon-provided synthetic persona datasets](https://drive.google.co
 - `files_index.jsonl` — documents and files metadata
 - `persona_profile.json` — demographics, goals, pain points
 
-Place datasets in `data/Hackathon_Datasets/persona_p05/` (or other persona ID).
+Place datasets in `data/Hackathon_Datasets/persona_<id>/` (e.g. `persona_p01` through `persona_p05`).
 
 ## Environment Variables
 
@@ -136,15 +138,20 @@ Ollama must be running on `localhost:11434` (default).
 ```
 ai-dreams/
 ├── pipeline.py              # CLI: merge → extract → synthesize → report
-├── report.html              # Interactive single-page report UI
+├── index.html               # Dashboard — persona selector
+├── report.html              # Interactive report UI (?persona=p01..p05)
 ├── data/
 │   └── Hackathon_Datasets/
-│       └── persona_p05/     # Input data (7 JSONL + profile JSON)
+│       ├── persona_p01/     # Jordan Lee (7 JSONL + profile JSON)
+│       ├── persona_p02/     # Maya Patel
+│       ├── persona_p03/     # Darius Webb
+│       ├── persona_p04/     # Sunita Rajan
+│       └── persona_p05/     # Theo Nakamura
 ├── output/
-│   ├── p05_timeline.jsonl   # Merged timeline (528 entries)
-│   ├── p05_kernels.json     # Extracted kernels (209 after dedup)
-│   ├── p05_sutras.json      # Synthesized sutras (9)
-│   └── p05_report_data.json # Combined report data for UI
+│   ├── {id}_timeline.jsonl  # Merged timeline per persona
+│   ├── {id}_kernels.json    # Extracted kernels (after dedup)
+│   ├── {id}_sutras.json     # Synthesized sutras
+│   └── {id}_report_data.json # Combined report data for UI
 └── README.md
 ```
 
@@ -166,7 +173,6 @@ The dream: your data doesn't just sit in exports. It becomes a living, navigable
 
 ## Known Limitations
 
-- **Single persona tested** — pipeline validated on Theo (p05); needs testing across all 5 personas
 - **Dedup by ref overlap** — kernels with >50% source ref overlap are merged (keeps longest content, unions refs/tags); very different phrasings from non-overlapping windows may still survive
 - **No streaming** — full pipeline runs batch; a production version would stream results as each stage completes
 - **Synthetic data** — hackathon datasets are synthetic personas, not real user exports
