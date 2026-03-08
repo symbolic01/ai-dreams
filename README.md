@@ -51,7 +51,7 @@ Then open `report.html` in a browser — it loads `output/p05_report_data.json` 
 |-------|-------|-------------|------|
 | **Timeline Merge** | Python (no LLM) | Merges 7 data sources into one chronological stream | Free |
 | **Kernel Extraction** | Qwen 2.5 7B (Ollama) | Processes 20-entry sliding windows, extracts typed insight kernels with source refs | Free (local) |
-| **Sutra Synthesis** | Claude Sonnet (API) | Compresses 229 kernels into 9 ranked sutras organized by theme | ~15K tokens |
+| **Sutra Synthesis** | Claude Sonnet (API) | Compresses 209 kernels into 9 ranked sutras organized by theme | ~15K tokens |
 | **Report Generation** | Template (no LLM) | Assembles JSON from all pipeline artifacts for the interactive UI | Free |
 
 ### Kernel Types
@@ -92,7 +92,7 @@ The sutra synthesis prompt explicitly targets these cross-source patterns and fl
 
 - 23-year-old freelance graphic designer + barista in Austin, TX
 - 528 timeline entries across 7 data sources
-- Pipeline surfaced 229 kernels → 9 sutras across 5 themes:
+- Pipeline surfaced 209 kernels (after semantic dedup) → 9 sutras across 5 themes:
   - The ADHD Creative Paradox
   - Financial Self-Sabotage
   - Professional Growth Bottlenecks
@@ -142,7 +142,7 @@ ai-dreams/
 │       └── persona_p05/     # Input data (7 JSONL + profile JSON)
 ├── output/
 │   ├── p05_timeline.jsonl   # Merged timeline (528 entries)
-│   ├── p05_kernels.json     # Extracted kernels (229)
+│   ├── p05_kernels.json     # Extracted kernels (209 after dedup)
 │   ├── p05_sutras.json      # Synthesized sutras (9)
 │   └── p05_report_data.json # Combined report data for UI
 └── README.md
@@ -167,7 +167,7 @@ The dream: your data doesn't just sit in exports. It becomes a living, navigable
 ## Known Limitations
 
 - **Single persona tested** — pipeline validated on Theo (p05); needs testing across all 5 personas
-- **No deduplication across windows** — kernel extraction uses overlapping windows; exact-match dedup catches duplicates but semantic near-duplicates may survive
+- **Dedup by ref overlap** — kernels with >50% source ref overlap are merged (keeps longest content, unions refs/tags); very different phrasings from non-overlapping windows may still survive
 - **No streaming** — full pipeline runs batch; a production version would stream results as each stage completes
 - **Synthetic data** — hackathon datasets are synthetic personas, not real user exports
 - **No consent UI** — the pipeline assumes consent (data is already exported); a production version needs explicit consent flow per data source
