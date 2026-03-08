@@ -157,7 +157,7 @@ ai-dreams/
 
 ## Vision
 
-AI Dreams is a visible fragment of a larger research program called [Superempathy](https://github.com/jayamarks) — the thesis that superintelligence without proportional empathy is incomplete.
+AI Dreams is a visible fragment of a larger research program called [Superempathy](https://independent.academia.edu/JayaramaMarks) — the thesis that superintelligence without proportional empathy is incomplete.
 
 <!-- TODO: link to superempathy repo when public -->
 
