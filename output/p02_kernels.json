@@ -1,0 +1,2653 @@
+[
+  {
+    "type": "truth",
+    "content": "Maya's post-call exhaustion is a recurring issue, impacting her ability to sleep and decompress.",
+    "source_refs": [
+      "ll_0004",
+      "c_0001"
+    ],
+    "tags": [
+      "exhaustion",
+      "decompression"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Maya uses coping mechanisms like typing out her experiences to ChatGPT, which helps more than she expected.",
+    "source_refs": [
+      "ll_0001",
+      "t_0001"
+    ],
+    "tags": [
+      "coping",
+      "ChatGPT"
+    ]
+  },
+  {
+    "type": "urgent",
+    "content": "Maya has multiple nights on call next month, which is causing her significant fatigue and stress.",
+    "source_refs": [
+      "ll_0005",
+      "cal_0001"
+    ],
+    "tags": [
+      "exhaustion",
+      "scheduling"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Maya frequently uses food as a form of self-care, whether it's cooking at midnight or finding new taco spots.",
+    "source_refs": [
+      "ll_0002",
+      "s_0001"
+    ],
+    "tags": [
+      "self_care",
+      "food"
+    ]
+  },
+  {
+    "type": "unfinished",
+    "content": "Maya started a yoga class but only attended for the first time in four months, indicating an ongoing struggle with self-care.",
+    "source_refs": [
+      "ll_0010"
+    ],
+    "tags": [
+      "yoga",
+      "self_care"
+    ]
+  },
+  {
+    "type": "empathy",
+    "content": "Maya feels a sense of distance from her peers' life milestones, such as Priya's upcoming marriage.",
+    "source_refs": [
+      "ll_0006"
+    ],
+    "tags": [
+      "loneliness",
+      "relationships"
+    ]
+  },
+  {
+    "type": "question",
+    "content": "Maya is considering fellowship programs in cardiology but hasn't made a final decision, shown by her interest meeting and notes.",
+    "source_refs": [
+      "f_0001",
+      "cal_0001"
+    ],
+    "tags": [
+      "career",
+      "decision"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Maya's job as a medical professional is emotionally taxing, often leading to moments of grief and self-reflection.",
+    "source_refs": [
+      "ll_0009",
+      "ll_0012",
+      "ll_0014"
+    ],
+    "tags": [
+      "medicine",
+      "grief",
+      "mental_health"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Maya is navigating her career path, researching and attending meetings for potential cardiology fellowships.",
+    "source_refs": [
+      "cal_0005",
+      "f_0002"
+    ],
+    "tags": [
+      "career",
+      "medicine"
+    ]
+  },
+  {
+    "type": "urgent",
+    "content": "Maya has a significant financial burden with student loans, which is causing her stress and preventing her from enjoying personal activities.",
+    "source_refs": [
+      "e_0005",
+      "ll_0013"
+    ],
+    "tags": [
+      "debt",
+      "finances"
+    ]
+  },
+  {
+    "type": "unfinished",
+    "content": "Maya has not unpacked her hobby supplies, indicating a desire to return to personal interests but difficulty in doing so.",
+    "source_refs": [
+      "ll_0013"
+    ],
+    "tags": [
+      "personal",
+      "hobbies",
+      "identity"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Maya often finds herself reflecting on the meaning of her job and expressing gratitude for support from colleagues, even as she deals with personal challenges.",
+    "source_refs": [
+      "ll_0009",
+      "s_0002",
+      "ll_0012"
+    ],
+    "tags": [
+      "medicine",
+      "gratitude"
+    ]
+  },
+  {
+    "type": "empathy",
+    "content": "Maya feels a sense of distance from the life milestones her peers are celebrating, highlighting feelings of isolation and unfulfilled aspirations.",
+    "source_refs": [
+      "ll_0011"
+    ],
+    "tags": [
+      "relationships",
+      "loneliness"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Maya has been using AI tools, like ChatGPT, to decompress and manage stress after difficult shifts.",
+    "source_refs": [
+      "ll_0020"
+    ],
+    "tags": [
+      "AI_use",
+      "stress_management",
+      "mental_health",
+      "coping"
+    ]
+  },
+  {
+    "type": "urgent",
+    "content": "Maya's current debt balance of $177,790 is significant and requires urgent attention to repayment strategies.",
+    "source_refs": [
+      "e_0005",
+      "e_0007"
+    ],
+    "tags": [
+      "finances",
+      "debt"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Maya's identity as a physician is complex, with moments of reflection on her job satisfaction and comparison to peers.",
+    "source_refs": [
+      "ll_0013",
+      "ll_0014",
+      "ll_0015",
+      "ll_0017",
+      "ll_0019"
+    ],
+    "tags": [
+      "medicine",
+      "identity"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Maya is researching different fellowship programs, indicating a career development phase.",
+    "source_refs": [
+      "f_0002"
+    ],
+    "tags": [
+      "career",
+      "medicine"
+    ]
+  },
+  {
+    "type": "urgent",
+    "content": "Maya needs to plan and manage her debt repayment effectively, as the balance is substantial.",
+    "source_refs": [
+      "e_0007",
+      "f_0003"
+    ],
+    "tags": [
+      "financial_stress",
+      "debt"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Maya frequently faces financial decisions related to debt repayment and personal spending, indicating a recurring theme in her life.",
+    "source_refs": [
+      "e_0007",
+      "f_0003",
+      "t_0008",
+      "ll_0026"
+    ],
+    "tags": [
+      "finances",
+      "debt_management"
+    ]
+  },
+  {
+    "type": "unfinished",
+    "content": "Maya has a hobby of painting watercolors, but hasn't started unpacking her kit despite having the opportunity.",
+    "source_refs": [
+      "f_0004",
+      "ll_0021"
+    ],
+    "tags": [
+      "hobbies",
+      "creative_outlets"
+    ]
+  },
+  {
+    "type": "empathy",
+    "content": "Maya feels a strong sense of gratitude towards patients and their families, which is evident in her interactions.",
+    "source_refs": [
+      "s_0005"
+    ],
+    "tags": [
+      "gratitude",
+      "emotional_wellbeing"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Maya has been exploring different debt repayment scenarios to find the best plan for her financial situation.",
+    "source_refs": [
+      "f_0003",
+      "c_0002"
+    ],
+    "tags": [
+      "financial_planning",
+      "debt_management"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Maya often treats herself to meals and spends time alone, suggesting a need for self-care.",
+    "source_refs": [
+      "ll_0023",
+      "t_0009"
+    ],
+    "tags": [
+      "self_care",
+      "emotional_wellbeing"
+    ]
+  },
+  {
+    "type": "unfinished",
+    "content": "Maya has a yoga class scheduled but hasn't attended it, indicating an interrupted routine.",
+    "source_refs": [
+      "cal_0010",
+      "e_0008"
+    ],
+    "tags": [
+      "self_care",
+      "health"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Maya is finding unexpected emotional support from AI tools like ChatGPT, which helps her cope with stress.",
+    "source_refs": [
+      "ll_0025"
+    ],
+    "tags": [
+      "coping",
+      "mental_health"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Maya's work involves frequent patient deaths, indicating a high-stress and emotionally taxing environment.",
+    "source_refs": [
+      "ll_0028",
+      "ll_0027"
+    ],
+    "tags": [
+      "work",
+      "grief"
+    ]
+  },
+  {
+    "type": "urgent",
+    "content": "Maya has an outstanding student loan balance of $177,790, which requires immediate attention.",
+    "source_refs": [
+      "e_0009"
+    ],
+    "tags": [
+      "debt"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Maya frequently FaceTimes with her family and finds it emotionally cathartic, suggesting a strong familial bond despite physical distance.",
+    "source_refs": [
+      "ll_0024",
+      "ll_0026",
+      "ll_0028",
+      "ll_0029",
+      "ll_0030"
+    ],
+    "tags": [
+      "family",
+      "emotional"
+    ]
+  },
+  {
+    "type": "unfinished",
+    "content": "Maya started a reflection document after a difficult shift but did not complete it, indicating unresolved emotional processing.",
+    "source_refs": [
+      "f_0005"
+    ],
+    "tags": [
+      "work",
+      "mental_health"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Maya experiences significant work-related stress, evident from her exhaustion and emotional strain.",
+    "sourceRefs": [
+      "ll_0029",
+      "ll_0031"
+    ],
+    "tags": [
+      "work",
+      "stress"
+    ],
+    "source_refs": []
+  },
+  {
+    "type": "learning",
+    "content": "Maya is reflecting on her progress in residency, recognizing that she knows more than she thinks.",
+    "sourceRefs": [
+      "ll_0035"
+    ],
+    "tags": [
+      "residency",
+      "self-awareness"
+    ],
+    "source_refs": []
+  },
+  {
+    "type": "urgent",
+    "content": "Maya needs to manage her financial obligations, particularly with upcoming loan repayments and a family visit.",
+    "sourceRefs": [
+      "t_0014",
+      "cal_0015",
+      "cal_0014"
+    ],
+    "tags": [
+      "finances",
+      "debt"
+    ],
+    "source_refs": []
+  },
+  {
+    "type": "pattern",
+    "content": "Maya frequently checks her emails and calendar, indicating a high level of professional engagement.",
+    "sourceRefs": [
+      "e_0010",
+      "cal_0013",
+      "e_0012"
+    ],
+    "tags": [
+      "work",
+      "professionalism"
+    ],
+    "source_refs": []
+  },
+  {
+    "type": "unfinished",
+    "content": "Maya started a file on loan repayment scenarios but hasn't completed it, suggesting she is overwhelmed.",
+    "sourceRefs": [
+      "f_0005",
+      "loan_repayment_scenarios.xlsx"
+    ],
+    "tags": [
+      "finances",
+      "debt"
+    ],
+    "source_refs": []
+  },
+  {
+    "type": "empathy",
+    "content": "Maya feels isolated in Austin and acknowledges the difficulty of making friends during residency.",
+    "sourceRefs": [
+      "c_0003",
+      "s_0008"
+    ],
+    "tags": [
+      "loneliness",
+      "social"
+    ],
+    "source_refs": []
+  },
+  {
+    "type": "truth",
+    "content": "Maya's work involves significant emotional labor, as evidenced by her handling of a patient's death.",
+    "sourceRefs": [
+      "ll_0031"
+    ],
+    "tags": [
+      "work",
+      "emotional"
+    ],
+    "source_refs": []
+  },
+  {
+    "type": "learning",
+    "content": "Maya is developing resilience and professional skills through challenging cases and feedback from colleagues.",
+    "sourceRefs": [
+      "ll_0029",
+      "f_0005",
+      "ll_0032"
+    ],
+    "tags": [
+      "career",
+      "professionalism"
+    ],
+    "source_refs": []
+  },
+  {
+    "type": "question",
+    "content": "Maya is questioning the value and challenges of pursuing a medical career, as reflected in her social media posts.",
+    "sourceRefs": [
+      "s_0008",
+      "s_0009"
+    ],
+    "tags": [
+      "career",
+      "residency"
+    ],
+    "source_refs": []
+  },
+  {
+    "type": "truth",
+    "content": "Maya's vending machine purchases are a consistent pattern, indicating she often opts for quick and easy food solutions during her busy shifts.",
+    "source_refs": [
+      "t_0016",
+      "t_0017",
+      "t_0018"
+    ],
+    "tags": [
+      "work",
+      "food"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Maya is reflecting on the challenges of her residency, recognizing that it's both rewarding and exhausting.",
+    "source_refs": [
+      "ll_0035",
+      "s_0009",
+      "ll_0037"
+    ],
+    "tags": [
+      "residency",
+      "career"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Maya frequently references her hobbies, such as painting watercolors, but hasn't engaged in them since starting residency.",
+    "source_refs": [
+      "ll_0033",
+      "ll_0034",
+      "ll_0036"
+    ],
+    "tags": [
+      "hobbies",
+      "identity"
+    ]
+  },
+  {
+    "type": "urgent",
+    "content": "Maya's upcoming 28-hour on-call shift is causing significant exhaustion, highlighting the urgent need for self-care and support.",
+    "source_refs": [
+      "ll_0036",
+      "ll_0037"
+    ],
+    "tags": [
+      "exhaustion",
+      "work"
+    ]
+  },
+  {
+    "type": "unfinished",
+    "content": "Maya has started a photo album of family memories but hasn't unpacked her painting kit, suggesting she's struggling to maintain personal connections.",
+    "source_refs": [
+      "f_0008",
+      "ll_0036"
+    ],
+    "tags": [
+      "family",
+      "hobbies"
+    ]
+  },
+  {
+    "type": "question",
+    "content": "Maya is considering fellowship options in cardiology, but her current workload and exhaustion may impact her decision.",
+    "source_refs": [
+      "cal_0017"
+    ],
+    "tags": [
+      "career",
+      "fellowship"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Maya's residency is both rewarding and exhausting, highlighting the dual nature of her professional journey.",
+    "source_refs": [
+      "s_0010",
+      "ll_0042",
+      "ll_0039"
+    ],
+    "tags": [
+      "residency",
+      "exhaustion",
+      "professionalism"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Maya is using technology, like ChatGPT, to cope with the stress of her work.",
+    "source_refs": [
+      "ll_0040"
+    ],
+    "tags": [
+      "coping",
+      "technology",
+      "mental_health"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Maya frequently buys new scrubs as a small treat, indicating a pattern of self-care within her demanding schedule.",
+    "source_refs": [
+      "ll_0044"
+    ],
+    "tags": [
+      "self_care",
+      "residency",
+      "treats"
+    ]
+  },
+  {
+    "type": "urgent",
+    "content": "Maya's work schedule is highly flexible and often unpredictable, with shifts lasting up to 28 hours.",
+    "source_refs": [
+      "ll_0042"
+    ],
+    "tags": [
+      "work_schedule",
+      "flexibility",
+      "shift_work"
+    ]
+  },
+  {
+    "type": "unfinished",
+    "content": "Maya started a gratitude practice by acknowledging the positive impact of patient's family thank yous, but hasn't continued it.",
+    "source_refs": [
+      "s_0012"
+    ],
+    "tags": [
+      "gratitude",
+      "emotional_support",
+      "uncompleted_tasks"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Maya frequently mentions her cohort's success in fellowships, which may be a source of both inspiration and self-doubt.",
+    "source_refs": [
+      "s_0010",
+      "ll_0041"
+    ],
+    "tags": [
+      "cohort_comparison",
+      "career_progression"
+    ]
+  },
+  {
+    "type": "empathy",
+    "content": "Maya experiences significant emotional strain from patient deaths, showing the human side of her work.",
+    "source_refs": [
+      "ll_0039",
+      "ll_0045"
+    ],
+    "tags": [
+      "emotional_strain",
+      "patient_care"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Maya is reflecting on her progress and capabilities, indicating a growth mindset in her residency.",
+    "source_refs": [
+      "ll_0043"
+    ],
+    "tags": [
+      "reflection",
+      "professional_growth"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Maya buys new scrubs and uses them as a treat, indicating a pattern of self-reward for herself.",
+    "source_refs": [
+      "ll_0044",
+      "ll_0051"
+    ],
+    "tags": [
+      "self-care",
+      "treat"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Maya is using ChatGPT to decompress after hard shifts, showing a new coping mechanism for stress.",
+    "source_refs": [
+      "ll_0046"
+    ],
+    "tags": [
+      "coping",
+      "stress"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Maya's yoga class is a recurring activity that helps with her mental health but also brings up emotional issues.",
+    "source_refs": [
+      "cal_0019",
+      "ll_0047"
+    ],
+    "tags": [
+      "mental_health",
+      "emotional"
+    ]
+  },
+  {
+    "type": "unfinished",
+    "content": "Maya has not completed planning Rohan's birthday, indicating an ongoing task that needs attention.",
+    "source_refs": [
+      "e_0017",
+      "e_0020"
+    ],
+    "tags": [
+      "birthday",
+      "planning"
+    ]
+  },
+  {
+    "type": "urgent",
+    "content": "Maya has a heavy schedule with 4 nights on call next month, which is time-sensitive and requires planning.",
+    "source_refs": [
+      "ll_0049"
+    ],
+    "tags": [
+      "schedule",
+      "on_call"
+    ]
+  },
+  {
+    "type": "empathy",
+    "content": "Maya acknowledges the work of others during celebrations, showing an empathetic perspective on her colleagues' efforts.",
+    "source_refs": [
+      "s_0013"
+    ],
+    "tags": [
+      "work",
+      "community"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Maya's work schedule is consistently exhausting, with frequent on-call nights leading to chronic fatigue.",
+    "source_refs": [
+      "ll_0049",
+      "ll_0052"
+    ],
+    "tags": [
+      "work",
+      "exhaustion"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Maya is using self-care activities like yoga and cooking as coping mechanisms for stress.",
+    "source_refs": [
+      "ll_0056",
+      "ll_0054"
+    ],
+    "tags": [
+      "self_care",
+      "stress"
+    ]
+  },
+  {
+    "type": "urgent",
+    "content": "Maya's student loan debt is accruing interest rapidly, which she finds overwhelming.",
+    "source_refs": [
+      "ll_0055"
+    ],
+    "tags": [
+      "finances",
+      "debt"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Maya frequently receives emails from Priya about coffee before rounds, suggesting a recurring social interaction.",
+    "source_refs": [
+      "e_0021",
+      "e_0022",
+      "e_0023"
+    ],
+    "tags": [
+      "social",
+      "work"
+    ]
+  },
+  {
+    "type": "unfinished",
+    "content": "Maya has started multiple yoga classes but hasn't completed any in four months, indicating a pattern of starting without following through.",
+    "source_refs": [
+      "ll_0056"
+    ],
+    "tags": [
+      "self_care",
+      "yoga",
+      "emotional"
+    ]
+  },
+  {
+    "type": "empathy",
+    "content": "Maya feels isolated and reminds herself that different career paths exist, which can be emotionally taxing.",
+    "source_refs": [
+      "ll_0053"
+    ],
+    "tags": [
+      "career",
+      "comparison"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Maya is developing resilience through self-care practices, such as walking and treating herself to food.",
+    "source_refs": [
+      "ll_0058",
+      "ll_0063"
+    ],
+    "tags": [
+      "self_care",
+      "resilience"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Maya consistently makes student loan payments of $450.00, showing a commitment to financial responsibility.",
+    "source_refs": [
+      "t_0027",
+      "t_0028"
+    ],
+    "tags": [
+      "finances",
+      "debt"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Maya's work schedule is intense and often extends beyond standard hours, impacting her physical and emotional well-being.",
+    "source_refs": [
+      "cal_0023",
+      "ll_0061"
+    ],
+    "tags": [
+      "work",
+      "health"
+    ]
+  },
+  {
+    "type": "question",
+    "content": "Maya is questioning the value of medical school and residency, considering the toll on personal life.",
+    "source_refs": [
+      "s_0014"
+    ],
+    "tags": [
+      "medicine",
+      "residency"
+    ]
+  },
+  {
+    "type": "empathy",
+    "content": "Maya feels a sense of distance from her peers who are moving forward with their lives, highlighting feelings of loneliness.",
+    "source_refs": [
+      "ll_0057"
+    ],
+    "tags": [
+      "loneliness",
+      "relationships"
+    ]
+  },
+  {
+    "type": "urgent",
+    "content": "Maya's sleep schedule is severely disrupted due to her work commitments, requiring immediate attention.",
+    "source_refs": [
+      "cal_0024",
+      "ll_0061"
+    ],
+    "tags": [
+      "sleep",
+      "health"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Maya experiences significant work-related exhaustion, often working beyond 24 hours without adequate rest.",
+    "source_refs": [
+      "e_0024",
+      "ll_0061",
+      "ll_0062"
+    ],
+    "tags": [
+      "work",
+      "exhaustion"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Maya is reflecting on her career journey and recognizing the value of her knowledge, despite feeling overwhelmed.",
+    "source_refs": [
+      "f_0014",
+      "ll_0065"
+    ],
+    "tags": [
+      "career",
+      "reflection"
+    ]
+  },
+  {
+    "type": "urgent",
+    "content": "Maya has a loan repayment plan that requires attention and decision-making, with financial milestones approaching.",
+    "source_refs": [
+      "f_0013",
+      "ll_0067"
+    ],
+    "tags": [
+      "debt",
+      "finances"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Maya often eats alone and avoids using her phone during meals, suggesting a desire for solitude in certain situations.",
+    "source_refs": [
+      "f_0012",
+      "ll_0063",
+      "t_0029"
+    ],
+    "tags": [
+      "food",
+      "solitude"
+    ]
+  },
+  {
+    "type": "unfinished",
+    "content": "Maya bought new scrubs but there is no mention of using them, indicating an interruption in her routine.",
+    "source_refs": [
+      "ll_0068"
+    ],
+    "tags": [
+      "personal",
+      "shopping"
+    ]
+  },
+  {
+    "type": "empathy",
+    "content": "Maya's family members are aware of her struggles and are concerned about her well-being, reflecting a need for support.",
+    "source_refs": [
+      "ll_0064",
+      "e_0025"
+    ],
+    "tags": [
+      "family",
+      "support"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Maya uses coping mechanisms like decompressing with ChatGPT and cooking to manage stress.",
+    "source_refs": [
+      "ll_0069",
+      "ll_0072",
+      "ll_0071"
+    ],
+    "tags": [
+      "coping",
+      "stress"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Maya is actively researching fellowship programs, indicating a forward-looking mindset in her career development.",
+    "source_refs": [
+      "f_0015",
+      "cal_0029"
+    ],
+    "tags": [
+      "career",
+      "fellowship",
+      "decision-making"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Maya frequently reflects on the challenges of medical school and residency, suggesting a recurring theme in her life.",
+    "source_refs": [
+      "s_0018",
+      "s_0019"
+    ],
+    "tags": [
+      "med_school",
+      "residency"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Maya's financial stability is improving with regular debt repayments, as evidenced by her paying off smaller loans.",
+    "source_refs": [
+      "ll_0067",
+      "ll_0070"
+    ],
+    "tags": [
+      "finances",
+      "debt"
+    ]
+  },
+  {
+    "type": "empathy",
+    "content": "Maya feels the need to contribute to her family, even when her schedule is busy.",
+    "source_refs": [
+      "e_0026",
+      "e_0027"
+    ],
+    "tags": [
+      "family",
+      "commitment"
+    ]
+  },
+  {
+    "type": "urgent",
+    "content": "Maya's rent payment is due soon, and she has already made the payment.",
+    "source_refs": [
+      "t_0033"
+    ],
+    "tags": [
+      "finance",
+      "payment"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Maya's midnight cooking is a comforting ritual after long shifts, indicating her need for self-care.",
+    "source_refs": [
+      "ll_0071"
+    ],
+    "tags": [
+      "self_care",
+      "stress"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Maya's reflection on loving her job shows growth in professional identity and personal fulfillment.",
+    "source_refs": [
+      "ll_0074"
+    ],
+    "tags": [
+      "career",
+      "identity"
+    ]
+  },
+  {
+    "type": "urgent",
+    "content": "Maya needs to plan Rohan's birthday, as she has been reminded by her family multiple times but is struggling with work commitments.",
+    "source_refs": [
+      "f_0015",
+      "e_0028",
+      "e_0030"
+    ],
+    "tags": [
+      "family",
+      "commitments"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Maya frequently buys medical reference books, indicating a commitment to professional development and staying current.",
+    "source_refs": [
+      "t_0034",
+      "t_0036"
+    ],
+    "tags": [
+      "career",
+      "learning"
+    ]
+  },
+  {
+    "type": "unfinished",
+    "content": "Maya has not yet decided how she will inform her family about missing the holidays, showing an unresolved personal dilemma.",
+    "source_refs": [
+      "c_0005"
+    ],
+    "tags": [
+      "family",
+      "holidays"
+    ]
+  },
+  {
+    "type": "empathy",
+    "content": "Maya's emotional response to a patient\u2019s death and her need for privacy in the parking garage highlight her compassion and vulnerability.",
+    "source_refs": [
+      "ll_0075"
+    ],
+    "tags": [
+      "grief",
+      "emotions"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Maya's diagnosis of a tricky case and the positive feedback from her attending demonstrate her professional competence and growth.",
+    "source_refs": [
+      "ll_0077"
+    ],
+    "tags": [
+      "career",
+      "success"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Maya is finding ways to balance her professional and personal life, such as FaceTiming with family and treating herself to a meal.",
+    "source_refs": [
+      "t_0035",
+      "c_0005",
+      "ll_0082",
+      "f_0017"
+    ],
+    "tags": [
+      "family",
+      "self_care"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Maya frequently follows up on patient questions in her emails, indicating a commitment to providing thorough care.",
+    "source_refs": [
+      "e_0031",
+      "e_0032"
+    ],
+    "tags": [
+      "work",
+      "medicine"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Maya's work schedule is intense and often leaves her tired, as evidenced by her need for a sleep block.",
+    "source_refs": [
+      "cal_0031",
+      "ll_0084",
+      "cal_0032"
+    ],
+    "tags": [
+      "work",
+      "health"
+    ]
+  },
+  {
+    "type": "unfinished",
+    "content": "Maya has not completed her yoga class in four months, which she attended for the first time recently.",
+    "source_refs": [
+      "ll_0079",
+      "ll_0081"
+    ],
+    "tags": [
+      "self_care"
+    ]
+  },
+  {
+    "type": "urgent",
+    "content": "Maya needs to prioritize her mental health and consider regular yoga classes, as evidenced by her emotional response during the first class.",
+    "source_refs": [
+      "ll_0081",
+      "ll_0084"
+    ],
+    "tags": [
+      "mental_health"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Maya is learning to manage her time effectively, as seen in her scheduling and self-care practices.",
+    "source_refs": [
+      "cal_0031",
+      "ll_0082",
+      "e_0033"
+    ],
+    "tags": [
+      "time_management"
+    ]
+  },
+  {
+    "type": "question",
+    "content": "Maya is grappling with the decision of whether to attend her co-resident's wedding, feeling a mix of happiness and loneliness.",
+    "source_refs": [
+      "s_0021",
+      "s_0022"
+    ],
+    "tags": [
+      "relationships"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Maya has a recurring theme of self-care through food, as seen in her cooking and treating herself to tacos.",
+    "source_refs": [
+      "ll_0079",
+      "ll_0084"
+    ],
+    "tags": [
+      "self_care"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Maya's financial situation is stable, as she consistently pays her bills on time and has a regular income from work.",
+    "source_refs": [
+      "t_0035",
+      "t_0037"
+    ],
+    "tags": [
+      "finances"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Maya frequently walks around Auditorium Shores after her shifts, indicating a pattern of self-care and stress relief.",
+    "source_refs": [
+      "ll_0085",
+      "ll_0087",
+      "ll_0086"
+    ],
+    "tags": [
+      "health",
+      "self_care"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Maya is consistently attending yoga classes, showing a commitment to her well-being and mindfulness.",
+    "source_refs": [
+      "e_0034",
+      "t_0039"
+    ],
+    "tags": [
+      "health",
+      "self_care"
+    ]
+  },
+  {
+    "type": "unfinished",
+    "content": "Maya has not unpacked her painting kit, suggesting a long-standing hobby that was left unfulfilled.",
+    "source_refs": [
+      "ll_0083"
+    ],
+    "tags": [
+      "personal",
+      "identity"
+    ]
+  },
+  {
+    "type": "urgent",
+    "content": "Maya is experiencing burnout and exhaustion from her residency program, which needs immediate attention.",
+    "source_refs": [
+      "s_0023",
+      "cal_0035"
+    ],
+    "tags": [
+      "work",
+      "health"
+    ]
+  },
+  {
+    "type": "empathy",
+    "content": "Maya feels a sense of distance from Priya's upcoming marriage, indicating feelings of loneliness or unfulfilled life goals.",
+    "source_refs": [
+      "ll_0082"
+    ],
+    "tags": [
+      "relationships",
+      "loneliness"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Maya is actively seeking family connection through regular communication and plans to call her mother this weekend.",
+    "source_refs": [
+      "e_0035"
+    ],
+    "tags": [
+      "family",
+      "emotional"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Maya experiences consistent knee pain, but finds relief in walking around Auditorium Shores.",
+    "source_refs": [
+      "ll_0086",
+      "ll_0090"
+    ],
+    "tags": [
+      "health",
+      "self_care"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Maya is reflecting on her growing confidence in her medical skills, especially after a recent diagnosis.",
+    "source_refs": [
+      "ll_0089",
+      "ll_0093"
+    ],
+    "tags": [
+      "career",
+      "milestone"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Maya frequently takes time for self-care activities such as yoga and walking, often after her shifts.",
+    "source_refs": [
+      "cal_0036",
+      "ll_0088",
+      "ll_0091",
+      "cal_0037",
+      "cal_0038"
+    ],
+    "tags": [
+      "self_care",
+      "health"
+    ]
+  },
+  {
+    "type": "unfinished",
+    "content": "Maya started a reflection on her job satisfaction but didn't elaborate further.",
+    "source_refs": [
+      "ll_0091"
+    ],
+    "tags": [
+      "career",
+      "identity"
+    ]
+  },
+  {
+    "type": "question",
+    "content": "Maya is considering loan repayment scenarios, indicating financial stress and uncertainty about future plans.",
+    "source_refs": [
+      "f_0019",
+      "t_0042",
+      "t_0043"
+    ],
+    "tags": [
+      "finances",
+      "debt"
+    ]
+  },
+  {
+    "type": "empathy",
+    "content": "Maya appreciates the gratitude from a patient's family, which she needed more than they knew.",
+    "source_refs": [
+      "s_0024"
+    ],
+    "tags": [
+      "emotional",
+      "medicine"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Maya is reflecting on her growth and realizing she knows more than she thinks, which is a key mindset shift in her residency.",
+    "source_refs": [
+      "ll_0092",
+      "ll_0093"
+    ],
+    "tags": [
+      "career",
+      "reflection"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Maya frequently takes yoga classes and walks, indicating a consistent self-care routine that supports her mental health.",
+    "source_refs": [
+      "cal_0038",
+      "cal_0039",
+      "cal_0040"
+    ],
+    "tags": [
+      "health",
+      "self_care"
+    ]
+  },
+  {
+    "type": "urgent",
+    "content": "Maya's student loan balance is increasing rapidly, and she feels overwhelmed by the amount of debt.",
+    "source_refs": [
+      "e_0037",
+      "ll_0100"
+    ],
+    "tags": [
+      "finances",
+      "debt"
+    ]
+  },
+  {
+    "type": "unfinished",
+    "content": "Maya started a yoga class but spent most of it crying, indicating an unfinished emotional journey.",
+    "source_refs": [
+      "ll_0099"
+    ],
+    "tags": [
+      "empathy",
+      "mental_health"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Maya's mother is aware of her eating habits and has been subtly reminding her to take care of herself.",
+    "source_refs": [
+      "ll_0097"
+    ],
+    "tags": [
+      "family",
+      "health"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Maya is actively planning her career path, considering fellowship or hospitalist roles after residency.",
+    "source_refs": [
+      "f_0020"
+    ],
+    "tags": [
+      "career",
+      "planning"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Maya's mother is perceptive and aware of her daughter's well-being, even when Maya herself isn't.",
+    "source_refs": [
+      "ll_0097",
+      "ll_0103"
+    ],
+    "tags": [
+      "family",
+      "health"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Maya has started using AI tools like ChatGPT to decompress after difficult shifts, finding it surprisingly helpful for emotional support.",
+    "source_refs": [
+      "ll_0104",
+      "f_0022"
+    ],
+    "tags": [
+      "mental_health",
+      "ai_use",
+      "coping",
+      "emotional"
+    ]
+  },
+  {
+    "type": "unfinished",
+    "content": "Maya started but didn't complete a yoga class, which she last attended four months ago.",
+    "source_refs": [
+      "ll_0099",
+      "cal_0041"
+    ],
+    "tags": [
+      "health",
+      "self_care"
+    ]
+  },
+  {
+    "type": "urgent",
+    "content": "Maya has ongoing health issues that require attention, including knee pain and missed signals in clinical diagnosis.",
+    "source_refs": [
+      "ll_0100",
+      "pe_case_notes_may2024.txt"
+    ],
+    "tags": [
+      "health",
+      "medicine"
+    ]
+  },
+  {
+    "type": "empathy",
+    "content": "Maya feels a deep emotional need to connect with her family, especially during hard times.",
+    "source_refs": [
+      "ll_0101",
+      "ll_0103"
+    ],
+    "tags": [
+      "family",
+      "emotional"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Maya uses ChatGPT as a coping mechanism after hard shifts, finding it more helpful than expected.",
+    "source_refs": [
+      "ll_0104",
+      "ll_0105",
+      "ll_0108"
+    ],
+    "tags": [
+      "ai_use",
+      "mental_health",
+      "coping"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Maya is reflecting on her progress and reminding herself of her capabilities as she progresses through residency.",
+    "source_refs": [
+      "ll_0106",
+      "ll_0105"
+    ],
+    "tags": [
+      "career",
+      "reflection",
+      "milestone"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Maya frequently uses food and self-care activities, like cooking at midnight or eating tacos alone, to manage her stress.",
+    "source_refs": [
+      "ll_0109",
+      "ll_0110"
+    ],
+    "tags": [
+      "self_care",
+      "food",
+      "emotional"
+    ]
+  },
+  {
+    "type": "urgent",
+    "content": "Maya is facing significant debt with a current balance of $177,790, as evidenced by her loan repayment scenarios and recent payment receipt.",
+    "source_refs": [
+      "t_0049",
+      "e_0042",
+      "f_0023"
+    ],
+    "tags": [
+      "finances",
+      "debt",
+      "payment"
+    ]
+  },
+  {
+    "type": "unfinished",
+    "content": "Maya is still planning her schedule for the upcoming month, which includes 4 nights on call, indicating a need to manage this time constraint.",
+    "source_refs": [
+      "cal_0045",
+      "ll_0111"
+    ],
+    "tags": [
+      "work",
+      "planning",
+      "schedule"
+    ]
+  },
+  {
+    "type": "empathy",
+    "content": "Maya feels a mix of happiness for her co-resident Priya's upcoming marriage and loneliness, highlighting the contrast between their life stages.",
+    "source_refs": [
+      "ll_0106",
+      "ll_0111"
+    ],
+    "tags": [
+      "relationships",
+      "loneliness",
+      "empathy"
+    ]
+  },
+  {
+    "type": "question",
+    "content": "Maya is uncertain about which loan repayment plan to choose, as indicated by her financial planning and discussions with a counselor.",
+    "source_refs": [
+      "f_0023",
+      "cal_0045"
+    ],
+    "tags": [
+      "finances",
+      "debt",
+      "planning"
+    ]
+  },
+  {
+    "type": "unfinished",
+    "content": "Maya has been using ChatGPT for decompression but hasn't fully explored its potential therapeutic benefits.",
+    "source_refs": [
+      "c_0007",
+      "ll_0115"
+    ],
+    "tags": [
+      "ai_use",
+      "emotional_support"
+    ]
+  },
+  {
+    "type": "urgent",
+    "content": "Maya's debt remains high, with no indication of a repayment plan or strategy to address the issue.",
+    "source_refs": [
+      "e_0042",
+      "e_0043"
+    ],
+    "tags": [
+      "finances",
+      "debt"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Maya frequently treats herself to tacos at Veracruz All Natural, suggesting a pattern of self-care through food.",
+    "source_refs": [
+      "ll_0110",
+      "ll_0116"
+    ],
+    "tags": [
+      "food",
+      "self_care"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Maya is actively researching fellowship programs, indicating a clear career path and future goals.",
+    "source_refs": [
+      "f_0024",
+      "cal_0047"
+    ],
+    "tags": [
+      "career",
+      "medicine"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Maya's yoga practice is infrequent but cathartic, often leading to emotional release.",
+    "source_refs": [
+      "ll_0109",
+      "ll_0113"
+    ],
+    "tags": [
+      "health",
+      "mental_health"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Maya's family is aware of her struggles with eating, highlighting the importance of familial support.",
+    "source_refs": [
+      "ll_0112",
+      "cal_0046"
+    ],
+    "tags": [
+      "family",
+      "health"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Maya's social media posts often reflect her professional exhaustion and the challenges of residency life.",
+    "source_refs": [
+      "s_0030",
+      "s_0031"
+    ],
+    "tags": [
+      "work",
+      "exhaustion"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Maya consistently treats herself to food and social activities, suggesting she values personal enjoyment as a form of self-care.",
+    "source_refs": [
+      "t_0051",
+      "t_0052",
+      "t_0053",
+      "t_0054",
+      "t_0055",
+      "s_0031",
+      "s_0032"
+    ],
+    "tags": [
+      "food",
+      "self_care"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Maya has been using ChatGPT to decompress after hard shifts, showing a growth in her use of technology for mental health support.",
+    "source_refs": [
+      "ll_0115"
+    ],
+    "tags": [
+      "mental_health",
+      "technology"
+    ]
+  },
+  {
+    "type": "question",
+    "content": "Maya is considering how to contribute to Rohan's birthday while dealing with a busy schedule, highlighting the challenge of balancing personal and professional life.",
+    "source_refs": [
+      "e_0046"
+    ],
+    "tags": [
+      "family",
+      "time_management",
+      "commitment"
+    ]
+  },
+  {
+    "type": "empathy",
+    "content": "Maya misses her family deeply and finds comfort in FaceTime calls, highlighting the emotional need for connection.",
+    "source_refs": [
+      "ll_0117",
+      "ll_0118"
+    ],
+    "tags": [
+      "family",
+      "emotions"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Maya's reflection on loving her job shows a growing sense of identity and professional satisfaction.",
+    "source_refs": [
+      "ll_0117",
+      "ll_0120"
+    ],
+    "tags": [
+      "career",
+      "identity"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Maya is increasingly valuing self-care, as evidenced by her purchase of new scrubs and treating herself to a meal without distractions.",
+    "source_refs": [
+      "ll_0119",
+      "s_0033"
+    ],
+    "tags": [
+      "self_care",
+      "personal_growth"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Maya is currently experiencing burnout, as indicated by her reflection on hobbies and the emotional debrief after a difficult shift.",
+    "source_refs": [
+      "ll_0125",
+      "f_0027"
+    ],
+    "tags": [
+      "burnout",
+      "emotional_health"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Maya frequently shops for food, particularly at Veracruz All Natural, suggesting a preference or routine.",
+    "source_refs": [
+      "t_0054",
+      "t_0056",
+      "s_0033"
+    ],
+    "tags": [
+      "food_habits"
+    ]
+  },
+  {
+    "type": "unfinished",
+    "content": "Maya has not unpacked her painting kit, indicating an unfinished hobby that she may want to revisit.",
+    "source_refs": [
+      "ll_0125"
+    ],
+    "tags": [
+      "hobbies",
+      "creative"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Maya is actively managing her financial future by modeling different debt repayment scenarios, showing a proactive approach to personal finance.",
+    "source_refs": [
+      "f_0026"
+    ],
+    "tags": [
+      "financial_planning",
+      "career"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Maya is learning to prioritize self-care and find moments of relaxation, even in a busy schedule.",
+    "source_refs": [
+      "ll_0126",
+      "ll_0129"
+    ],
+    "tags": [
+      "self_care",
+      "relaxation"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Maya frequently expresses feelings of homesickness and misses her family, often through emails to her mother.",
+    "source_refs": [
+      "e_0049",
+      "e_0050",
+      "e_0051"
+    ],
+    "tags": [
+      "emotional",
+      "family"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Maya's financial situation is improving, as evidenced by the payment of a smaller loan.",
+    "source_refs": [
+      "t_0057",
+      "ll_0126"
+    ],
+    "tags": [
+      "finances",
+      "debt"
+    ]
+  },
+  {
+    "type": "unfinished",
+    "content": "Maya started painting watercolors but has not unpacked her kit, indicating an interrupted hobby.",
+    "source_refs": [
+      "ll_0128"
+    ],
+    "tags": [
+      "hobbies",
+      "art"
+    ]
+  },
+  {
+    "type": "urgent",
+    "content": "Maya needs to address the patient question regarding Mr. G in 4B as it requires confirmation of the disposition plan.",
+    "source_refs": [
+      "cal_0052",
+      "e_0048"
+    ],
+    "tags": [
+      "work",
+      "medicine"
+    ]
+  },
+  {
+    "type": "question",
+    "content": "Maya is considering fellowships in cardiology, but her decision-making process seems to be delayed.",
+    "source_refs": [
+      "cal_0052",
+      "f_0028"
+    ],
+    "tags": [
+      "career",
+      "medicine"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Maya is reflecting on her progress and capabilities within her residency, recognizing that she knows more than she thinks.",
+    "source_refs": [
+      "s_0036",
+      "ll_0135"
+    ],
+    "tags": [
+      "residency",
+      "reflection"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Maya frequently checks in with her mother about eating habits, indicating a pattern of self-monitoring and potential anxiety around food.",
+    "source_refs": [
+      "ll_0134",
+      "ll_0136"
+    ],
+    "tags": [
+      "self-care",
+      "anxiety"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Maya's financial situation is causing significant stress, as evidenced by the high loan balance and accruing interest.",
+    "source_refs": [
+      "f_0029",
+      "ll_0137"
+    ],
+    "tags": [
+      "debt",
+      "financial"
+    ]
+  },
+  {
+    "type": "urgent",
+    "content": "Maya's patient died today, indicating a need to process this emotionally and professionally.",
+    "source_refs": [
+      "t_0059"
+    ],
+    "tags": [
+      "grief",
+      "patient-care"
+    ]
+  },
+  {
+    "type": "unfinished",
+    "content": "Maya started but did not complete her loan repayment scenario model in the financial document, suggesting ongoing work on this issue.",
+    "source_refs": [
+      "f_0029"
+    ],
+    "tags": [
+      "finances",
+      "debt"
+    ]
+  },
+  {
+    "type": "empathy",
+    "content": "Maya feels a sense of distance from her co-resident Priya's life milestones, highlighting feelings of loneliness and disconnection.",
+    "source_refs": [
+      "s_0036",
+      "ll_0138"
+    ],
+    "tags": [
+      "relationships",
+      "loneliness"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Maya is actively seeking out professional development opportunities, such as attending grand rounds and reviewing fellowship programs.",
+    "source_refs": [
+      "cal_0054",
+      "f_0028"
+    ],
+    "tags": [
+      "career-development"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Maya frequently treats herself to meals when she is alone, suggesting a pattern of self-care through food.",
+    "source_refs": [
+      "ll_0132",
+      "ll_0133"
+    ],
+    "tags": [
+      "self-care"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Maya's financial situation is dire, with a significant debt burden that continues to grow despite her efforts.",
+    "source_refs": [
+      "ll_0137",
+      "e_0056"
+    ],
+    "tags": [
+      "debt",
+      "finance"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Maya is gaining confidence in her medical career, but she needs to remind herself of her capabilities regularly.",
+    "source_refs": [
+      "ll_0135",
+      "ll_0142"
+    ],
+    "tags": [
+      "career",
+      "self-assurance"
+    ]
+  },
+  {
+    "type": "urgent",
+    "content": "Maya's physical and emotional health is deteriorating due to overwork, with symptoms like knee pain and exhaustion.",
+    "source_refs": [
+      "ll_0139",
+      "ll_0142"
+    ],
+    "tags": [
+      "health",
+      "well-being"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Maya frequently checks on patients' discharge plans, indicating a strong commitment to patient care and documentation.",
+    "source_refs": [
+      "e_0054",
+      "e_0055"
+    ],
+    "tags": [
+      "patient care",
+      "work"
+    ]
+  },
+  {
+    "type": "unfinished",
+    "content": "Maya started but did not complete a walk around Auditorium Shores, which she needed for self-care.",
+    "source_refs": [
+      "ll_0141"
+    ],
+    "tags": [
+      "self-care",
+      "exercise"
+    ]
+  },
+  {
+    "type": "empathy",
+    "content": "Maya's ability to maintain composure in difficult situations, like holding back tears after a patient\u2019s death, shows her resilience and dedication.",
+    "source_refs": [
+      "ll_0143"
+    ],
+    "tags": [
+      "emotional labor",
+      "grief"
+    ]
+  },
+  {
+    "type": "question",
+    "content": "Maya is questioning the sustainability of her current work-life balance, as evidenced by her exhaustion and need for self-care.",
+    "source_refs": [
+      "ll_0142",
+      "ll_0143"
+    ],
+    "tags": [
+      "work-life balance",
+      "well-being"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Maya's work schedule is extremely demanding, with frequent long shifts and nights on call.",
+    "source_refs": [
+      "ll_0142",
+      "ll_0145"
+    ],
+    "tags": [
+      "work",
+      "exhaustion"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Maya frequently shops for new scrubs, which is the only form of self-treat she indulges in.",
+    "source_refs": [
+      "ll_0149",
+      "ll_0150"
+    ],
+    "tags": [
+      "self-care",
+      "shopping"
+    ]
+  },
+  {
+    "type": "question",
+    "content": "Maya is wrestling with whether to pursue a fellowship or stay in her current position, as indicated by her research notes.",
+    "source_refs": [
+      "f_0031"
+    ],
+    "tags": [
+      "career",
+      "decision making",
+      "professional development"
+    ]
+  },
+  {
+    "type": "unfinished",
+    "content": "Maya hasn't unpacked her painting kit since before starting residency, indicating a lost hobby and unfulfilled passion.",
+    "source_refs": [
+      "ll_0146"
+    ],
+    "tags": [
+      "hobbies",
+      "identity"
+    ]
+  },
+  {
+    "type": "empathy",
+    "content": "Maya feels distant from her own life goals and milestones, such as Priya's wedding, which highlights a sense of disconnection.",
+    "source_refs": [
+      "ll_0148"
+    ],
+    "tags": [
+      "loneliness",
+      "personal",
+      "social"
+    ]
+  },
+  {
+    "type": "urgent",
+    "content": "Maya is scheduled for multiple nights on call in the coming month, which could impact her health and well-being if not managed.",
+    "source_refs": [
+      "ll_0145"
+    ],
+    "tags": [
+      "work",
+      "scheduling"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Maya's financial struggles are persistent, with recurring debt notifications and regular rent payments.",
+    "source_refs": [
+      "t_0064",
+      "t_0065",
+      "t_0066",
+      "t_0067",
+      "t_0068"
+    ],
+    "tags": [
+      "finances",
+      "debt"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Maya is focusing on her career by researching fellowship programs and attending to patient cases.",
+    "source_refs": [
+      "f_0032",
+      "f_0033"
+    ],
+    "tags": [
+      "career",
+      "medicine"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Maya's work schedule is demanding, with frequent night float shifts and long working hours.",
+    "source_refs": [
+      "cal_0060",
+      "cal_0061",
+      "cal_0062",
+      "cal_0063"
+    ],
+    "tags": [
+      "work",
+      "medicine"
+    ]
+  },
+  {
+    "type": "urgent",
+    "content": "Maya is facing significant financial stress, as evidenced by the recurring debt notifications and her limited shopping.",
+    "source_refs": [
+      "t_0064",
+      "t_0065",
+      "e_0060",
+      "e_0061"
+    ],
+    "tags": [
+      "finances",
+      "debt"
+    ]
+  },
+  {
+    "type": "unfinished",
+    "content": "Maya started researching fellowship programs but did not complete the task, indicating a potential area of unfinished business.",
+    "source_refs": [
+      "f_0033"
+    ],
+    "tags": [
+      "career",
+      "medicine"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Maya's regular payment of $450 towards her debt is a consistent behavior.",
+    "source_refs": [
+      "e_0061",
+      "e_0063"
+    ],
+    "tags": [
+      "finances",
+      "debt"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Maya reflects on the challenges of medical school, highlighting its demanding nature and emotional toll.",
+    "source_refs": [
+      "s_0042",
+      "s_0043"
+    ],
+    "tags": [
+      "medicine",
+      "residency"
+    ]
+  },
+  {
+    "type": "urgent",
+    "content": "Maya has a family visit in Houston, which requires attention to ensure everything is planned and taken care of.",
+    "source_refs": [
+      "cal_0065",
+      "cal_0066"
+    ],
+    "tags": [
+      "family",
+      "travel"
+    ]
+  },
+  {
+    "type": "unfinished",
+    "content": "Maya started a document comparing different loan repayment scenarios but hasn't completed it yet.",
+    "source_refs": [
+      "f_0034"
+    ],
+    "tags": [
+      "finances",
+      "debt"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Maya's rent is consistently $975, indicating a stable financial commitment.",
+    "source_refs": [
+      "t_0068",
+      "t_0070",
+      "t_0071"
+    ],
+    "tags": [
+      "rent",
+      "housing"
+    ]
+  },
+  {
+    "type": "empathy",
+    "content": "Maya acknowledges the hard work of her colleagues, showing a sense of camaraderie and understanding.",
+    "source_refs": [
+      "s_0041",
+      "s_0042"
+    ],
+    "tags": [
+      "medicine",
+      "community"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Maya is actively engaging in self-care through regular walks, yoga classes, and pharmacy visits.",
+    "source_refs": [
+      "cal_0063",
+      "t_0070",
+      "t_0071",
+      "t_0072",
+      "t_0074"
+    ],
+    "tags": [
+      "self_care",
+      "health"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Maya's work schedule includes night shifts, indicating a demanding medical profession.",
+    "source_refs": [
+      "cal_0063",
+      "cal_0065",
+      "cal_0067"
+    ],
+    "tags": [
+      "work",
+      "medicine"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Maya's financial burden is significant, with a student loan balance of $177,790.",
+    "source_refs": [
+      "t_0075",
+      "e_0065",
+      "t_0076"
+    ],
+    "tags": [
+      "debt",
+      "finances"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Maya is actively seeking fellowship programs for her medical career, indicating a strategic approach to professional development.",
+    "source_refs": [
+      "f_0037"
+    ],
+    "tags": [
+      "career",
+      "medicine"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Maya frequently checks in with family members via email and FaceTime, showing strong emotional connections despite distance.",
+    "source_refs": [
+      "e_0064",
+      "e_0066",
+      "e_0067"
+    ],
+    "tags": [
+      "family",
+      "emotional"
+    ]
+  },
+  {
+    "type": "urgent",
+    "content": "Maya's sleep schedule is disrupted, with a dedicated 'post-call sleep block' set for 8 hours.",
+    "source_refs": [
+      "cal_0069"
+    ],
+    "tags": [
+      "health",
+      "sleep"
+    ]
+  },
+  {
+    "type": "unfinished",
+    "content": "Maya started planning Rohan's birthday but hasn't completed the task due to her busy schedule.",
+    "source_refs": [
+      "s_0045",
+      "e_0066"
+    ],
+    "tags": [
+      "family",
+      "personal"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Despite being tired and stressed, Maya finds moments of gratitude in her work environment.",
+    "source_refs": [
+      "s_0043",
+      "s_0045"
+    ],
+    "tags": [
+      "work",
+      "gratitude"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Maya frequently visits the hospital vending machine for snacks, indicating a pattern of late-night or early-morning snacking.",
+    "source_refs": [
+      "t_0077",
+      "t_0078",
+      "t_0079"
+    ],
+    "tags": [
+      "food",
+      "work"
+    ]
+  },
+  {
+    "type": "unfinished",
+    "content": "Maya started researching fellowship programs but did not complete the research, indicating an interrupted cycle of career planning.",
+    "source_refs": [
+      "f_0037",
+      "f_0039"
+    ],
+    "tags": [
+      "career",
+      "medicine"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Maya's work schedule is intense and exhausting, as evidenced by her frequent mentions of 28-hour shifts.",
+    "source_refs": [
+      "s_0046",
+      "s_0047"
+    ],
+    "tags": [
+      "work",
+      "exhaustion"
+    ]
+  },
+  {
+    "type": "empathy",
+    "content": "Maya is emotionally connected to her family, as seen in her emails expressing concern and planning for Rohan's birthday.",
+    "source_refs": [
+      "e_0067",
+      "e_0068"
+    ],
+    "tags": [
+      "family"
+    ]
+  },
+  {
+    "type": "urgent",
+    "content": "Maya has a pending pharmacy copay payment, which needs to be addressed promptly.",
+    "source_refs": [
+      "t_0080"
+    ],
+    "tags": [
+      "health",
+      "finances"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Maya is balancing her professional and personal life by finding moments of gratitude, even during stressful times.",
+    "source_refs": [
+      "s_0047",
+      "s_0049"
+    ],
+    "tags": [
+      "gratitude",
+      "emotional"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Maya makes regular student loan payments every month, indicating a commitment to financial responsibility.",
+    "source_refs": [
+      "t_0081",
+      "t_0082",
+      "t_0083",
+      "t_0084",
+      "t_0085"
+    ],
+    "tags": [
+      "finances",
+      "debt"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Maya's work schedule is flexible but often involves unexpected changes, such as rescheduling days off.",
+    "source_refs": [
+      "s_0048",
+      "e_0071"
+    ],
+    "tags": [
+      "work",
+      "schedule"
+    ]
+  },
+  {
+    "type": "unfinished",
+    "content": "Maya started a photo project documenting the UT Health Austin parking garage but hasn't completed it.",
+    "source_refs": [
+      "f_0040"
+    ],
+    "tags": [
+      "photography",
+      "personal"
+    ]
+  },
+  {
+    "type": "urgent",
+    "content": "Maya needs to adjust her schedule due to staffing changes, which could impact her work-life balance.",
+    "source_refs": [
+      "e_0071"
+    ],
+    "tags": [
+      "work",
+      "scheduling"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Maya is actively researching fellowship programs in internal medicine, showing a commitment to career advancement.",
+    "source_refs": [
+      "f_0039"
+    ],
+    "tags": [
+      "career",
+      "medicine"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Maya is developing a routine of regular yoga classes, which she attends weekly.",
+    "source_refs": [
+      "t_0086",
+      "e_0075",
+      "t_0089"
+    ],
+    "tags": [
+      "health",
+      "self_care"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Maya's student loan payments are regular and consistent, amounting to $450 each month.",
+    "source_refs": [
+      "t_0084",
+      "t_0088",
+      "t_0091",
+      "t_0092"
+    ],
+    "tags": [
+      "debt",
+      "finances"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Maya frequently checks in with her family via email and FaceTime, especially on weekends.",
+    "source_refs": [
+      "cal_0079",
+      "e_0076",
+      "e_0077"
+    ],
+    "tags": [
+      "family",
+      "emotional"
+    ]
+  },
+  {
+    "type": "urgent",
+    "content": "There is a recurring issue with patient Mr. G in 4B, as Maya has to follow up multiple times.",
+    "source_refs": [
+      "e_0073",
+      "e_0074"
+    ],
+    "tags": [
+      "work",
+      "medicine"
+    ]
+  },
+  {
+    "type": "unfinished",
+    "content": "Maya started a course on Amazon but did not complete it, as indicated by the purchase of books without further entries.",
+    "source_refs": [
+      "t_0093"
+    ],
+    "tags": [
+      "books",
+      "learning"
+    ]
+  },
+  {
+    "type": "unfinished",
+    "content": "Maya started but did not complete a course or certification, as evidenced by her ongoing purchase of medical reference books without any clear completion.",
+    "source_refs": [
+      "t_0093",
+      "t_0098",
+      "t_0102"
+    ],
+    "tags": [
+      "education",
+      "career",
+      "finances",
+      "health"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Maya is actively engaged in professional development through regular medical reference book purchases and work-related emails.",
+    "source_refs": [
+      "e_0079",
+      "t_0098",
+      "e_0080"
+    ],
+    "tags": [
+      "career",
+      "education"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Maya's student loan debt remains substantial, with regular payments but no reduction in the balance.",
+    "source_refs": [
+      "t_0091",
+      "t_0092",
+      "t_0106",
+      "t_0107"
+    ],
+    "tags": [
+      "finances",
+      "debt"
+    ]
+  },
+  {
+    "type": "urgent",
+    "content": "Maya's rent payments are regular, but the high cost could be a financial strain.",
+    "source_refs": [
+      "t_0095",
+      "t_0104",
+      "t_0106"
+    ],
+    "tags": [
+      "housing",
+      "expenses"
+    ]
+  },
+  {
+    "type": "empathy",
+    "content": "Maya's regular yoga classes suggest a need for self-care, possibly to manage stress related to her debt and work.",
+    "source_refs": [
+      "t_0095",
+      "t_0103",
+      "t_0105"
+    ],
+    "tags": [
+      "health",
+      "stress"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Maya's student loan payments are recurring every month, indicating a consistent financial commitment.",
+    "source_refs": [
+      "t_0107",
+      "t_0110",
+      "t_0111",
+      "t_0115"
+    ],
+    "tags": [
+      "finances",
+      "student loans"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Maya spends regularly on groceries, highlighting her ongoing need for food.",
+    "source_refs": [
+      "t_0103",
+      "t_0108",
+      "t_0113",
+      "t_0117",
+      "t_0119"
+    ],
+    "tags": [
+      "food",
+      "expenses"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Maya's consistent spending on yoga classes suggests she values self-care and fitness, but the irregularity might indicate a need to prioritize these activities more consistently.",
+    "source_refs": [
+      "t_0105",
+      "t_0116"
+    ],
+    "tags": [
+      "health",
+      "self-care"
+    ]
+  },
+  {
+    "type": "question",
+    "content": "Maya's occasional purchases from vending machines and the irregularity in her spending habits raise questions about her long-term meal planning strategies.",
+    "source_refs": [
+      "t_0112"
+    ],
+    "tags": [
+      "food",
+      "planning",
+      "health"
+    ]
+  },
+  {
+    "type": "unfinished",
+    "content": "Maya's irregular spending on groceries and the occasional purchase from vending machines indicate an unfinished cycle of maintaining a balanced diet, with some lapses.",
+    "source_refs": [
+      "t_0103",
+      "t_0108",
+      "t_0112"
+    ],
+    "tags": [
+      "food",
+      "health"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Maya's spending on dining out is consistently lower than her grocery expenses, suggesting a preference for home-cooked meals.",
+    "source_refs": [
+      "t_0119",
+      "t_0120"
+    ],
+    "tags": [
+      "dining",
+      "groceries"
+    ]
+  }
+]

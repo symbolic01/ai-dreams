@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Dreams — Personal Data Synthesis Engine</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg-deep: #0d0f14;
+  --bg-card: #151821;
+  --bg-hover: #1c2030;
+  --text-primary: #e8e4dd;
+  --text-secondary: #8a8690;
+  --text-muted: #55525c;
+  --accent-warm: #d4956a;
+  --accent-gold: #c9a84c;
+  --accent-rose: #b86b78;
+  --accent-sage: #6b9b7d;
+  --accent-violet: #8b7bb5;
+  --accent-sky: #6a8fb5;
+  --border: #252836;
+  --border-subtle: #1e2130;
+  --radius: 12px;
+  --radius-sm: 8px;
+  --radius-lg: 20px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background: var(--bg-deep);
+  color: var(--text-primary);
+  font-family: 'DM Sans', sans-serif;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+  z-index: 9999;
+  pointer-events: none;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.header {
+  padding: 64px 0 24px;
+  text-align: center;
+}
+
+.header h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  margin-bottom: 12px;
+}
+
+.header .tagline {
+  font-size: 17px;
+  color: var(--text-secondary);
+  max-width: 500px;
+  margin: 0 auto 8px;
+}
+
+.header .data-story {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  color: var(--accent-warm);
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-top: 16px;
+}
+
+.stats-bar {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  padding: 24px 0;
+  margin-bottom: 32px;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.stat {
+  text-align: center;
+}
+
+.stat-value {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--accent-gold);
+}
+
+.stat-label {
+  font-size: 11px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.personas {
+  display: grid;
+  gap: 16px;
+  margin-bottom: 48px;
+}
+
+.persona-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px 28px;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.25s;
+  display: block;
+}
+
+.persona-card:hover {
+  border-color: var(--accent-warm);
+  background: var(--bg-hover);
+  transform: translateY(-1px);
+}
+
+.persona-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 12px;
+}
+
+.persona-name {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.persona-id {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  color: var(--text-muted);
+  background: var(--bg-deep);
+  padding: 3px 8px;
+  border-radius: 4px;
+}
+
+.persona-meta {
+  font-size: 14px;
+  color: var(--text-secondary);
+  margin-bottom: 14px;
+}
+
+.persona-stats {
+  display: flex;
+  gap: 20px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-bottom: 14px;
+}
+
+.persona-stats span {
+  color: var(--accent-gold);
+}
+
+.persona-themes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.theme-chip {
+  font-size: 11px;
+  padding: 3px 10px;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  white-space: nowrap;
+}
+
+.section-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 16px;
+}
+
+.footer {
+  text-align: center;
+  padding: 32px 0 48px;
+  border-top: 1px solid var(--border-subtle);
+}
+
+.footer p {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-bottom: 6px;
+}
+
+.footer a {
+  color: var(--accent-sky);
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.pipeline-note {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  color: var(--text-muted);
+  text-align: center;
+  margin-bottom: 32px;
+  line-height: 1.8;
+}
+
+.pipeline-note .local { color: var(--accent-sage); }
+.pipeline-note .cloud { color: var(--accent-violet); }
+
+@media (max-width: 640px) {
+  .header h1 { font-size: 32px; }
+  .stats-bar { gap: 20px; }
+  .stat-value { font-size: 22px; }
+  .persona-card { padding: 18px 20px; }
+  .persona-name { font-size: 22px; }
+  .persona-themes { gap: 4px; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <h1>AI Dreams</h1>
+    <div class="tagline">A synthesis engine that turns your exported digital life into navigable insight — with full provenance back to the raw data.</div>
+    <div class="data-story">Your data. Your patterns. Your insights. No corporation sees it.</div>
+  </div>
+
+  <div class="stats-bar">
+    <div class="stat">
+      <div class="stat-value">5</div>
+      <div class="stat-label">Personas</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value">2,641</div>
+      <div class="stat-label">Entries</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value">1,071</div>
+      <div class="stat-label">Kernels</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value">51</div>
+      <div class="stat-label">Sutras</div>
+    </div>
+  </div>
+
+  <div class="pipeline-note">
+    <span class="local">95% local</span> — Ollama (Qwen 2.5 7B) extracts kernels on your machine<br>
+    <span class="cloud">5% cloud</span> — single Claude API call synthesizes sutras per persona
+  </div>
+
+  <div class="section-label">Select a persona</div>
+  <div class="personas">
+
+    <a class="persona-card" href="report.html?persona=p01">
+      <div class="persona-top">
+        <div class="persona-name">Jordan Lee</div>
+        <div class="persona-id">p01</div>
+      </div>
+      <div class="persona-meta">32 — Senior Product Manager — Austin, TX</div>
+      <div class="persona-stats">
+        <div><span>530</span> entries</div>
+        <div><span>215</span> kernels</div>
+        <div><span>10</span> sutras</div>
+      </div>
+      <div class="persona-themes">
+        <div class="theme-chip">Work Burnout</div>
+        <div class="theme-chip">Financial Decision Paralysis</div>
+        <div class="theme-chip">Leadership Blocked</div>
+        <div class="theme-chip">Systems Never Sustained</div>
+        <div class="theme-chip">Relationship Presence Deficit</div>
+      </div>
+    </a>
+
+    <a class="persona-card" href="report.html?persona=p02">
+      <div class="persona-top">
+        <div class="persona-name">Maya Patel</div>
+        <div class="persona-id">p02</div>
+      </div>
+      <div class="persona-meta">26 — Medical Resident (Internal Medicine) — Austin, TX</div>
+      <div class="persona-stats">
+        <div><span>528</span> entries</div>
+        <div><span>218</span> kernels</div>
+        <div><span>10</span> sutras</div>
+      </div>
+      <div class="persona-themes">
+        <div class="theme-chip">Financial Drowning vs Emotional Spending</div>
+        <div class="theme-chip">Identity Loss</div>
+        <div class="theme-chip">AI as Surrogate Support</div>
+        <div class="theme-chip">Isolation</div>
+        <div class="theme-chip">Self-Care Sabotage</div>
+      </div>
+    </a>
+
+    <a class="persona-card" href="report.html?persona=p03">
+      <div class="persona-top">
+        <div class="persona-name">Darius Webb</div>
+        <div class="persona-id">p03</div>
+      </div>
+      <div class="persona-meta">41 — Founder & CEO — Austin, TX</div>
+      <div class="persona-stats">
+        <div><span>528</span> entries</div>
+        <div><span>210</span> kernels</div>
+        <div><span>10</span> sutras</div>
+      </div>
+      <div class="persona-themes">
+        <div class="theme-chip">Revenue-Cash Flow Paradox</div>
+        <div class="theme-chip">Work as Avoidance</div>
+        <div class="theme-chip">Unfinished Book</div>
+        <div class="theme-chip">Divergent Parenting</div>
+        <div class="theme-chip">Deep Work Trap</div>
+      </div>
+    </a>
+
+    <a class="persona-card" href="report.html?persona=p04">
+      <div class="persona-top">
+        <div class="persona-name">Sunita Rajan</div>
+        <div class="persona-id">p04</div>
+      </div>
+      <div class="persona-meta">58 — Chemistry Teacher (22 years) — Round Rock, TX</div>
+      <div class="persona-stats">
+        <div><span>527</span> entries</div>
+        <div><span>219</span> kernels</div>
+        <div><span>12</span> sutras</div>
+      </div>
+      <div class="persona-themes">
+        <div class="theme-chip">Tech Adaptation</div>
+        <div class="theme-chip">Financial Stress</div>
+        <div class="theme-chip">Teaching Identity Crisis</div>
+        <div class="theme-chip">Health & Aging</div>
+        <div class="theme-chip">Unfinished Advocacy</div>
+        <div class="theme-chip">Family Emotional Labor</div>
+      </div>
+    </a>
+
+    <a class="persona-card" href="report.html?persona=p05">
+      <div class="persona-top">
+        <div class="persona-name">Theo Nakamura</div>
+        <div class="persona-id">p05</div>
+      </div>
+      <div class="persona-meta">23 — Freelance Graphic Designer + Barista — Austin, TX</div>
+      <div class="persona-stats">
+        <div><span>528</span> entries</div>
+        <div><span>209</span> kernels</div>
+        <div><span>9</span> sutras</div>
+      </div>
+      <div class="persona-themes">
+        <div class="theme-chip">ADHD Creative Paradox</div>
+        <div class="theme-chip">Financial Self-Sabotage</div>
+        <div class="theme-chip">Professional Growth Bottlenecks</div>
+        <div class="theme-chip">Place & Belonging</div>
+        <div class="theme-chip">Completion & Follow-through</div>
+      </div>
+    </a>
+
+  </div>
+
+  <div class="footer">
+    <p>Track 3: Personal Data, Personal Value</p>
+    <p><a href="https://github.com/symbolic01/ai-dreams">GitHub</a></p>
+  </div>
+</div>
+</body>
+</html>

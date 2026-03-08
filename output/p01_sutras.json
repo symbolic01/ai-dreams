@@ -1,0 +1,225 @@
+{
+  "themes": [
+    {
+      "name": "Work Burnout Systematically Undermining Life",
+      "sutras": [
+        {
+          "text": "Jordan's 2+ months of work disengagement is bleeding into relationship distance with Alex \u2014 early morning work thoughts, skipped gym sessions, and back-to-back meetings without lunch breaks are creating a presence deficit that's threatening his most important relationship.",
+          "importance": 9,
+          "kernel_indices": [
+            1,
+            8,
+            16,
+            21,
+            45,
+            64,
+            70,
+            75,
+            79,
+            85,
+            99,
+            104,
+            113,
+            128,
+            137
+          ],
+          "cross_source": true,
+          "category": "urgent"
+        },
+        {
+          "text": "Despite shipping features and receiving strong technical performance reviews, Jordan hasn't felt genuinely excited about a work problem in two months \u2014 suggesting his role has become mechanically competent but emotionally depleted.",
+          "importance": 8,
+          "kernel_indices": [
+            30,
+            87,
+            99,
+            104,
+            128
+          ],
+          "cross_source": true,
+          "category": "truth"
+        }
+      ]
+    },
+    {
+      "name": "Financial Discipline vs Life Decision Paralysis",
+      "sutras": [
+        {
+          "text": "Jordan's financial systems are his most successful life area \u2014 consistent $1,200+ monthly savings toward his $30k house down payment \u2014 yet he's paralyzed on major life decisions like moving in with Alex that require emotional rather than mechanical execution.",
+          "importance": 8,
+          "kernel_indices": [
+            24,
+            28,
+            58,
+            61,
+            68,
+            76,
+            88,
+            123,
+            127,
+            141
+          ],
+          "cross_source": true,
+          "category": "contradiction"
+        },
+        {
+          "text": "Recurring budget planning sessions with Alex every few weeks reveal they're financially aligned but emotionally distant \u2014 they can plan money together but Jordan hasn't asked about her job in weeks.",
+          "importance": 7,
+          "kernel_indices": [
+            67,
+            81,
+            86,
+            94,
+            107,
+            109,
+            116,
+            124,
+            150
+          ],
+          "cross_source": true,
+          "category": "pattern"
+        }
+      ]
+    },
+    {
+      "name": "Leadership Development Blocked by Ambiguous Feedback",
+      "sutras": [
+        {
+          "text": "Jordan's promotion pursuit is stuck in a feedback loop \u2014 multiple conversations with his manager about the Director track but consistently ambiguous responses, while performance reviews highlight the exact leadership gap he needs to close.",
+          "importance": 7,
+          "kernel_indices": [
+            6,
+            69,
+            90,
+            97,
+            100,
+            108,
+            112,
+            119,
+            133,
+            146,
+            148,
+            151,
+            157,
+            167,
+            174,
+            175,
+            193,
+            200,
+            205,
+            208
+          ],
+          "cross_source": true,
+          "category": "unfinished"
+        },
+        {
+          "text": "Jordan feels more anxiety about his leadership skills than his technical delivery, yet his manager's feedback remains vague enough that he's updating his resume while pursuing internal promotion.",
+          "importance": 6,
+          "kernel_indices": [
+            112,
+            118,
+            178,
+            191
+          ],
+          "cross_source": true,
+          "category": "contradiction"
+        }
+      ]
+    },
+    {
+      "name": "Personal Systems Started But Never Sustained",
+      "sutras": [
+        {
+          "text": "Jordan has started building a personal OKR dashboard at least 4 different times across 18 months but never sustained usage \u2014 a pattern of creating productivity systems during stress periods then abandoning them when pressure mounts.",
+          "importance": 6,
+          "kernel_indices": [
+            0,
+            2,
+            26,
+            44,
+            49,
+            51,
+            59,
+            111,
+            115,
+            134,
+            138
+          ],
+          "cross_source": false,
+          "category": "unfinished"
+        },
+        {
+          "text": "Jordan's health tracking shows consistent data collection (Fitbit notifications, running logs) but behavioral gaps \u2014 5.8 hours average sleep despite 7+ hour goals, gym skipped after work calls run over.",
+          "importance": 5,
+          "kernel_indices": [
+            11,
+            14,
+            34,
+            84,
+            101,
+            135,
+            142,
+            149,
+            171,
+            196
+          ],
+          "cross_source": true,
+          "category": "pattern"
+        }
+      ]
+    },
+    {
+      "name": "Relationship Presence Deficit Crisis",
+      "sutras": [
+        {
+          "text": "Jordan and Alex are having regular conversations about their future (moving, finances) but he hasn't asked about her job in two weeks and barely says good morning \u2014 they're planning a life together while emotionally drifting apart.",
+          "importance": 8,
+          "kernel_indices": [
+            16,
+            27,
+            36,
+            60,
+            78,
+            94,
+            102,
+            107,
+            113,
+            126,
+            131,
+            136,
+            139
+          ],
+          "cross_source": true,
+          "category": "urgent"
+        },
+        {
+          "text": "Jordan's relationship repair attempts (emails about being more present, anniversary planning) remain unfinished while his work systems (roadmap docs, performance reviews) get completed \u2014 revealing where his attention actually flows.",
+          "importance": 7,
+          "kernel_indices": [
+            18,
+            89,
+            156,
+            172
+          ],
+          "cross_source": true,
+          "category": "contradiction"
+        }
+      ]
+    }
+  ],
+  "top_insights": [
+    "Jordan's financial discipline is masking deeper emotional avoidance \u2014 he can save $1,200/month but can't sustain a conversation about Alex's job or complete his promotion case",
+    "Two months of work disengagement is systematically undermining his relationship through presence deficits, early morning work anxiety, and mechanical rather than emotional engagement",
+    "Jordan's strongest systems (finances, fitness tracking, work delivery) operate independently of his actual life satisfaction and relationship quality"
+  ],
+  "unfinished_business": [
+    "Director promotion conversation with manager (multiple starts, no clear feedback or next steps)",
+    "Personal OKR dashboard (started 4+ times, never sustained usage)",
+    "Q2 roadmap prioritization documents (recurring deadlines, incomplete)",
+    "Anniversary planning with Alex (started notes, no execution)",
+    "Moving decision with Alex (regular discussions, no conclusion)",
+    "House budget calculator for $30k down payment goal (started spreadsheet, incomplete modeling)",
+    "Half marathon training plan (purchased gear, started calendar, abandoned after 3 weeks)"
+  ],
+  "data_story": "Jordan is a high-performing product manager whose financial discipline and technical delivery mask a deeper crisis of presence and emotional engagement. While he consistently saves toward life goals and ships work features, he's been emotionally disengaged from work for two months and increasingly distant from his partner Alex. His unfinished personal systems and stalled promotion pursuit suggest someone who starts strong but struggles to sustain effort when emotional rather than mechanical execution is required."
+}
