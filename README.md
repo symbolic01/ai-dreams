@@ -28,8 +28,9 @@ pip install anthropic   # only needed for sutra synthesis
 # Ollama must be running locally: https://ollama.ai
 ollama pull qwen2.5:7b
 
-# Set up API key (for synthesis step only)
-export ANTHROPIC_API_KEY=sk-ant-...
+# Set up API key OR use Claude Code CLI fallback (for synthesis step only)
+export ANTHROPIC_API_KEY=sk-ant-...   # option A: direct API
+# option B: if Claude Code is installed, synthesis falls back to `claude --print` automatically
 
 # Run the full pipeline on a persona
 python pipeline.py all --persona p05
@@ -128,7 +129,7 @@ Place datasets in `data/Hackathon_Datasets/persona_<id>/` (e.g. `persona_p01` th
 ## Environment Variables
 
 ```bash
-ANTHROPIC_API_KEY=sk-ant-...  # Required for sutra synthesis step
+ANTHROPIC_API_KEY=sk-ant-...  # For sutra synthesis (optional if Claude Code CLI is installed)
 ```
 
 Ollama must be running on `localhost:11434` (default).
