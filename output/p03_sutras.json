@@ -1,36 +1,37 @@
 {
   "themes": [
     {
-      "name": "The Revenue-Cash Flow Paradox",
+      "name": "Success Paradox",
       "sutras": [
         {
-          "text": "Darius has built a thriving agency with steady $6,200 bimonthly payroll and major contracts like the $85K Varela Hospitality rebrand, yet consistently struggles with cash flow management \u2014 revealing the gap between being creative and running a business.",
-          "importance": 9,
+          "text": "You've achieved 22% revenue growth and closed your biggest contract ($85k Varela Hospitality), yet cash flow stress persists and your recovery scores are consistently in the 30s.",
+          "importance": 10,
           "kernel_indices": [
-            20,
-            26,
-            51,
-            63,
-            107,
-            122,
-            128,
-            161,
-            189,
-            193
+            12,
+            43,
+            90,
+            92,
+            19,
+            75,
+            101,
+            2,
+            66,
+            89,
+            115,
+            126
           ],
           "cross_source": true,
           "category": "contradiction"
         },
         {
-          "text": "Despite 4 years of business growth that exceeded expectations, Darius spends most of his week in reactive mode rather than proactive leadership \u2014 the very opposite of how he wants to lead.",
-          "importance": 8,
+          "text": "You spend 38% of your week in reactive mode while aspiring to be a strategic leader, creating a fundamental misalignment between your daily reality and leadership goals.",
+          "importance": 9,
           "kernel_indices": [
-            64,
-            72,
-            91,
-            95,
-            137,
-            147
+            11,
+            36,
+            46,
+            65,
+            108
           ],
           "cross_source": true,
           "category": "urgent"
@@ -38,161 +39,143 @@
       ]
     },
     {
-      "name": "Work as Emotional Avoidance",
+      "name": "Creative Identity Crisis",
       "sutras": [
         {
-          "text": "His therapist identified the core pattern: Darius uses work as his primary mechanism to avoid feeling difficult emotions, particularly around his divorce and the absence in his now-quiet house.",
-          "importance": 10,
+          "text": "You've discovered that being creative and running a business are distinct skills, yet you haven't fully committed to developing your business operator identity.",
+          "importance": 8,
           "kernel_indices": [
-            15,
-            118,
-            123,
-            127,
-            129
+            18,
+            25,
+            27,
+            97
           ],
-          "cross_source": true,
+          "cross_source": false,
           "category": "truth"
         },
         {
-          "text": "Darius tracks his recovery obsessively with Whoop ($189/month subscription) yet consistently ignores the alerts, paralleling how he monitors his emotional state but avoids acting on what he discovers.",
-          "importance": 8,
+          "text": "Your book sits at 7,000 words that you call 'terrible,' yet you continue writing because you understand existence precedes revision.",
+          "importance": 7,
           "kernel_indices": [
-            2,
-            8,
-            24,
-            62,
-            93,
-            102,
-            120,
-            148,
-            175,
-            176
+            71,
+            81,
+            74,
+            94,
+            96,
+            100,
+            148
           ],
-          "cross_source": true,
-          "category": "contradiction"
+          "cross_source": false,
+          "category": "unfinished"
         }
       ]
     },
     {
-      "name": "The Unfinished Book Syndrome",
+      "name": "Avoidance Mechanisms",
       "sutras": [
         {
-          "text": "Darius has started his brand strategy book multiple times, reaching 7,000 words and even contacting publishers, but his perfectionism and self-doubt prevent completion \u2014 embodying his broader pattern of starting but not finishing transformative projects.",
-          "importance": 7,
+          "text": "Work serves as your primary avoidance mechanism for processing divorce emotions, creating a cycle where business success masks emotional stagnation.",
+          "importance": 9,
           "kernel_indices": [
-            12,
-            18,
-            27,
-            40,
-            68,
-            81,
-            94,
-            106,
-            117,
-            126,
-            133,
-            139,
-            149,
-            156,
-            178,
-            185,
-            200
+            17,
+            85,
+            51,
+            57,
+            84
           ],
           "cross_source": true,
-          "category": "unfinished"
+          "category": "pattern"
         },
         {
-          "text": "He learned that 'existence is the prerequisite for revision' yet struggles to apply this wisdom to his own creative work, staying trapped in the quality gate rather than embracing the messy first draft.",
+          "text": "LinkedIn comparison feeds your inadequacy despite knowing it's not reality, revealing how external validation undermines internal confidence.",
           "importance": 6,
           "kernel_indices": [
-            110,
+            48,
+            58
+          ],
+          "cross_source": false,
+          "category": "pattern"
+        }
+      ]
+    },
+    {
+      "name": "Operational Blindspots",
+      "sutras": [
+        {
+          "text": "Your hiring pattern follows a predictable cycle: months of struggle, bad hires, high costs, then finally finding the right person (like the 3-month head of client services search).",
+          "importance": 7,
+          "kernel_indices": [
+            3,
+            28,
+            61,
             70,
-            79,
-            83
+            82
+          ],
+          "cross_source": false,
+          "category": "pattern"
+        },
+        {
+          "text": "You maintain expensive recurring obligations ($840 alimony, $6,200 payroll, quarterly taxes) while struggling with cash flow, suggesting a disconnect between revenue timing and expense reality.",
+          "importance": 8,
+          "kernel_indices": [
+            98,
+            112,
+            144,
+            158,
+            159,
+            161,
+            162,
+            165
+          ],
+          "cross_source": true,
+          "category": "urgent"
+        }
+      ]
+    },
+    {
+      "name": "Parental Evolution",
+      "sutras": [
+        {
+          "text": "You've evolved from divorce conflict to civil co-parenting conversations, showing emotional growth that parallels your business maturity.",
+          "importance": 6,
+          "kernel_indices": [
+            23,
+            29,
+            64,
+            99,
+            106
           ],
           "cross_source": false,
           "category": "growth"
-        }
-      ]
-    },
-    {
-      "name": "Divergent Parenting Realities",
-      "sutras": [
-        {
-          "text": "Maya retreats into her phone while Eli engages enthusiastically with activities, creating two completely different parenting experiences that require different approaches \u2014 yet Darius often treats them as a unit.",
-          "importance": 6,
-          "kernel_indices": [
-            19,
-            96,
-            116,
-            131,
-            137
-          ],
-          "cross_source": true,
-          "category": "pattern"
         },
         {
-          "text": "His co-parenting communication has evolved from conflict to civil coordination, but the emotional work of processing the divorce remains unfinished, creating a gap between functional and healing.",
-          "importance": 7,
+          "text": "The quietness of your home represents both freedom and absence, reflecting the complex emotional landscape of post-divorce parenting.",
+          "importance": 5,
           "kernel_indices": [
-            30,
-            47,
-            92,
-            130,
-            136,
-            138,
-            145
+            72,
+            80,
+            86,
+            55,
+            63
           ],
-          "cross_source": true,
-          "category": "growth"
-        }
-      ]
-    },
-    {
-      "name": "The Deep Work Trap",
-      "sutras": [
-        {
-          "text": "Darius achieves flow states in 3-hour deep work sessions but consistently misses lunch meetings and social connections, trading relationship building for creative productivity in a way that reinforces his isolation.",
-          "importance": 7,
-          "kernel_indices": [
-            48,
-            49,
-            97,
-            113,
-            115,
-            126
-          ],
-          "cross_source": true,
-          "category": "pattern"
-        },
-        {
-          "text": "He created Roth Creative for moments like team happy hours, yet his solo Friday night dinners reveal the personal cost of building something for others while neglecting his own social needs.",
-          "importance": 6,
-          "kernel_indices": [
-            4,
-            35,
-            53,
-            71,
-            98
-          ],
-          "cross_source": true,
-          "category": "contradiction"
+          "cross_source": false,
+          "category": "truth"
         }
       ]
     }
   ],
   "top_insights": [
-    "You've built a successful business but haven't learned to run it strategically \u2014 the gap between being creative and being a CEO is costing you both money and leadership effectiveness.",
-    "Work has become your primary coping mechanism for avoiding difficult emotions, but this pattern is keeping you from processing your divorce and building the life you actually want.",
-    "Your perfectionism is preventing you from finishing the book that could establish your expertise \u2014 existence is the prerequisite for revision, but you're stuck in the revision mindset before existing."
+    "Your business success is masking fundamental operational and emotional issues that will compound if not addressed",
+    "The gap between your reactive daily reality (38%) and strategic leadership aspirations is your biggest professional blind spot",
+    "Work has become your primary avoidance mechanism for processing divorce emotions, creating unsustainable patterns"
   ],
   "unfinished_business": [
-    "Brand strategy book (7,000 words written, multiple false starts, publisher inquiries sent but not followed through)",
-    "Varela Hospitality rebrand project ($85K contract secured but completion unclear)",
-    "Processing divorce emotions beyond functional co-parenting coordination",
-    "Acting on consistently low Whoop recovery scores despite $189/month tracking investment",
-    "Q2 estimated tax payments (multiple reminders, June 15 deadline)",
-    "Holiday custody schedule coordination (recurring seasonal challenge)"
+    "7,000-word book manuscript sitting unpolished despite recognizing its potential value",
+    "Health recovery scores consistently declining while business demands increase",
+    "Cash flow issues persisting despite 22% revenue growth and major contract wins",
+    "Publisher inquiries for book proposal left unanswered for months",
+    "Consistent Whoop recovery alerts being ignored in favor of productivity",
+    "Team hiring processes that drag for months before finding right fit"
   ],
-  "data_story": "Darius has successfully grown Roth Creative beyond his initial expectations over 4 years, building a team culture he's proud of and securing major contracts like the $85K Varela rebrand. However, his personal life tells a different story \u2014 he uses work to avoid processing his divorce emotions, maintains physical tracking without acting on health alerts, and starts creative projects like his brand strategy book without completing them. The data reveals a man who excels at building for others but struggles to build the intentional life he wants for himself."
+  "data_story": "Darius is experiencing the classic founder's paradox: external success masking internal struggles. His business is thriving with 22% growth and major wins, but this success comes at the cost of health, emotional processing, and operational efficiency. The data reveals a man learning to be both creative professional and business operator while navigating single parenthood and using work as an avoidance mechanism for deeper emotional work around his divorce."
 }

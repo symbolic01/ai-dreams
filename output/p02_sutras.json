@@ -1,117 +1,29 @@
 {
   "themes": [
     {
-      "name": "Financial Drowning vs Emotional Spending",
+      "name": "Financial Paradox: Debt as Identity Anchor",
       "sutras": [
         {
-          "text": "Maya's $177,790 debt grows monthly despite $450 payments, yet she consistently treats herself to Veracruz tacos and new scrubs as emotional regulation - a financially unsustainable coping pattern that provides short-term comfort while deepening long-term stress.",
-          "importance": 10,
-          "kernel_indices": [
-            14,
-            26,
-            60,
-            112,
-            124,
-            129,
-            130,
-            135,
-            142,
-            147,
-            153,
-            159,
-            172,
-            175,
-            185,
-            197,
-            203,
-            209,
-            212
-          ],
-          "cross_source": true,
-          "category": "urgent"
-        },
-        {
-          "text": "Maya models debt repayment scenarios repeatedly but never completes them, indicating decision paralysis around her most pressing life issue.",
-          "importance": 8,
-          "kernel_indices": [
-            21,
-            33,
-            72,
-            108,
-            127,
-            144,
-            155,
-            180
-          ],
-          "cross_source": true,
-          "category": "unfinished"
-        }
-      ]
-    },
-    {
-      "name": "Professional Growth vs Personal Identity Loss",
-      "sutras": [
-        {
-          "text": "Maya's medical competence is solidifying (correctly diagnosing tricky cases, attending feedback) while her pre-medicine identity withers - her unpacked painting kit symbolizes the creative self sacrificed to become a doctor.",
+          "text": "Maya's $177,790 debt functions less as financial burden and more as psychological anchor\u2014her regular $450 payments barely touch the principal but provide ritual control in an otherwise chaotic life.",
           "importance": 9,
           "kernel_indices": [
-            10,
-            19,
-            40,
-            88,
-            100,
-            105,
-            110,
-            122,
-            143,
-            148,
-            169
+            18,
+            86,
+            150,
+            155,
+            161,
+            166
           ],
           "cross_source": true,
-          "category": "truth"
+          "category": "contradiction"
         },
         {
-          "text": "Maya researches fellowship programs extensively but avoids making career decisions, perhaps because choosing a specialty means fully committing to the medical identity at the expense of other possibilities.",
+          "text": "The pattern of treating herself to tacos after loan payments reveals a deeper truth: Maya rewards herself not for progress, but for maintaining the illusion of progress.",
           "importance": 7,
           "kernel_indices": [
-            6,
-            8,
-            16,
-            43,
-            77,
-            115,
-            131,
-            150,
-            157,
-            168,
-            173,
-            176,
-            186,
-            192,
-            201
-          ],
-          "cross_source": false,
-          "category": "unfinished"
-        }
-      ]
-    },
-    {
-      "name": "AI as Surrogate Emotional Support",
-      "sutras": [
-        {
-          "text": "Maya finds ChatGPT surprisingly effective for post-shift decompression, indicating she's substituting AI interaction for human emotional support in a way that may prevent deeper healing.",
-          "importance": 8,
-          "kernel_indices": [
-            1,
-            13,
-            24,
-            45,
-            53,
-            76,
-            117,
-            121,
-            128,
-            136
+            88,
+            101,
+            166
           ],
           "cross_source": true,
           "category": "pattern"
@@ -119,112 +31,158 @@
       ]
     },
     {
-      "name": "Isolation from Life Milestones",
+      "name": "AI as Emotional Prosthetic",
       "sutras": [
         {
-          "text": "Maya feels distant from peers' achievements (Priya's marriage, cohort fellowships) not due to lack of success but because her medical timeline has separated her from normal life progression.",
-          "importance": 7,
+          "text": "ChatGPT has become Maya's most consistent emotional support system\u2014more reliable than human connections because it's always available after her brutal shifts when others are asleep.",
+          "importance": 8,
           "kernel_indices": [
-            5,
-            12,
-            49,
-            63,
-            68,
-            95,
-            102,
-            126,
-            156,
-            170
+            2,
+            17,
+            42,
+            75,
+            80,
+            87
           ],
           "cross_source": true,
           "category": "truth"
         },
         {
-          "text": "Maya maintains family connection through FaceTime but consistently fails to follow through on commitments like Rohan's birthday planning, showing love without capacity for action.",
+          "text": "Maya found in AI what her professional training taught her to suppress: permission to process emotions without judgment or time constraints.",
+          "importance": 7,
+          "kernel_indices": [
+            2,
+            80,
+            87
+          ],
+          "cross_source": false,
+          "category": "growth"
+        }
+      ]
+    },
+    {
+      "name": "The Frozen Creative Self",
+      "sutras": [
+        {
+          "text": "Maya's unpacked watercolor kit represents her most honest relationship with time\u2014not that she lacks it, but that she's afraid to claim it for something purely hers.",
+          "importance": 9,
+          "kernel_indices": [
+            5,
+            11,
+            31,
+            62,
+            96,
+            102,
+            119
+          ],
+          "cross_source": false,
+          "category": "unfinished"
+        },
+        {
+          "text": "The art supplies remain boxed because unpacking them would force Maya to confront what residency has cost her: not just time, but permission to be a person beyond her profession.",
+          "importance": 8,
+          "kernel_indices": [
+            5,
+            31,
+            92
+          ],
+          "cross_source": false,
+          "category": "truth"
+        }
+      ]
+    },
+    {
+      "name": "Professional Limbo as Life Strategy",
+      "sutras": [
+        {
+          "text": "Maya's endless fellowship research without decision reflects a deeper pattern: she uses professional uncertainty to avoid confronting personal emptiness.",
+          "importance": 8,
+          "kernel_indices": [
+            45,
+            73,
+            103,
+            121,
+            139,
+            147
+          ],
+          "cross_source": false,
+          "category": "unfinished"
+        },
+        {
+          "text": "Every fellowship application started but not finished is Maya buying herself more time in the familiar hell of residency rather than risking the unknown of real autonomy.",
+          "importance": 7,
+          "kernel_indices": [
+            45,
+            121,
+            147
+          ],
+          "cross_source": false,
+          "category": "pattern"
+        }
+      ]
+    },
+    {
+      "name": "Vending Machine Metabolism",
+      "sutras": [
+        {
+          "text": "Maya's reliance on hospital vending machines during long shifts reveals the metabolic reality of modern medicine: practitioners literally consuming the institution that consumes them.",
           "importance": 6,
           "kernel_indices": [
             27,
-            75,
-            80,
-            84,
-            89,
-            103,
-            120,
-            137,
-            179,
-            189,
-            194
-          ],
-          "cross_source": true,
-          "category": "unfinished"
-        }
-      ]
-    },
-    {
-      "name": "Self-Care Sabotage Patterns",
-      "sutras": [
-        {
-          "text": "Maya's yoga classes trigger emotional releases (crying) but she attends inconsistently over months, suggesting she unconsciously avoids activities that force her to process difficult emotions.",
-          "importance": 6,
-          "kernel_indices": [
-            4,
-            23,
-            54,
-            62,
-            92,
-            93,
-            99,
-            113,
-            118,
-            132
+            138,
+            164
           ],
           "cross_source": true,
           "category": "pattern"
-        },
-        {
-          "text": "Maya walks Auditorium Shores for stress relief and finds it helpful, yet often doesn't complete these walks, showing a pattern of starting but not sustaining beneficial activities.",
-          "importance": 5,
-          "kernel_indices": [
-            98,
-            104,
-            163
-          ],
-          "cross_source": false,
-          "category": "unfinished"
         }
       ]
     },
     {
-      "name": "Family Awareness vs Self-Awareness Gap",
+      "name": "Geographic Salvation",
       "sutras": [
         {
-          "text": "Maya's mother subtly monitors her eating habits and well-being from afar, often more aware of Maya's needs than Maya herself - indicating Maya has lost touch with her own care signals.",
+          "text": "Auditorium Shores functions as Maya's only consistent sanctuary\u2014the one place where her identity isn't defined by saving others or owing money.",
           "importance": 7,
           "kernel_indices": [
-            114,
-            116,
-            133,
-            146,
-            152
+            51,
+            65,
+            76
           ],
-          "cross_source": true,
+          "cross_source": false,
           "category": "truth"
+        }
+      ]
+    },
+    {
+      "name": "Proximity Loneliness",
+      "sutras": [
+        {
+          "text": "Maya experiences her deepest loneliness not in isolation but in proximity\u2014watching Priya plan her wedding while Maya plans another loan payment.",
+          "importance": 8,
+          "kernel_indices": [
+            84,
+            97,
+            110,
+            120
+          ],
+          "cross_source": false,
+          "category": "contradiction"
         }
       ]
     }
   ],
   "top_insights": [
-    "Maya is financially drowning ($177,790 debt growing despite $450 monthly payments) while using small treats as emotional regulation - this unsustainable pattern needs immediate intervention",
-    "Her unpacked painting kit represents the pre-medical creative identity she's sacrificed; professional competence is growing at the expense of personal identity",
-    "She's using AI (ChatGPT) as primary emotional support instead of human connection, which may prevent deeper healing and processing of residency trauma"
+    "Maya's debt isn't just financial\u2014it's become her primary relationship, providing more consistent interaction and emotional ritual than any human connection",
+    "The unpacked art supplies represent Maya's deepest fear: that claiming time for herself would reveal how little 'self' remains beneath the resident",
+    "Maya's AI companionship represents a new form of emotional survival\u2014she's pioneered intimate technology use as medical training trauma response"
   ],
   "unfinished_business": [
-    "Rohan's birthday planning (mentioned repeatedly across months, never completed)",
-    "Multiple debt repayment scenario documents started but never finished",
-    "Painting watercolor kit unpacked since before residency began",
-    "Yoga practice pattern: starts classes, cries during them, then stops attending for months",
-    "Fellowship decision research extensive but no commitment made",
-    "Photo project documenting UT Health parking garage started but abandoned"
+    "Watercolor painting kit bought but never unpacked across 20+ months",
+    "Fellowship research documents started in multiple sessions but never completed",
+    "Financial planning scenarios modeled but not executed",
+    "Rohan's birthday planning started but abandoned",
+    "Residency reflection documents begun but never finished",
+    "Yoga classes attended but emotionally overwhelming experiences left unprocessed"
   ],
-  "data_story": "Maya is a competent medical resident whose professional identity is solidifying while her personal identity fragments. Her $177,790 debt creates constant anxiety that she manages through small emotional purchases and AI conversations rather than human connection. Despite loving her work, she's sacrificed creative outlets and struggles to maintain the self-care activities that could help her process the emotional weight of medicine."
+  "data_story": "Maya Patel's 20-month journey through medical residency reveals a young doctor who has mastered saving others while struggling to save herself. Her data shows someone replacing human connection with AI companionship, ritual debt payments with financial progress, and professional achievement with personal fulfillment\u2014creating a life that looks successful from the outside but feels empty within. The most telling detail: art supplies that remain packed after nearly two years, representing dreams deferred not by lack of time but by fear of discovering what remains when the medical identity is set aside."
 }

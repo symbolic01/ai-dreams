@@ -134,8 +134,8 @@ Kernel types:
 Rules:
 - Extract 3-8 kernels per window of entries
 - Focus on NON-OBVIOUS insights — patterns across sources, contradictions, hidden connections
-- Always cite source_refs (the entry IDs)
-- Prefer cross-source connections over single-source observations
+- CRITICAL: Only cite entry IDs whose text DIRECTLY contains evidence for the claim. A ref must contain the specific fact, event, or statement the kernel describes — not merely appear nearby in time or in the same window. If only one entry supports the claim, cite only that one entry. Never pad source_refs.
+- Cross-source connections (refs spanning different data types) are valuable when genuine, but accuracy of refs is always more important than breadth. A single correct ref beats three loose ones, but multiple correct refs are best.
 - "Unfinished" kernels are especially valuable — what did they start and not complete?
 
 Output valid JSON array of kernels. No markdown, no explanation — just the JSON array."""

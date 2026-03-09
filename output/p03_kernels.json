@@ -1,32 +1,32 @@
 [
   {
-    "type": "truth",
-    "content": "Darius consistently spends significant amounts on his mortgage/rent, indicating financial stability but also a recurring financial commitment.",
+    "type": "learning",
+    "content": "Darius is improving his physical fitness with consistent workouts and tracking metrics.",
     "source_refs": [
-      "t_0001",
-      "t_0002",
-      "t_0003"
+      "ll_0001",
+      "ll_0002",
+      "ll_0003"
     ],
     "tags": [
-      "finance",
-      "housing",
-      "commitments"
+      "fitness",
+      "health"
     ]
   },
   {
-    "type": "learning",
-    "content": "Darius is learning to address his avoidance mechanisms, as evidenced by his conversation with a therapist about what he does when he doesn't want to feel something.",
+    "type": "truth",
+    "content": "Darius has a recurring pattern of paying his mortgage/rent on the same day each month.",
     "source_refs": [
-      "ll_0002"
+      "t_0001",
+      "t_0002"
     ],
     "tags": [
-      "mental_health",
-      "therapy"
+      "finance",
+      "housing"
     ]
   },
   {
     "type": "urgent",
-    "content": "Darius needs to address the low recovery score from Whoop, as indicated by his acknowledgment of it being a problem he will tackle tomorrow.",
+    "content": "Darius needs to address his Whoop recovery score, which is currently at 34.",
     "source_refs": [
       "s_0001"
     ],
@@ -36,23 +36,9 @@
     ]
   },
   {
-    "type": "pattern",
-    "content": "Darius has a consistent pattern of working out on specific days (e.g., 2024-01-15, 2024-01-16), which could indicate a structured fitness routine.",
+    "type": "question",
+    "content": "Darius is struggling with how to handle a difficult decision regarding firing a long-time employee who is not performing well.",
     "source_refs": [
-      "ll_0001",
-      "ll_0003"
-    ],
-    "tags": [
-      "fitness",
-      "routine",
-      "progress"
-    ]
-  },
-  {
-    "type": "unfinished",
-    "content": "Darius started the company for moments like team happy hours, but there are still challenges in leadership and hiring (e.g., firing someone, bad hires).",
-    "source_refs": [
-      "ll_0005",
       "c_0001"
     ],
     "tags": [
@@ -61,32 +47,31 @@
     ]
   },
   {
-    "type": "question",
-    "content": "Darius is wrestling with the difficult decision of firing a long-time team member, which highlights the emotional and professional challenges he faces.",
-    "source_refs": [
-      "c_0001"
-    ],
-    "tags": [
-      "leadership",
-      "empathy"
-    ]
-  },
-  {
     "type": "pattern",
-    "content": "Darius has a pattern of working on business and client projects during his weekends, as seen in the brand strategy pitch (2024-01-21) and agency all-hands meeting (2024-01-23).",
+    "content": "Darius experiences work-related stress during the week, particularly on Fridays and Mondays, as evidenced by his solo dinners and therapy sessions.",
     "source_refs": [
-      "cal_0002",
-      "cal_0004",
-      "ll_0007"
+      "ll_0004",
+      "ll_0006"
     ],
     "tags": [
       "work",
-      "business"
+      "stress"
+    ]
+  },
+  {
+    "type": "unfinished",
+    "content": "Darius started a team happy hour but did not elaborate on the details or outcomes of this event.",
+    "source_refs": [
+      "ll_0005"
+    ],
+    "tags": [
+      "team",
+      "social"
     ]
   },
   {
     "type": "truth",
-    "content": "Darius values the team's happiness and morale, as evidenced by his participation in happy hours and all-hands meetings.",
+    "content": "Darius values the team's well-being and happiness, as evidenced by his participation in social events like happy hours.",
     "source_refs": [
       "ll_0005",
       "ll_0007"
@@ -98,10 +83,9 @@
   },
   {
     "type": "truth",
-    "content": "Darius's recovery scores are consistently low, indicating ongoing health concerns that need attention.",
+    "content": "Darius experiences significant strain that affects his recovery, indicated by a drop in HRV.",
     "source_refs": [
       "e_0004",
-      "s_0003",
       "e_0006"
     ],
     "tags": [
@@ -111,45 +95,94 @@
   },
   {
     "type": "learning",
-    "content": "Darius has successfully completed a significant project, but feels the need to reflect on his leadership style and time management.",
+    "content": "Darius is learning to balance his work and personal life, as evidenced by scheduling recovery days and picking up Maya from art class.",
     "source_refs": [
-      "f_0003",
-      "ll_0017"
+      "cal_0006",
+      "cal_0008",
+      "cal_0013",
+      "cal_0016",
+      "cal_0019"
     ],
     "tags": [
-      "career",
-      "leadership"
-    ]
-  },
-  {
-    "type": "urgent",
-    "content": "There is an urgent client contract that needs to be addressed, with a pending kickoff date.",
-    "source_refs": [
-      "f_0003",
-      "e_0007"
-    ],
-    "tags": [
-      "client",
-      "milestone"
+      "parenting",
+      "work-life balance"
     ]
   },
   {
     "type": "pattern",
-    "content": "Darius frequently uses Peloton as a form of light activity, likely to improve his recovery scores.",
+    "content": "Darius often has a recovery day on Wednesdays, as seen in multiple calendar entries.",
+    "source_refs": [
+      "cal_0006",
+      "cal_0008"
+    ],
+    "tags": [
+      "health",
+      "routine"
+    ]
+  },
+  {
+    "type": "unfinished",
+    "content": "Darius started outlining his book but hasn't completed it, as seen in the lifelog entry.",
+    "source_refs": [
+      "ll_0016"
+    ],
+    "tags": [
+      "writing",
+      "career"
+    ]
+  },
+  {
+    "type": "question",
+    "content": "Darius is unsure about how to lead effectively, given that 38% of his week is reactive, as highlighted by his AI assistant.",
+    "source_refs": [
+      "ll_0017"
+    ],
+    "tags": [
+      "leadership",
+      "productivity"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Darius has a significant financial milestone with the Varela Hospitality rebrand contract, which is both his biggest project and a source of team celebration.",
+    "source_refs": [
+      "ll_0014",
+      "f_0003",
+      "t_0008"
+    ],
+    "tags": [
+      "business",
+      "milestone"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Darius is reflecting on his success and feeling good about it, as seen in the lifelog entry.",
+    "source_refs": [
+      "ll_0013"
+    ],
+    "tags": [
+      "reflection",
+      "emotional state"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Peloton subscriptions are recurring expenses for Darius, showing his commitment to health and fitness.",
     "source_refs": [
       "t_0007",
       "t_0009"
     ],
     "tags": [
       "health",
-      "recovery"
+      "subscription"
     ]
   },
   {
-    "type": "unfinished",
-    "content": "Darius has started outlining a book but hasn't completed the first chapter yet, showing his commitment to personal growth.",
+    "type": "truth",
+    "content": "Darius is actively seeking opportunities for growth by writing a book on brand strategy, as seen in the email to the publisher.",
     "source_refs": [
-      "ll_0016"
+      "e_0005"
     ],
     "tags": [
       "career",
@@ -157,19 +190,8 @@
     ]
   },
   {
-    "type": "empathy",
-    "content": "Darius is dealing with emotional challenges related to his children's questions about their living situation, indicating a need for support.",
-    "source_refs": [
-      "ll_0015"
-    ],
-    "tags": [
-      "parenting",
-      "emotions"
-    ]
-  },
-  {
     "type": "truth",
-    "content": "Darius's HRV consistently drops after intense strain, indicating a pattern of overexertion.",
+    "content": "Darius experiences significant drops in HRV and associated strain, indicating a pattern of overexertion.",
     "source_refs": [
       "e_0006",
       "e_0008"
@@ -193,37 +215,46 @@
   },
   {
     "type": "learning",
-    "content": "Darius is developing his brand strategy expertise, as evidenced by the detailed chapter drafts and insights.",
+    "content": "Darius is developing his understanding of brand strategy beyond just visual elements to include emotional impact.",
     "source_refs": [
-      "f_0004",
-      "s_0006",
       "s_0007",
       "ll_0031"
     ],
     "tags": [
-      "writing",
       "brand_strategy",
       "creativity"
     ]
   },
   {
     "type": "urgent",
-    "content": "Darius needs to address cash flow issues in his business, which are impacting overall financial health.",
+    "content": "Darius needs to address the cash flow issues in his business, which are hindering growth.",
     "source_refs": [
-      "t_0011",
       "ll_0032"
     ],
     "tags": [
-      "finances",
+      "finance",
       "business"
     ]
   },
   {
-    "type": "unfinished",
-    "content": "Darius started outlining the book chapter but did not complete it, indicating an ongoing project.",
+    "type": "pattern",
+    "content": "Darius frequently starts writing but struggles to complete chapters or projects.",
     "source_refs": [
+      "f_0004",
       "f_0005",
-      "ll_0031"
+      "ll_0030"
+    ],
+    "tags": [
+      "writing",
+      "creativity"
+    ]
+  },
+  {
+    "type": "unfinished",
+    "content": "Darius started outlining the book but hasn't completed it.",
+    "source_refs": [
+      "ll_0031",
+      "ll_0033"
     ],
     "tags": [
       "writing",
@@ -232,10 +263,9 @@
   },
   {
     "type": "empathy",
-    "content": "Darius's daughter Maya is spending time on her phone, highlighting the generational divide in their relationship.",
+    "content": "Darius acknowledges that his children experience different worlds and challenges, especially with technology.",
     "source_refs": [
-      "s_0006",
-      "ll_0030"
+      "ll_0031"
     ],
     "tags": [
       "parenting",
@@ -243,211 +273,163 @@
     ]
   },
   {
-    "type": "truth",
-    "content": "Darius struggles with balancing his creative work and business management, as evidenced by the financial discrepancies in revenue versus cash flow.",
-    "source_refs": [
-      "ll_0032"
-    ],
-    "tags": [
-      "business",
-      "finance"
-    ]
-  },
-  {
     "type": "learning",
-    "content": "Darius is making progress on his book outline but still faces self-doubt, as seen from his LinkedIn posts and continued work.",
+    "content": "Darius is making progress in managing his emotions and interactions with ex-partner, indicating a growth in emotional intelligence.",
     "source_refs": [
-      "ll_0030",
-      "ll_0033",
-      "ll_0036"
+      "ll_0039",
+      "ll_0040"
     ],
     "tags": [
-      "writing",
-      "creativity",
-      "project"
+      "emotional",
+      "progress"
     ]
   },
   {
     "type": "pattern",
-    "content": "Darius consistently spends significant time and effort on his business, including team lunches, subscriptions, and client milestones.",
-    "source_refs": [
-      "cal_0013",
-      "t_0013",
-      "e_0011"
-    ],
-    "tags": [
-      "business"
-    ]
-  },
-  {
-    "type": "empathy",
-    "content": "Darius feels lonely and is making efforts to care for himself, such as setting a place at the dining table.",
-    "source_refs": [
-      "ll_0034"
-    ],
-    "tags": [
-      "self_care",
-      "loneliness"
-    ]
-  },
-  {
-    "type": "urgent",
-    "content": "Darius needs to address his recovery alert from Whoop, with an HRV drop and recommended light activity only.",
-    "source_refs": [
-      "e_0012"
-    ],
-    "tags": [
-      "health",
-      "recovery"
-    ]
-  },
-  {
-    "type": "pattern",
-    "content": "Darius frequently checks his recovery score and plans to address it the next day, showing a recurring pattern of procrastination.",
+    "content": "Darius experiences low recovery scores on Whoop, which are often followed by days of light activity recommendations.",
     "source_refs": [
       "e_0012",
       "s_0008",
       "s_0009"
     ],
     "tags": [
-      "health"
+      "health",
+      "recovery",
+      "alert"
     ]
   },
   {
     "type": "learning",
-    "content": "Darius is learning that being creative and running a business are distinct skill sets, as evidenced by his financial struggles.",
+    "content": "Darius is learning that being creative and running a business are distinct skills, requiring different approaches.",
     "source_refs": [
-      "ll_0038",
-      "t_0016"
+      "ll_0038"
     ],
     "tags": [
       "business",
+      "finance",
       "creativity"
     ]
   },
   {
     "type": "unfinished",
-    "content": "Darius started outlining his book but hasn't completed the first chapter, indicating an ongoing project.",
+    "content": "Darius started outlining his brand strategy book but hasn't completed it yet.",
     "source_refs": [
       "ll_0037"
     ],
     "tags": [
-      "career",
-      "writing"
-    ]
-  },
-  {
-    "type": "urgent",
-    "content": "There is a recurring expense of $2,800.00 for mortgage/rent, which needs regular attention to manage finances.",
-    "source_refs": [
-      "t_0016",
-      "t_0017"
-    ],
-    "tags": [
-      "housing"
-    ]
-  },
-  {
-    "type": "empathy",
-    "content": "Darius is experiencing emotional challenges related to his divorce, as seen in his interaction with Eli.",
-    "source_refs": [
-      "ll_0039",
-      "ll_0040"
-    ],
-    "tags": [
-      "divorce"
+      "writing",
+      "book"
     ]
   },
   {
     "type": "learning",
-    "content": "Darius has improved his coparenting skills by keeping the holiday schedule discussion civil, compared to last year.",
+    "content": "Darius has learned that being good at creative work and running a business are two distinct skills, each requiring different approaches.",
     "source_refs": [
-      "ll_0040"
-    ],
-    "tags": [
-      "coparenting"
-    ]
-  },
-  {
-    "type": "truth",
-    "content": "Darius has a strong work ethic, often prioritizing deep work over social obligations.",
-    "sourceRefs": [
-      "ll_0041",
-      "ll_0043"
-    ],
-    "tags": [
-      "work",
-      "productivity"
-    ],
-    "source_refs": []
-  },
-  {
-    "type": "learning",
-    "content": "Darius is learning to manage his emotions and maintain a positive outlook, even in challenging situations.",
-    "sourceRefs": [
-      "ll_0039",
-      "s_0010"
-    ],
-    "tags": [
-      "emotional",
-      "parenting"
-    ],
-    "source_refs": []
-  },
-  {
-    "type": "pattern",
-    "content": "Darius experiences recurring financial challenges despite business growth, indicating a need to improve cash flow management.",
-    "sourceRefs": [
-      "ll_0045",
-      "t_0021"
+      "ll_0045"
     ],
     "tags": [
       "finance",
-      "business"
-    ],
-    "source_refs": []
+      "business",
+      "work",
+      "productivity"
+    ]
   },
   {
-    "type": "urgent",
-    "content": "Darius needs to address the ongoing issues with client services hires, as this has caused significant delays and costs.",
-    "sourceRefs": [
+    "type": "unfinished",
+    "content": "Darius started and completed hiring a head of client services, but the process took three months, indicating an unfinished cycle with multiple failed attempts.",
+    "source_refs": [
       "ll_0042",
       "ll_0046"
     ],
     "tags": [
       "hiring",
-      "business"
-    ],
-    "source_refs": []
+      "career"
+    ]
   },
   {
-    "type": "unfinished",
-    "content": "Darius started the company for team bonding, but this has not yet materialized as evidenced by his reflection on happy hours.",
-    "sourceRefs": [
+    "type": "learning",
+    "content": "Darius has realized that co-parenting can feel both rewarding and challenging, especially when it involves gratitude.",
+    "source_refs": [
+      "c_0003"
+    ],
+    "tags": [
+      "parenting",
+      "emotional"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Darius's team enjoys social events, which brings them joy and boosts morale.",
+    "source_refs": [
       "ll_0044"
     ],
     "tags": [
       "team",
-      "joy"
-    ],
-    "source_refs": []
-  },
-  {
-    "type": "empathy",
-    "content": "Darius is grappling with the emotional complexities of co-parenting, especially in moments where he feels grateful but also anxious.",
-    "sourceRefs": [
-      "e_0016",
-      "c_0003"
-    ],
-    "tags": [
-      "divorce",
-      "coparenting"
-    ],
-    "source_refs": []
+      "morale"
+    ]
   },
   {
     "type": "learning",
-    "content": "Darius has learned that his time management is reactive, which he wants to change for better leadership.",
+    "content": "Darius has learned that deep work sessions can be highly productive but may require missing scheduled meetings, as seen in his brand deck work.",
+    "source_refs": [
+      "ll_0043"
+    ],
+    "tags": [
+      "productivity",
+      "work"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Darius frequently engages in deep work sessions, often leading to flow states and significant output, but sometimes at the cost of other commitments.",
+    "source_refs": [
+      "ll_0043",
+      "ll_0041"
+    ],
+    "tags": [
+      "productivity",
+      "work"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Darius has learned that regular Peloton sessions are important for his health and well-being.",
+    "source_refs": [
+      "t_0020",
+      "t_0022"
+    ],
+    "tags": [
+      "health",
+      "fitness"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Darius has learned that building a successful business is hard and slow, but rewarding when milestones are achieved.",
+    "source_refs": [
+      "e_0019",
+      "s_0013"
+    ],
+    "tags": [
+      "business",
+      "milestone"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Darius frequently starts outlining his book but struggles with the content, only to find that it eventually improves.",
+    "source_refs": [
+      "s_0011",
+      "s_0012"
+    ],
+    "tags": [
+      "writing",
+      "creativity"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Darius spends a significant portion of his time (38%) dealing with reactive tasks, which is not ideal for leadership.",
     "source_refs": [
       "ll_0050"
     ],
@@ -457,33 +439,19 @@
     ]
   },
   {
-    "type": "truth",
-    "content": "Darius's brand strategy work involves multiple clients and consistent business growth over four years.",
+    "type": "urgent",
+    "content": "Darius needs to address the holiday schedule with his ex-coparent to avoid last-minute scrambling.",
     "source_refs": [
-      "cal_0019",
-      "cal_0020",
-      "ll_0048"
+      "e_0019"
     ],
     "tags": [
-      "business",
-      "client"
-    ]
-  },
-  {
-    "type": "pattern",
-    "content": "Darius frequently mentions his writing struggles, yet he persists in creating content for his book.",
-    "source_refs": [
-      "s_0011",
-      "s_0012"
-    ],
-    "tags": [
-      "writing",
-      "career"
+      "coparenting",
+      "family"
     ]
   },
   {
     "type": "unfinished",
-    "content": "Darius started outlining the first chapter of his brand strategy book but hasn't completed it yet.",
+    "content": "Darius started outlining a book on why most founders don't know their brand but hasn't completed it yet.",
     "source_refs": [
       "ll_0047"
     ],
@@ -494,9 +462,9 @@
   },
   {
     "type": "learning",
-    "content": "Darius has learned that building a successful business takes time and effort, as evidenced by his biggest contract of the year.",
+    "content": "Darius has learned that he needs to feel good about the progress of his business, even if it's slow.",
     "source_refs": [
-      "s_0013"
+      "ll_0048"
     ],
     "tags": [
       "business",
@@ -504,224 +472,69 @@
     ]
   },
   {
-    "type": "pattern",
-    "content": "Peloton subscriptions are a recurring expense for Darius, indicating a consistent investment in health and fitness.",
-    "source_refs": [
-      "t_0022",
-      "t_0023"
-    ],
-    "tags": [
-      "health",
-      "subscriptions"
-    ]
-  },
-  {
     "type": "learning",
-    "content": "Darius has improved his client management by hiring a head of client services after multiple unsuccessful hires.",
-    "source_refs": [
-      "ll_0046",
-      "ll_0049"
-    ],
-    "tags": [
-      "business",
-      "hiring"
-    ]
-  },
-  {
-    "type": "truth",
-    "content": "Darius's family life is an important part of his personal and professional identity, as seen in the photos and emails about his children.",
-    "source_refs": [
-      "f_0009",
-      "e_0019"
-    ],
-    "tags": [
-      "family",
-      "parenting"
-    ]
-  },
-  {
-    "type": "empathy",
-    "content": "Darius is dealing with the stress of managing multiple clients and personal relationships, as seen in his reflections on time management and family schedules.",
-    "source_refs": [
-      "ll_0050",
-      "e_0019"
-    ],
-    "tags": [
-      "stress",
-      "coparenting"
-    ]
-  },
-  {
-    "type": "learning",
-    "content": "Darius is learning to balance his creative work with the demands of running a business, recognizing that they are distinct skills.",
-    "source_refs": [
-      "ll_0056",
-      "ll_0054"
-    ],
-    "tags": [
-      "business",
-      "leadership"
-    ]
-  },
-  {
-    "type": "truth",
-    "content": "Darius's team is more mature and cooperative compared to the past, as evidenced by civil holiday schedule discussions.",
-    "source_refs": [
-      "ll_0052",
-      "ll_0061"
-    ],
-    "tags": [
-      "coparenting",
-      "team"
-    ]
-  },
-  {
-    "type": "pattern",
-    "content": "Darius frequently engages in deep work sessions, often at the expense of scheduled meetings.",
-    "source_refs": [
-      "ll_0054",
-      "ll_0057"
-    ],
-    "tags": [
-      "productivity",
-      "creativity"
-    ]
-  },
-  {
-    "type": "unfinished",
-    "content": "Darius started a brand deck for a fintech client but missed a lunch meeting, indicating an ongoing struggle with time management.",
-    "source_refs": [
-      "ll_0057"
-    ],
-    "tags": [
-      "work",
-      "productivity"
-    ]
-  },
-  {
-    "type": "learning",
-    "content": "Darius is developing his leadership skills by reflecting on the growth and progress of Roth Creative, celebrating its milestones.",
-    "source_refs": [
-      "ll_0053",
-      "ll_0055"
-    ],
-    "tags": [
-      "leadership",
-      "growth"
-    ]
-  },
-  {
-    "type": "truth",
-    "content": "Darius's financial management is a challenge, as evidenced by the ongoing issues with cash flow despite revenue growth.",
-    "source_refs": [
-      "ll_0056",
-      "t_0026"
-    ],
-    "tags": [
-      "finances",
-      "business"
-    ]
-  },
-  {
-    "type": "learning",
-    "content": "Darius is recognizing the importance of self-care and setting a proper table for himself, indicating a growing awareness of his emotional needs.",
+    "content": "Darius is learning to balance his personal and professional life, as evidenced by his solo dinner and reflection on being alone.",
     "source_refs": [
       "ll_0052"
     ],
     "tags": [
       "self_care",
-      "empathy"
-    ]
-  },
-  {
-    "type": "pattern",
-    "content": "Darius frequently attends team happy hours and mentions these as moments he cherishes, suggesting they are important for his company culture.",
-    "source_refs": [
-      "s_0013",
-      "ll_0053"
-    ],
-    "tags": [
-      "team",
-      "company_culture"
-    ]
-  },
-  {
-    "type": "learning",
-    "content": "Darius is improving his time management by using an AI assistant to audit his week, identifying areas for improvement.",
-    "source_refs": [
-      "ll_0050"
-    ],
-    "tags": [
-      "productivity",
-      "technology"
+      "loneliness"
     ]
   },
   {
     "type": "truth",
-    "content": "Great brands are built over time, not in a single sprint.",
+    "content": "Great brands are built through consistent effort over time, not just in a single sprint.",
     "source_refs": [
       "s_0014",
       "s_0015"
     ],
     "tags": [
       "branding",
-      "reputation"
+      "creativity"
     ]
   },
   {
     "type": "truth",
-    "content": "Darius is proud of his professional achievements, despite the challenges.",
+    "content": "Darius is proud of his business achievements, even during challenging times.",
     "source_refs": [
-      "ll_0066",
+      "f_0011",
+      "ll_0062",
       "ll_0070"
     ],
     "tags": [
-      "professionalism",
-      "leadership"
+      "business",
+      "team"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Darius's business is thriving, as evidenced by the significant contract and the milestone of being in operation for four years.",
+    "source_refs": [
+      "ll_0075",
+      "ll_0078"
+    ],
+    "tags": [
+      "business",
+      "milestone"
     ]
   },
   {
     "type": "learning",
-    "content": "Darius realizes he spends a significant portion of his time reactively, which needs to change.",
+    "content": "Darius is learning to prioritize his mental health, as seen in his decision to write instead of working out when his Whoop score indicates poor recovery.",
     "source_refs": [
-      "ll_0068",
-      "t_0028"
+      "ll_0077"
     ],
     "tags": [
-      "productivity",
-      "time_management"
+      "health",
+      "self_care"
     ]
   },
   {
-    "type": "pattern",
-    "content": "Darius frequently engages in large food orders for team lunches, indicating a pattern of rewarding his team.",
+    "type": "urgent",
+    "content": "There is an urgent need to discuss the kids' schedule for Thanksgiving, as indicated by the email from Darius's ex-partner.",
     "source_refs": [
-      "ll_0067",
-      "ll_0075"
-    ],
-    "tags": [
-      "team_management",
-      "rewards"
-    ]
-  },
-  {
-    "type": "unfinished",
-    "content": "Darius started the Varela Hospitality rebrand contract but did not mention completing it in subsequent entries.",
-    "source_refs": [
-      "f_0011",
-      "ll_0075"
-    ],
-    "tags": [
-      "projects",
-      "milestones"
-    ]
-  },
-  {
-    "type": "question",
-    "content": "Darius is wrestling with the holiday schedule for his kids, indicating unresolved questions about coparenting.",
-    "source_refs": [
-      "e_0023",
-      "e_0024"
+      "e_0025"
     ],
     "tags": [
       "coparenting",
@@ -729,23 +542,83 @@
     ]
   },
   {
-    "type": "empathy",
-    "content": "Darius reflects on the emotional impact of joint custody, feeling both absence and acceptance.",
+    "type": "pattern",
+    "content": "Darius frequently uses his AI assistant to manage his time, but finds that a significant portion of his week is reactive.",
     "source_refs": [
-      "ll_0069",
-      "ll_0068"
+      "ll_0078"
     ],
     "tags": [
-      "divorce",
-      "parenting"
+      "ai_use",
+      "productivity",
+      "leadership"
+    ]
+  },
+  {
+    "type": "unfinished",
+    "content": "Darius started writing a book but found the content to be poor, yet it still exists, indicating an unfinished project.",
+    "source_refs": [
+      "s_0018"
+    ],
+    "tags": [
+      "writing",
+      "creativity"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Darius's social media presence makes him feel inadequate compared to others, but he acknowledges the reality of his own success.",
+    "source_refs": [
+      "ll_0076"
+    ],
+    "tags": [
+      "social_media",
+      "comparison"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Darius has learned that sometimes rest can look like writing, especially when his recovery score is low.",
+    "source_refs": [
+      "s_0020",
+      "ll_0085",
+      "ll_0089"
+    ],
+    "tags": [
+      "self-care",
+      "writing"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Darius's writing process, though challenging, is a core part of his business and personal identity.",
+    "source_refs": [
+      "s_0019",
+      "f_0015",
+      "s_0021"
+    ],
+    "tags": [
+      "writing",
+      "branding"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Darius often works through lunch, particularly when on a deep work session.",
+    "source_refs": [
+      "ll_0087",
+      "cal_0032"
+    ],
+    "tags": [
+      "productivity",
+      "work-life balance"
     ]
   },
   {
     "type": "urgent",
-    "content": "Darius needs to address his recovery score on Whoop, as it is consistently low.",
+    "content": "Darius needs to address his recovery score, which has been consistently low.",
     "source_refs": [
-      "s_0016",
-      "ll_0068"
+      "ll_0085",
+      "ll_0090"
     ],
     "tags": [
       "health",
@@ -753,127 +626,10 @@
     ]
   },
   {
-    "type": "learning",
-    "content": "Darius acknowledges the financial gap between revenue and cash flow, indicating a need for better business practices.",
-    "source_refs": [
-      "f_0011",
-      "s_0016"
-    ],
-    "tags": [
-      "cashflow",
-      "business"
-    ]
-  },
-  {
-    "type": "truth",
-    "content": "Darius spends a significant portion of his week reacting to tasks, which is not how he wants to lead.",
-    "source_refs": [
-      "ll_0078"
-    ],
-    "tags": [
-      "leadership",
-      "productivity"
-    ]
-  },
-  {
-    "type": "learning",
-    "content": "Darius has realized that social media can make him feel inadequate compared to others, but he chooses to post anyway.",
-    "source_refs": [
-      "ll_0076"
-    ],
-    "tags": [
-      "social_media",
-      "self_care"
-    ]
-  },
-  {
-    "type": "pattern",
-    "content": "Darius frequently deals with coparenting issues related to the kids' schedule, indicating a recurring challenge in his personal life.",
-    "source_refs": [
-      "e_0025",
-      "f_0012"
-    ],
-    "tags": [
-      "coparenting",
-      "family"
-    ]
-  },
-  {
-    "type": "urgent",
-    "content": "Darius needs to address the holiday schedule for Thanksgiving with his ex-partner.",
-    "source_refs": [
-      "e_0025"
-    ],
-    "tags": [
-      "kids_custody_schedule",
-      "urgent"
-    ]
-  },
-  {
     "type": "unfinished",
-    "content": "Darius has started writing a book but is struggling with its quality, indicating an unfinished creative project.",
+    "content": "Darius started a book chapter but hasn't completed it, despite making significant progress.",
     "source_refs": [
-      "s_0018"
-    ],
-    "tags": [
-      "writing",
-      "creative_project"
-    ]
-  },
-  {
-    "type": "truth",
-    "content": "Darius's business is thriving and has grown beyond his initial expectations.",
-    "source_refs": [
-      "ll_0075",
-      "ll_0072"
-    ],
-    "tags": [
-      "business_growth",
-      "milestone"
-    ]
-  },
-  {
-    "type": "learning",
-    "content": "Darius has learned that sometimes rest can look like writing, emphasizing the importance of self-care.",
-    "source_refs": [
-      "ll_0077"
-    ],
-    "tags": [
-      "self_care",
-      "writing"
-    ]
-  },
-  {
-    "type": "pattern",
-    "content": "Darius frequently mentions his team and enjoys moments with them, highlighting a positive work environment.",
-    "source_refs": [
-      "ll_0074",
-      "cal_0028"
-    ],
-    "tags": [
-      "team",
-      "work"
-    ]
-  },
-  {
-    "type": "truth",
-    "content": "Darius spends a significant portion of his week reactively, which contradicts his leadership goals.",
-    "source_refs": [
-      "ll_0078",
-      "cal_0029"
-    ],
-    "tags": [
-      "productivity",
-      "leadership"
-    ]
-  },
-  {
-    "type": "learning",
-    "content": "Darius is learning that writing a book, even if it feels terrible, can still be valuable and complete.",
-    "source_refs": [
-      "f_0013",
-      "s_0018",
-      "s_0019"
+      "f_0015"
     ],
     "tags": [
       "writing",
@@ -881,34 +637,23 @@
     ]
   },
   {
-    "type": "pattern",
-    "content": "Darius frequently has all-hands meetings at Roth Creative HQ, suggesting a consistent communication strategy.",
+    "type": "learning",
+    "content": "Darius has come to terms with the fact that building a successful business takes time and effort, but it can also be rewarding.",
     "source_refs": [
-      "cal_0029",
-      "cal_0031"
+      "ll_0086",
+      "s_0021"
     ],
     "tags": [
-      "work",
-      "team"
-    ]
-  },
-  {
-    "type": "urgent",
-    "content": "There is an unresolved issue with the holiday schedule for Thanksgiving, which needs to be addressed.",
-    "source_refs": [
-      "e_0027"
-    ],
-    "tags": [
-      "coparenting",
-      "family"
+      "business",
+      "milestone"
     ]
   },
   {
     "type": "empathy",
-    "content": "Darius experiences emotional moments, such as missing living with his children and dealing with their feelings.",
+    "content": "Darius acknowledges the emotional impact of his children's questions about their living situation, showing a need for empathy and support.",
     "source_refs": [
-      "ll_0080",
-      "f_0014"
+      "ll_0088",
+      "ll_0089"
     ],
     "tags": [
       "parenting",
@@ -917,132 +662,57 @@
   },
   {
     "type": "learning",
-    "content": "Darius is learning to appreciate the growth of his business, even if it doesn't always feel like progress.",
+    "content": "Darius has learned that team recognition is important, as evidenced by his decision to buy lunch for the team after closing a big contract.",
     "source_refs": [
-      "ll_0082",
-      "ll_0086"
+      "t_0036",
+      "e_0029"
     ],
     "tags": [
-      "business",
-      "milestone"
-    ]
-  },
-  {
-    "type": "pattern",
-    "content": "Darius frequently works out on mornings, indicating a consistent fitness routine and self-care practice.",
-    "source_refs": [
-      "ll_0079",
-      "ll_0083"
-    ],
-    "tags": [
-      "health",
-      "fitness"
-    ]
-  },
-  {
-    "type": "learning",
-    "content": "Darius has learned that sometimes rest can look like writing, emphasizing the importance of mental and emotional recovery.",
-    "source_refs": [
-      "ll_0085",
-      "ll_0089",
-      "ll_0090"
-    ],
-    "tags": [
-      "health",
-      "wellness",
-      "recovery",
-      "self_care",
-      "writing"
-    ]
-  },
-  {
-    "type": "pattern",
-    "content": "Darius's work-life balance is often disrupted, with deep work sessions leading to missed meetings and family time.",
-    "source_refs": [
-      "ll_0087",
-      "ll_0089"
-    ],
-    "tags": [
-      "work",
-      "family"
-    ]
-  },
-  {
-    "type": "unfinished",
-    "content": "Darius started writing a book chapter but has not completed it, indicating an ongoing project.",
-    "source_refs": [
-      "s_0019",
-      "f_0015"
-    ],
-    "tags": [
-      "writing",
-      "project"
-    ]
-  },
-  {
-    "type": "empathy",
-    "content": "Darius's emotional state is complex, balancing professional success with personal challenges and family dynamics.",
-    "source_refs": [
-      "ll_0089"
-    ],
-    "tags": [
-      "emotions",
-      "family"
+      "team management",
+      "motivation"
     ]
   },
   {
     "type": "truth",
-    "content": "Darius's recovery is linked to his writing and creative work.",
+    "content": "Darius prioritizes writing and creative work even when his health data suggests rest is needed.",
     "source_refs": [
       "f_0015",
       "ll_0090"
     ],
     "tags": [
+      "writing",
       "health",
-      "writing"
+      "productivity"
     ]
   },
   {
-    "type": "pattern",
-    "content": "Darius experiences recurring themes of comparison on social media and business success, with both LinkedIn and financial reminders showing this pattern.",
+    "type": "truth",
+    "content": "Darius feels a persistent sense of comparison on LinkedIn, despite knowing it's not reflective of reality.",
     "source_refs": [
       "ll_0094",
-      "ll_0099",
-      "e_0033"
+      "ll_0099"
     ],
     "tags": [
-      "comparison",
       "social_media",
-      "business"
+      "comparison"
     ]
   },
   {
     "type": "learning",
-    "content": "Darius has learned that bad hires can be costly, leading to a significant investment in his team.",
+    "content": "Darius has learned to recognize and appreciate his team\u2019s achievements, as evidenced by the new client announcement email.",
     "source_refs": [
-      "ll_0100"
+      "e_0031"
     ],
     "tags": [
-      "hiring",
+      "business",
       "team"
     ]
   },
   {
-    "type": "unfinished",
-    "content": "Darius started a brand strategy pitch for a fintech client but did not complete it, as seen in multiple calendar entries.",
-    "source_refs": [
-      "cal_0035",
-      "cal_0037"
-    ],
-    "tags": [
-      "business",
-      "client"
-    ]
-  },
-  {
     "type": "urgent",
-    "content": "Darius needs to address his Q2 estimated taxes, which are due soon.",
+    "content": "There is an urgent need for Darius to address upcoming financial obligations, including Q2 estimated taxes due.",
     "source_refs": [
+      "t_0042",
       "e_0033"
     ],
     "tags": [
@@ -1051,56 +721,43 @@
     ]
   },
   {
+    "type": "pattern",
+    "content": "Darius experiences a recurring pattern of starting and then hiring for critical roles, such as the head of client services.",
+    "source_refs": [
+      "ll_0100"
+    ],
+    "tags": [
+      "business",
+      "hiring"
+    ]
+  },
+  {
+    "type": "unfinished",
+    "content": "Darius started but did not complete a brand strategy pitch for a fintech client, with multiple calendar entries indicating ongoing work.",
+    "source_refs": [
+      "cal_0035",
+      "ll_0101",
+      "cal_0037"
+    ],
+    "tags": [
+      "business",
+      "work"
+    ]
+  },
+  {
     "type": "empathy",
-    "content": "Darius feels the absence of his ex-partner during drop-off week, despite the initial freedom it brought.",
+    "content": "Darius is grappling with the emotional impact of his divorce, as evidenced by his reflections on parenting and the quietness of his home.",
     "source_refs": [
       "ll_0098"
     ],
     "tags": [
-      "divorce",
-      "parenting"
+      "parenting",
+      "divorce"
     ]
   },
   {
     "type": "learning",
-    "content": "Darius has improved his physical fitness and mental state through consistent workouts and tracking with Whoop.",
-    "source_refs": [
-      "ll_0097",
-      "ll_0101"
-    ],
-    "tags": [
-      "health",
-      "fitness"
-    ]
-  },
-  {
-    "type": "pattern",
-    "content": "Darius's social media use for comparison is linked to his business success, as seen in both LinkedIn posts and client announcements.",
-    "source_refs": [
-      "ll_0094",
-      "e_0031"
-    ],
-    "tags": [
-      "social_media",
-      "business"
-    ]
-  },
-  {
-    "type": "truth",
-    "content": "Darius spends a significant portion of his week in reactive mode, which contradicts his leadership goals.",
-    "source_refs": [
-      "t_0043",
-      "t_0045",
-      "ll_0106"
-    ],
-    "tags": [
-      "productivity",
-      "leadership"
-    ]
-  },
-  {
-    "type": "learning",
-    "content": "Darius has made progress in coparenting, handling conflicts more civilly.",
+    "content": "Darius is making progress in coparenting, handling conflicts more civilly.",
     "source_refs": [
       "e_0034",
       "ll_0106"
@@ -1111,22 +768,46 @@
     ]
   },
   {
-    "type": "pattern",
-    "content": "Darius experiences a drop in recovery scores (HRV) after intense work sessions, indicating potential burnout.",
+    "type": "truth",
+    "content": "Darius spends a significant portion of his week (38%) on reactive tasks, which is not aligned with his leadership goals.",
     "source_refs": [
-      "s_0024",
-      "e_0035"
+      "ll_0106"
     ],
     "tags": [
-      "health",
-      "urgency",
+      "productivity",
+      "time_management",
+      "leadership"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Darius experiences high strain and lower recovery scores during work weeks, especially after deep work sessions.",
+    "source_refs": [
+      "s_0024",
+      "e_0035",
+      "ll_0103"
+    ],
+    "tags": [
+      "stress",
       "recovery",
-      "work-life balance"
+      "health",
+      "urgency"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Darius is recognizing the importance of self-care and setting up meaningful solo dinners.",
+    "source_refs": [
+      "ll_0103"
+    ],
+    "tags": [
+      "self_care",
+      "solitude"
     ]
   },
   {
     "type": "unfinished",
-    "content": "Darius started a book but is struggling with the quality, indicating an unfinished creative project.",
+    "content": "Darius started a book but is struggling with its quality, indicating an ongoing creative project.",
     "source_refs": [
       "s_0025"
     ],
@@ -1136,289 +817,194 @@
     ]
   },
   {
-    "type": "truth",
-    "content": "Darius spends a significant portion of his week in reactive tasks, which contradicts his leadership goals.",
+    "type": "urgent",
+    "content": "Darius needs to address the decline in recovery scores and strain levels as indicated by his health data.",
     "source_refs": [
-      "ll_0106",
-      "cal_0039"
+      "f_0020",
+      "e_0038"
     ],
     "tags": [
-      "productivity",
-      "AI",
-      "leadership"
-    ]
-  },
-  {
-    "type": "truth",
-    "content": "Darius's social interactions with his children are diverging, as evidenced by the different activities and interests.",
-    "source_refs": [
-      "f_0018",
-      "ll_0102"
-    ],
-    "tags": [
-      "parenting",
-      "generation gap"
+      "health",
+      "wellness"
     ]
   },
   {
     "type": "pattern",
-    "content": "Darius frequently misses lunch meetings due to deep work sessions, impacting his social life.",
+    "content": "Darius frequently hires new team members, with a history of bad hires and significant costs before finding the right fit.",
     "source_refs": [
-      "t_0041",
-      "ll_0103"
-    ],
-    "tags": [
-      "work-life balance",
-      "missed opportunities"
-    ]
-  },
-  {
-    "type": "empathy",
-    "content": "Darius's solo Friday night dinner shows a need for social connection and self-care.",
-    "source_refs": [
-      "ll_0105",
-      "ll_0103"
-    ],
-    "tags": [
-      "self-care",
-      "loneliness"
-    ]
-  },
-  {
-    "type": "learning",
-    "content": "Darius is learning to manage his time more effectively by leveraging AI tools for productivity audits.",
-    "source_refs": [
-      "ll_0106"
-    ],
-    "tags": [
-      "ai_use",
-      "productivity"
-    ]
-  },
-  {
-    "type": "pattern",
-    "content": "There's a recurring theme of hiring challenges and the eventual resolution, with Darius finally finding success after multiple setbacks.",
-    "source_refs": [
-      "ll_0108",
+      "ll_0107",
       "ll_0111"
     ],
     "tags": [
       "hiring",
-      "milestone"
+      "team"
     ]
   },
   {
     "type": "unfinished",
-    "content": "Darius has started writing a book but is still in the early stages, with only 7,000 words written.",
+    "content": "Darius has started writing a book, but it is currently 7,000 words and not yet polished.",
     "source_refs": [
       "ll_0109"
     ],
     "tags": [
       "writing",
-      "progress"
-    ]
-  },
-  {
-    "type": "urgent",
-    "content": "Darius needs to address his recovery alert and engage in light activity as recommended by the health data.",
-    "source_refs": [
-      "e_0038",
-      "f_0020"
-    ],
-    "tags": [
-      "health",
-      "recovery"
-    ]
-  },
-  {
-    "type": "empathy",
-    "content": "Darius is experiencing emotional changes in his parenting, feeling the absence of his ex-partner despite their civil communication.",
-    "source_refs": [
-      "s_0027",
-      "ll_0110"
-    ],
-    "tags": [
-      "divorce",
-      "parenting"
-    ]
-  },
-  {
-    "type": "learning",
-    "content": "Darius has learned that sometimes rest can be productive, especially when it involves writing.",
-    "source_refs": [
-      "e_0038",
-      "ll_0115",
-      "t_0048"
-    ],
-    "tags": [
-      "health",
-      "fitness",
-      "self_care",
-      "productivity"
-    ]
-  },
-  {
-    "type": "pattern",
-    "content": "There is a recurring pattern of Darius hiring and managing team members, with recent improvements.",
-    "source_refs": [
-      "ll_0111",
-      "ll_0112"
-    ],
-    "tags": [
-      "business",
-      "hiring"
-    ]
-  },
-  {
-    "type": "unfinished",
-    "content": "Darius started a book draft but hasn't completed it yet, focusing on the existence of the work over its quality.",
-    "source_refs": [
-      "ll_0109",
-      "ll_0114",
-      "ll_0117"
-    ],
-    "tags": [
-      "parenting",
-      "divorce",
-      "writing",
       "creativity"
     ]
   },
   {
-    "type": "urgent",
-    "content": "Darius needs to address the cash flow issues in his business, as they are impacting overall growth.",
+    "type": "empathy",
+    "content": "Darius feels the absence of his children in the quietness of his home, reflecting on how their presence used to bring him freedom.",
     "source_refs": [
-      "ll_0112",
-      "cal_0043"
+      "ll_0110"
     ],
     "tags": [
-      "business",
-      "finance"
-    ]
-  },
-  {
-    "type": "learning",
-    "content": "Darius has improved in managing his team, as evidenced by the successful hiring of a head of client services.",
-    "source_refs": [
-      "ll_0111"
-    ],
-    "tags": [
-      "business",
-      "team management"
+      "parenting",
+      "emotions"
     ]
   },
   {
     "type": "pattern",
-    "content": "Darius frequently makes quick decisions for Maya, especially regarding her school activities.",
+    "content": "Darius's recovery score fluctuates, often dropping significantly after a day of strain.",
+    "source_refs": [
+      "e_0038",
+      "ll_0115",
+      "e_0039"
+    ],
+    "tags": [
+      "health",
+      "writing"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Darius has learned that existence is the prerequisite for revision, even if the initial work feels bad.",
+    "source_refs": [
+      "ll_0109",
+      "s_0028"
+    ],
+    "tags": [
+      "creativity",
+      "writing"
+    ]
+  },
+  {
+    "type": "urgent",
+    "content": "Darius needs to address his cash flow issues, as they are affecting his business.",
+    "source_refs": [
+      "ll_0112"
+    ],
+    "tags": [
+      "business",
+      "growth",
+      "finances"
+    ]
+  },
+  {
+    "type": "unfinished",
+    "content": "Darius started and did not complete a workout on August 30th.",
+    "source_refs": [
+      "cal_0042"
+    ],
+    "tags": [
+      "fitness"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Darius has learned that sometimes rest looks like writing, and he can still be productive.",
+    "source_refs": [
+      "ll_0115"
+    ],
+    "tags": [
+      "writing",
+      "rest"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Darius has learned that making decisions can be easier when they align with his values, as seen in the art class decision.",
+    "source_refs": [
+      "ll_0118"
+    ],
+    "tags": [
+      "parenting",
+      "decision-making",
+      "productivity",
+      "work"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Darius has developed a habit of making quick decisions, often before the full context is understood.",
     "source_refs": [
       "ll_0117",
       "ll_0120",
       "ll_0123"
     ],
     "tags": [
-      "parenting",
       "decision-making"
     ]
   },
   {
-    "type": "learning",
-    "content": "Darius has learned that existence is the prerequisite for revision, applying this to his book and other projects.",
-    "source_refs": [
-      "ll_0119",
-      "s_0029",
-      "ll_0124"
-    ],
-    "tags": [
-      "writing",
-      "creativity"
-    ]
-  },
-  {
-    "type": "truth",
-    "content": "Darius's house is now quieter, which he initially found freeing but now perceives as an absence.",
+    "type": "pattern",
+    "content": "Darius experiences a pattern of feeling the absence of his children during drop-off weeks, which impacts his perception of silence.",
     "source_refs": [
       "ll_0116",
       "ll_0122"
     ],
     "tags": [
       "emotions",
-      "divorce"
+      "parenting"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Darius has written 7,000 words for his book and acknowledges that the existence of the work is more important than its quality.",
+    "source_refs": [
+      "ll_0119",
+      "ll_0124",
+      "ll_0121"
+    ],
+    "tags": [
+      "writing"
     ]
   },
   {
     "type": "urgent",
-    "content": "Darius needs to follow up on the new hire onboarding and prepare for a brand strategy pitch.",
+    "content": "Darius needs to follow up on the new hire onboarding, as it is time-sensitive and requires 4 hours of his attention.",
     "source_refs": [
-      "cal_0045",
-      "cal_0046"
+      "cal_0045"
     ],
     "tags": [
-      "business",
-      "hiring"
+      "hiring",
+      "onboarding"
     ]
   },
   {
     "type": "learning",
-    "content": "Darius has improved his flow state by dedicating three hours to deep work on a brand deck.",
+    "content": "Darius recognizes that sometimes rest and self-care can manifest as writing or other creative activities.",
     "source_refs": [
-      "ll_0118"
+      "ll_0124"
     ],
     "tags": [
-      "productivity",
+      "self-care",
       "creativity"
     ]
   },
   {
     "type": "truth",
-    "content": "The house silence now feels like absence, indicating a change in Darius's perception since his divorce.",
-    "source_refs": [
-      "ll_0122",
-      "ll_0127",
-      "ll_0129"
-    ],
-    "tags": [
-      "emotions",
-      "divorce"
-    ]
-  },
-  {
-    "type": "learning",
-    "content": "Darius has learned to recognize and appreciate the value of deep work, even when it means missing a lunch meeting.",
+    "content": "Darius finds flow state in deep work, but misses social interactions.",
     "source_refs": [
       "ll_0126"
     ],
     "tags": [
-      "productivity",
-      "work"
+      "work",
+      "productivity"
     ]
   },
   {
-    "type": "pattern",
-    "content": "Eli's enthusiasm contrasts with Maya's disinterest during family activities, suggesting generational differences in interests and engagement.",
-    "source_refs": [
-      "ll_0128"
-    ],
-    "tags": [
-      "parenting",
-      "family"
-    ]
-  },
-  {
-    "type": "unfinished",
-    "content": "Darius started a brand strategy book but hasn't completed it yet, as evidenced by his ongoing email inquiries to publishers.",
-    "source_refs": [
-      "f_0023",
-      "e_0041",
-      "e_0042"
-    ],
-    "tags": [
-      "career",
-      "writing"
-    ]
-  },
-  {
-    "type": "empathy",
-    "content": "Darius's therapist pointed out his tendency to avoid emotions by working, highlighting a need for self-awareness and emotional processing.",
+    "type": "learning",
+    "content": "Darius is learning to recognize and address his avoidance of emotions through work.",
     "source_refs": [
       "ll_0131"
     ],
@@ -1428,10 +1014,34 @@
     ]
   },
   {
-    "type": "learning",
-    "content": "Darius is proud of Roth Creative's growth but acknowledges the hard work behind it, indicating a shift in his mindset towards recognizing team effort.",
+    "type": "pattern",
+    "content": "Darius experiences quietness in the house as both freedom and absence, depending on context.",
     "source_refs": [
-      "ll_0125",
+      "ll_0122",
+      "ll_0127",
+      "ll_0129"
+    ],
+    "tags": [
+      "emotions",
+      "parenting"
+    ]
+  },
+  {
+    "type": "unfinished",
+    "content": "Darius started a brand strategy book but hasn't completed it.",
+    "source_refs": [
+      "f_0023",
+      "e_0041"
+    ],
+    "tags": [
+      "career",
+      "writing"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Darius's agency is proud and successful, despite challenges.",
+    "source_refs": [
       "ll_0130"
     ],
     "tags": [
@@ -1441,9 +1051,8 @@
   },
   {
     "type": "urgent",
-    "content": "Darius needs to address his recovery score, as indicated by the Whoop subscription payment and his acknowledgment of a problem.",
+    "content": "Darius needs to address his recovery score on Whoop, which has been declining.",
     "source_refs": [
-      "t_0054",
       "s_0030"
     ],
     "tags": [
@@ -1452,114 +1061,113 @@
   },
   {
     "type": "truth",
-    "content": "Roth Creative has grown significantly over the past four years, surpassing initial expectations.",
+    "content": "Roth Creative has achieved significant growth, with a 22% increase in revenue but struggles with cash flow.",
     "source_refs": [
-      "ll_0125"
+      "ll_0134",
+      "t_0058"
     ],
     "tags": [
       "business",
-      "growth"
+      "finance"
     ]
   },
   {
     "type": "learning",
-    "content": "Darius is learning that being creative and running a business are distinct skills, as evidenced by the financial challenges he faces.",
+    "content": "Darius is learning to manage his time and energy between personal and professional commitments, as evidenced by the balance of work (client pitches) and family (Eli's school play) in his calendar.",
     "source_refs": [
-      "t_0059",
-      "ll_0139"
+      "cal_0050",
+      "cal_0051"
     ],
     "tags": [
-      "business",
-      "finance",
-      "creativity"
+      "time_management",
+      "work_life_balance"
     ]
   },
   {
     "type": "truth",
-    "content": "Darius has a recurring pattern of working through difficult emotions by engaging in business tasks.",
-    "source_refs": [
-      "e_0046",
-      "ll_0136"
-    ],
-    "tags": [
-      "emotions",
-      "work"
-    ]
-  },
-  {
-    "type": "urgent",
-    "content": "Darius needs to address his financial planning, as he received a reminder about upcoming tax payments.",
-    "source_refs": [
-      "e_0047",
-      "f_0026"
-    ],
-    "tags": [
-      "taxes",
-      "finance"
-    ]
-  },
-  {
-    "type": "pattern",
-    "content": "Darius frequently dines at Uchi, suggesting a pattern of treating himself or clients to meals.",
-    "source_refs": [
-      "t_0057",
-      "t_0060"
-    ],
-    "tags": [
-      "dining",
-      "client"
-    ]
-  },
-  {
-    "type": "unfinished",
-    "content": "Darius started writing a book but is struggling with the content, as evidenced by his self-doubt and work-in-progress.",
-    "source_refs": [
-      "e_0045",
-      "s_0032"
-    ],
-    "tags": [
-      "writing",
-      "career"
-    ]
-  },
-  {
-    "type": "empathy",
-    "content": "Darius is feeling the strain of balancing his business, family, and personal life, as shown by his therapist's observation.",
-    "source_refs": [
-      "ll_0136"
-    ],
-    "tags": [
-      "stress",
-      "family"
-    ]
-  },
-  {
-    "type": "learning",
-    "content": "Darius has successfully closed a significant contract with Varela Hospitality but is still facing challenges in cash flow management.",
+    "content": "Darius is experiencing a significant increase in business revenue, with the Varela Hospitality project being his biggest yet at $85k.",
     "source_refs": [
       "t_0057",
       "ll_0139"
     ],
     "tags": [
-      "business",
-      "finance"
+      "revenue_growth",
+      "client_acquisition"
     ]
   },
   {
     "type": "pattern",
-    "content": "Darius often works late into the night, as indicated by his Whoop recovery score and subsequent acknowledgment of the issue.",
+    "content": "Darius frequently dines out, spending around $128 on Uchi dinner twice in the span of a week.",
     "source_refs": [
-      "e_0046",
-      "s_0032"
+      "t_0058",
+      "t_0060"
     ],
     "tags": [
-      "work",
-      "health"
+      "dining_out",
+      "spending_habits"
+    ]
+  },
+  {
+    "type": "question",
+    "content": "Darius is questioning his approach to writing, feeling that the book he's working on is terrible but necessary.",
+    "source_refs": [
+      "e_0046",
+      "s_0033"
+    ],
+    "tags": [
+      "writing_dilemma",
+      "creative_block"
+    ]
+  },
+  {
+    "type": "urgent",
+    "content": "Darius needs to address his recovery alert from Whoop, as his HRV dropped significantly and he was advised to reduce activity.",
+    "source_refs": [
+      "e_0046"
+    ],
+    "tags": [
+      "health",
+      "wellness"
+    ]
+  },
+  {
+    "type": "unfinished",
+    "content": "Darius started working on a book proposal but is unsure about its quality, as evidenced by his statement that the 7,000 words are terrible.",
+    "source_refs": [
+      "e_0045",
+      "s_0033"
+    ],
+    "tags": [
+      "unfinished_projects",
+      "creative_work"
     ]
   },
   {
     "type": "learning",
-    "content": "Darius is making progress in coparenting, showing a shift from conflict to civil communication.",
+    "content": "Darius is realizing that being a creative professional and running a business are two distinct skill sets, as highlighted by his conversation with the accountant.",
+    "source_refs": [
+      "ll_0138"
+    ],
+    "tags": [
+      "business_skills",
+      "creative_professional"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Darius has multiple recurring expenses related to family and personal life, such as alimony/child support ($840) and dining out at Uchi ($128).",
+    "source_refs": [
+      "t_0060",
+      "t_0059"
+    ],
+    "tags": [
+      "recurring_expenses",
+      "family_finances"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Darius is making progress in his coparenting relationship, as evidenced by a civil conversation about the holiday schedule this year compared to last.",
     "source_refs": [
       "ll_0145"
     ],
@@ -1570,225 +1178,134 @@
   },
   {
     "type": "truth",
-    "content": "There's a clear divide between Darius and his children in terms of their interests, with Maya being engrossed in her phone while Eli enjoys outdoor activities.",
+    "content": "Darius's book writing is a recurring theme, with both challenges and progress noted over the period.",
     "source_refs": [
-      "ll_0137"
+      "s_0034",
+      "ll_0142",
+      "ll_0144"
     ],
     "tags": [
-      "family",
-      "divergent_interests"
+      "writing",
+      "creative"
     ]
   },
   {
-    "type": "pattern",
-    "content": "Darius consistently mentions financial issues, such as tax payments and QuickBooks subscriptions, indicating ongoing business challenges.",
+    "type": "urgent",
+    "content": "Darius needs to address his business's cash flow issues, as highlighted by the recurring QuickBooks payments and discussions with his accountant.",
     "source_refs": [
       "t_0061",
       "t_0062",
-      "f_0026",
       "t_0063"
     ],
     "tags": [
       "business",
-      "finance"
+      "finances"
     ]
   },
   {
-    "type": "unfinished",
-    "content": "Darius started outlining his book but hasn't completed the first chapter, indicating an ongoing creative project.",
+    "type": "pattern",
+    "content": "Darius's work schedule is consistent, with regular client kickoffs and meetings.",
+    "source_refs": [
+      "cal_0052",
+      "cal_0053",
+      "cal_0054"
+    ],
+    "tags": [
+      "work",
+      "schedule"
+    ]
+  },
+  {
+    "type": "question",
+    "content": "Darius is questioning whether he has a unique perspective on branding for founders, as indicated by his work on the book's first chapter.",
     "source_refs": [
       "ll_0144"
     ],
     "tags": [
       "writing",
-      "creative_project"
+      "outlining",
+      "branding",
+      "founders"
     ]
   },
   {
-    "type": "urgent",
-    "content": "There are multiple reminders about tax payments and financial obligations due soon, which require immediate attention.",
+    "type": "learning",
+    "content": "Darius has developed a more mature approach to handling emotional situations with his children, as seen in his response to Eli's question about missing the past living situation.",
+    "source_refs": [
+      "ll_0143"
+    ],
+    "tags": [
+      "emotional",
+      "parenting"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Darius frequently checks in with his accountant about tax and business matters, indicating a proactive approach to financial management.",
     "source_refs": [
       "e_0047",
       "e_0048"
     ],
     "tags": [
-      "taxes",
-      "finances"
+      "accountant",
+      "taxes"
     ]
   },
   {
     "type": "learning",
-    "content": "Darius is recognizing the difference between being creative and running a business, indicating growth in his understanding of entrepreneurship.",
-    "source_refs": [
-      "ll_0129"
-    ],
-    "tags": [
-      "career",
-      "entrepreneurship"
-    ]
-  },
-  {
-    "type": "learning",
-    "content": "Darius is making progress in coparenting, showing maturity and emotional growth despite the challenges.",
+    "content": "Darius is making progress in his divorce and coparenting, showing he can handle difficult conversations more maturely.",
     "source_refs": [
       "ll_0145",
       "ll_0148",
-      "ll_0149",
       "ll_0150"
     ],
     "tags": [
-      "coparenting",
-      "emotional_growth"
+      "divorce",
+      "coparenting"
     ]
   },
   {
     "type": "truth",
-    "content": "Darius spends a significant portion of his week in reactive tasks, which is impacting his leadership style.",
+    "content": "Darius is deeply invested in his work, as evidenced by the significant time and effort he dedicates to deep work and team engagement.",
     "source_refs": [
-      "ll_0147",
-      "ll_0149"
-    ],
-    "tags": [
-      "productivity",
-      "leadership"
-    ]
-  },
-  {
-    "type": "pattern",
-    "content": "Darius frequently checks in with his ex-partner regarding the kids' schedule, indicating ongoing co-parenting challenges.",
-    "source_refs": [
-      "ll_0145",
-      "e_0051",
-      "c_0008"
-    ],
-    "tags": [
-      "coparenting",
-      "divorce"
-    ]
-  },
-  {
-    "type": "unfinished",
-    "content": "Darius started outlining his book on brand strategy but hasn't completed it, indicating a cycle of starting projects without finishing them.",
-    "source_refs": [
-      "t_0063",
-      "ll_0144"
-    ],
-    "tags": [
-      "writing",
-      "brand_strategy"
-    ]
-  },
-  {
-    "type": "learning",
-    "content": "Darius is learning to balance his work and personal life, as seen in his team happy hour and recovery day.",
-    "source_refs": [
-      "ll_0147",
-      "cal_0056"
-    ],
-    "tags": [
-      "work_life_balance"
-    ]
-  },
-  {
-    "type": "urgent",
-    "content": "Darius needs to address the holiday schedule with his ex-partner, as seen in multiple entries.",
-    "source_refs": [
-      "ll_0143",
-      "e_0051"
-    ],
-    "tags": [
-      "coparenting",
-      "holidays"
-    ]
-  },
-  {
-    "type": "empathy",
-    "content": "Darius's emotional state is often tied to his relationship with his son, Eli, and the challenges of coparenting.",
-    "source_refs": [
-      "ll_0143",
-      "ll_0150"
-    ],
-    "tags": [
-      "emotional_state",
-      "fatherhood"
-    ]
-  },
-  {
-    "type": "learning",
-    "content": "Darius is gaining insights into his brand strategy through his interactions with clients and the AI assistant.",
-    "source_refs": [
-      "f_0029",
+      "ll_0146",
       "ll_0147"
     ],
     "tags": [
-      "brand_strategy",
-      "client_interactions"
-    ]
-  },
-  {
-    "type": "learning",
-    "content": "Darius is learning that his brand's pricing strategy should align with its positioning, as evidenced by the AI chat about raising prices.",
-    "source_refs": [
-      "c_0008"
-    ],
-    "tags": [
-      "business",
-      "pricing"
-    ]
-  },
-  {
-    "type": "pattern",
-    "content": "Darius experiences regular financial reminders for taxes and subscriptions, indicating a recurring need to manage finances carefully.",
-    "source_refs": [
-      "t_0067",
-      "t_0068",
-      "e_0053",
-      "e_0054"
-    ],
-    "tags": [
-      "business",
-      "finance"
-    ]
-  },
-  {
-    "type": "truth",
-    "content": "Darius has a pattern of working on major projects that span multiple days, such as the Varela Hospitality rebranding deliverable.",
-    "source_refs": [
-      "f_0029",
-      "f_0031"
-    ],
-    "tags": [
-      "business",
-      "project"
-    ]
-  },
-  {
-    "type": "unfinished",
-    "content": "Darius started working on Eli's soccer game photo but did not complete it, as evidenced by the file entry.",
-    "source_refs": [
-      "f_0030"
-    ],
-    "tags": [
-      "parenting",
-      "photography"
+      "work",
+      "productivity"
     ]
   },
   {
     "type": "urgent",
-    "content": "There is an urgent need to address Darius's recovery alert from Whoop, with a significant drop in HRV and recommended light activity.",
+    "content": "Darius needs to address his time management, as 38% of his week is reactive, which may impact his leadership effectiveness.",
     "source_refs": [
-      "e_0052"
+      "ll_0149"
     ],
     "tags": [
-      "health",
-      "recovery"
+      "leadership",
+      "productivity"
     ]
   },
   {
-    "type": "learning",
-    "content": "Darius is learning the importance of consistent writing time by scheduling 3 hours without interruptions for book writing.",
+    "type": "pattern",
+    "content": "Darius frequently checks in with his therapist and has regular meetings with his team, indicating a structured approach to mental health and professional development.",
     "source_refs": [
-      "t_0065"
+      "cal_0055",
+      "cal_0056",
+      "s_0036"
+    ],
+    "tags": [
+      "mental_health",
+      "team"
+    ]
+  },
+  {
+    "type": "unfinished",
+    "content": "Darius started outlining his book but is struggling with the quality of the initial content, indicating an ongoing challenge in creative writing.",
+    "source_refs": [
+      "t_0063",
+      "s_0035"
     ],
     "tags": [
       "writing",
@@ -1796,8 +1313,141 @@
     ]
   },
   {
+    "type": "empathy",
+    "content": "Darius and Eli's conversation about missing the past living situation highlights their emotional bond, despite the current changes.",
+    "source_refs": [
+      "ll_0143",
+      "ll_0150"
+    ],
+    "tags": [
+      "parenting",
+      "emotional"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Darius experiences recurring financial obligations and payments, including alimony/child support, payroll, and estimated taxes.",
+    "source_refs": [
+      "t_0065",
+      "t_0067",
+      "e_0054"
+    ],
+    "tags": [
+      "finances",
+      "obligations"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Darius is considering raising prices for his services, but he needs to ensure that his brand positioning supports it.",
+    "source_refs": [
+      "c_0008"
+    ],
+    "tags": [
+      "pricing",
+      "branding"
+    ]
+  },
+  {
     "type": "pattern",
-    "content": "There is a recurring pattern of Darius receiving emails about finances and taxes, indicating ongoing financial management tasks.",
+    "content": "There's a pattern of Darius working on rebranding projects, with multiple deliverables and milestones over the period.",
+    "source_refs": [
+      "f_0029",
+      "f_0031"
+    ],
+    "tags": [
+      "rebranding",
+      "projects"
+    ]
+  },
+  {
+    "type": "urgent",
+    "content": "Darius needs to address his health concerns, as evidenced by significant drops in HRV and recovery scores.",
+    "source_refs": [
+      "e_0052",
+      "s_0039"
+    ],
+    "tags": [
+      "health",
+      "recovery"
+    ]
+  },
+  {
+    "type": "unfinished",
+    "content": "Darius started a brand strategy book but has not yet completed it, as evidenced by his ongoing email exchanges about the project.",
+    "source_refs": [
+      "e_0053"
+    ],
+    "tags": [
+      "writing",
+      "uncompleted",
+      "career"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Darius values family and parenting, as shown by his involvement with his son Eli's soccer game and emotional reflections on divorce.",
+    "source_refs": [
+      "e_0051",
+      "ll_0150"
+    ],
+    "tags": [
+      "family",
+      "parenting"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Darius is learning to manage his time effectively, balancing business tasks with personal recovery days and therapy sessions.",
+    "source_refs": [
+      "cal_0058",
+      "cal_0059"
+    ],
+    "tags": [
+      "time_management",
+      "self_care"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "There's a pattern of Darius engaging in various business and personal activities, including client work, family obligations, and health-related tasks.",
+    "source_refs": [
+      "f_0029",
+      "e_0051",
+      "t_0065",
+      "cal_0058"
+    ],
+    "tags": [
+      "multitasking"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Darius is learning to manage his time effectively by scheduling recovery days and balancing work with family commitments.",
+    "source_refs": [
+      "s_0039",
+      "cal_0060"
+    ],
+    "tags": [
+      "health",
+      "recovery"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Darius's Peloton subscription is a consistent expense, indicating his commitment to health and fitness.",
+    "source_refs": [
+      "t_0068",
+      "t_0072"
+    ],
+    "tags": [
+      "health",
+      "fitness"
+    ]
+  },
+  {
+    "type": "urgent",
+    "content": "Darius needs to address the recurring reminder of Q2 estimated taxes due, which is a time-sensitive financial obligation.",
     "source_refs": [
       "e_0053",
       "e_0054",
@@ -1805,99 +1455,48 @@
     ],
     "tags": [
       "finances",
-      "taxes",
-      "business",
-      "finance"
-    ]
-  },
-  {
-    "type": "truth",
-    "content": "Darius's family life is a mix of business and personal responsibilities, as seen in the coparenting email about Thanksgiving.",
-    "source_refs": [
-      "e_0051"
-    ],
-    "tags": [
-      "coparenting",
-      "family"
-    ]
-  },
-  {
-    "type": "empathy",
-    "content": "Darius experiences emotional moments with his son Eli, such as discussing living arrangements and acknowledging mutual feelings of missing each other.",
-    "source_refs": [
-      "ll_0150"
-    ],
-    "tags": [
-      "parenting",
-      "emotions"
+      "taxes"
     ]
   },
   {
     "type": "learning",
-    "content": "Darius is expanding his professional brand through various activities, including writing a book and creating a speaker bio.",
+    "content": "Darius is developing his public speaking skills by preparing a speaker bio for conference submissions.",
     "source_refs": [
-      "e_0053",
-      "t_0069",
       "f_0032"
     ],
     "tags": [
       "career",
-      "brand"
-    ]
-  },
-  {
-    "type": "urgent",
-    "content": "Darius has multiple upcoming deadlines, including an accounting call and a client pitch, which require his immediate attention.",
-    "source_refs": [
-      "cal_0061",
-      "cal_0062",
-      "cal_0063"
-    ],
-    "tags": [
-      "business",
-      "client"
+      "public speaking"
     ]
   },
   {
     "type": "truth",
-    "content": "Darius's recovery scores are consistently low, indicating a pattern of physical strain and the need for better self-care.",
+    "content": "Darius's social media posts reflect his professional growth and the milestones achieved in his business, such as closing a significant contract.",
     "source_refs": [
-      "s_0039",
-      "t_0070"
-    ],
-    "tags": [
-      "health"
-    ]
-  },
-  {
-    "type": "unfinished",
-    "content": "Darius started writing a brand strategy book but hasn't completed it, as evidenced by his ongoing email exchanges.",
-    "source_refs": [
-      "e_0053",
       "s_0041"
     ],
     "tags": [
       "career",
-      "writing"
+      "branding"
     ]
   },
   {
-    "type": "empathy",
-    "content": "Darius is juggling multiple responsibilities, including work, family, and personal health, which can be overwhelming.",
+    "type": "learning",
+    "content": "Darius is learning to balance his personal life with professional commitments through regular family activities and client meetings.",
     "source_refs": [
       "cal_0062",
-      "s_0039"
+      "cal_0064"
     ],
     "tags": [
       "parenting",
-      "health"
+      "business"
     ]
   },
   {
     "type": "truth",
-    "content": "Darius's recovery days are crucial for his health and well-being, as he schedules them regularly.",
+    "content": "Darius experiences significant recovery strain, indicating a need for better work-life balance.",
     "source_refs": [
-      "cal_0065",
+      "e_0061",
       "cal_0067"
     ],
     "tags": [
@@ -1907,18 +1506,42 @@
   },
   {
     "type": "learning",
-    "content": "Darius has learned that building a brand is a long-term process, not something achieved in one sprint.",
+    "content": "Closing major contracts and managing team growth are key milestones in Darius's business development.",
     "source_refs": [
-      "s_0043"
+      "s_0041",
+      "cal_0065"
     ],
     "tags": [
-      "branding",
-      "growth"
+      "business",
+      "milestone"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Darius has a recurring pattern of recovery days on specific calendar dates, suggesting a need for regular rest.",
+    "source_refs": [
+      "cal_0067",
+      "cal_0069"
+    ],
+    "tags": [
+      "health",
+      "recovery"
+    ]
+  },
+  {
+    "type": "unfinished",
+    "content": "Darius started the brand guidelines document but did not complete it, indicating ongoing work.",
+    "source_refs": [
+      "f_0034"
+    ],
+    "tags": [
+      "business",
+      "design"
     ]
   },
   {
     "type": "urgent",
-    "content": "Darius needs to address his health concerns as indicated by the significant drop in HRV, which requires light activity only.",
+    "content": "Health data alerts from Whoop indicate Darius needs to take immediate action to manage recovery strain.",
     "source_refs": [
       "e_0061"
     ],
@@ -1928,203 +1551,122 @@
     ]
   },
   {
-    "type": "pattern",
-    "content": "Darius's financial milestones and client payments are closely linked to his team\u2019s achievements and new contracts, such as the $85k Varela Hospitality rebrand.",
-    "source_refs": [
-      "t_0071",
-      "e_0060"
-    ],
-    "tags": [
-      "business",
-      "revenue"
-    ]
-  },
-  {
-    "type": "unfinished",
-    "content": "Darius started the process of closing a significant contract with Varela Hospitality, but details of the project are yet to be shared with his team.",
-    "source_refs": [
-      "e_0059"
-    ],
-    "tags": [
-      "business",
-      "team"
-    ]
-  },
-  {
-    "type": "empathy",
-    "content": "Darius is a single dad who spends quality time with his children, such as making pancakes for dinner and attending Eli's school play.",
-    "source_refs": [
-      "s_0042",
-      "cal_0068"
-    ],
-    "tags": [
-      "parenting",
-      "family"
-    ]
-  },
-  {
-    "type": "learning",
-    "content": "Darius has improved his business operations by implementing a brand guidelines document, which will help maintain consistency in the agency's work.",
-    "source_refs": [
-      "f_0034"
-    ],
-    "tags": [
-      "business",
-      "branding"
-    ]
-  },
-  {
     "type": "truth",
-    "content": "Darius's social media presence and professional network are interconnected, as seen through his LinkedIn interactions and client contract announcements.",
+    "content": "Closing major contracts and managing team growth are key milestones in Darius's business development, showing steady progress.",
     "source_refs": [
       "s_0041",
       "e_0060"
     ],
     "tags": [
-      "social",
-      "business"
+      "business",
+      "milestone"
     ]
   },
   {
-    "type": "truth",
-    "content": "Darius's business growth is steady, with multiple milestones and contracts closed.",
-    "sourceRefs": [
-      "e_0060",
-      "t_0075",
-      "s_0044",
-      "cal_0072"
-    ],
-    "tags": [
-      "business",
-      "milestone"
-    ],
-    "source_refs": []
-  },
-  {
     "type": "learning",
-    "content": "Darius is expanding his professional horizons by writing a book on brand strategy.",
-    "sourceRefs": [
-      "e_0063",
-      "f_0036"
-    ],
-    "tags": [
-      "career",
-      "writing"
-    ],
-    "source_refs": []
-  },
-  {
-    "type": "pattern",
-    "content": "There's a recurring theme of Eli's school plays in Darius's calendar, indicating his active involvement as a parent.",
-    "sourceRefs": [
-      "cal_0068",
-      "cal_0073"
+    "content": "Darius is learning to balance family and work responsibilities as a single parent, valuing quality time with his children.",
+    "source_refs": [
+      "s_0042"
     ],
     "tags": [
       "parenting",
       "family"
-    ],
-    "source_refs": []
+    ]
   },
   {
-    "type": "unfinished",
-    "content": "Darius started the book proposal inquiry but didn't follow up on it, possibly due to other commitments.",
-    "sourceRefs": [
-      "e_0062",
+    "type": "truth",
+    "content": "Darius's business is experiencing significant milestones and growth, including closing major contracts.",
+    "source_refs": [
+      "e_0061",
+      "t_0075",
+      "s_0044",
+      "s_0045"
+    ],
+    "tags": [
+      "business",
+      "milestone"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Darius is expanding his professional portfolio by writing a book on brand strategy.",
+    "source_refs": [
+      "e_0063",
       "e_0064"
     ],
     "tags": [
-      "writing",
-      "career"
+      "career",
+      "writing"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Darius's work schedule is consistently busy, with frequent client meetings and team calls.",
+    "source_refs": [
+      "cal_0069",
+      "cal_0070",
+      "cal_0071",
+      "cal_0072"
     ],
-    "source_refs": []
+    "tags": [
+      "business",
+      "work"
+    ]
+  },
+  {
+    "type": "empathy",
+    "content": "Darius is juggling the demands of his business with family responsibilities, particularly as a single parent.",
+    "source_refs": [
+      "f_0035",
+      "cal_0068",
+      "s_0046"
+    ],
+    "tags": [
+      "parenting",
+      "family"
+    ]
   },
   {
     "type": "urgent",
-    "content": "Darius needs to pay attention to his health as indicated by the significant drop in HRV and upcoming tax due date.",
-    "sourceRefs": [
+    "content": "Darius needs to manage his recovery and health due to the strain from recent work.",
+    "source_refs": [
       "e_0061",
       "t_0078"
     ],
     "tags": [
       "health",
-      "finances"
-    ],
-    "source_refs": []
-  },
-  {
-    "type": "empathy",
-    "content": "Darius is juggling multiple responsibilities, showing his dedication to both family and business.",
-    "sourceRefs": [
-      "cal_0068",
-      "f_0035",
-      "s_0046"
-    ],
-    "tags": [
-      "personal",
-      "family"
-    ],
-    "source_refs": []
-  },
-  {
-    "type": "truth",
-    "content": "Darius's financial management is robust, with regular payments to his accountant and business expenses.",
-    "sourceRefs": [
-      "t_0076",
-      "t_0078",
-      "cal_0070"
-    ],
-    "tags": [
-      "business",
-      "finances"
-    ],
-    "source_refs": []
-  },
-  {
-    "type": "learning",
-    "content": "Darius is building a strong team culture, as evidenced by his gratitude posts on LinkedIn.",
-    "sourceRefs": [
-      "s_0044",
-      "s_0045"
-    ],
-    "tags": [
-      "team",
-      "culture"
-    ],
-    "source_refs": []
-  },
-  {
-    "type": "learning",
-    "content": "Darius is refining his understanding of brand strategy, evident from his writing and reflection on the topic.",
-    "source_refs": [
-      "s_0048",
-      "e_0064"
-    ],
-    "tags": [
-      "brandstrategy",
-      "thoughtleadership",
-      "writing"
+      "work"
     ]
   },
   {
     "type": "truth",
-    "content": "Darius has a recurring monthly expense of $189 for his health tracking device Whoop.",
+    "content": "Darius is consistently spending time on his personal and professional growth, including writing a book and attending team meetings.",
     "source_refs": [
-      "t_0078",
-      "t_0079",
-      "t_0080",
-      "t_0081"
+      "f_0037",
+      "cal_0074"
     ],
     "tags": [
-      "health",
-      "subscriptions"
+      "writing",
+      "career"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Darius is developing his brand strategy expertise, as evidenced by the social media post about what brands truly are.",
+    "source_refs": [
+      "s_0048"
+    ],
+    "tags": [
+      "brandstrategy",
+      "thoughtleadership"
     ]
   },
   {
     "type": "urgent",
-    "content": "Darius needs to address his recovery score, which has been consistently low and is a concern.",
+    "content": "Darius needs to address his recovery score and schedule a meeting with the Whoop coach, as he has had three consecutive payments for health tracking services.",
     "source_refs": [
-      "s_0047",
+      "t_0079",
+      "t_0080",
       "t_0081"
     ],
     "tags": [
@@ -2133,50 +1675,117 @@
     ]
   },
   {
-    "type": "pattern",
-    "content": "Darius frequently mentions his family obligations, indicating they are a significant part of his life.",
-    "source_refs": [
-      "cal_0073",
-      "s_0046",
-      "cal_0075",
-      "cal_0076"
-    ],
-    "tags": [
-      "family",
-      "parenting"
-    ]
-  },
-  {
     "type": "unfinished",
-    "content": "Darius started writing a chapter for his book but hasn't completed it, as seen in the draft file.",
+    "content": "Darius started writing a chapter for his book but did not complete it, as seen in the draft file.",
     "source_refs": [
       "f_0037"
     ],
     "tags": [
       "writing",
-      "book"
+      "brandstrategy"
     ]
   },
   {
     "type": "pattern",
-    "content": "Darius has a consistent pattern of working late, as evidenced by his calendar entries.",
+    "content": "There is a pattern of Darius spending significant time on business and family commitments, with both areas requiring his attention almost every week.",
     "source_refs": [
       "cal_0072",
+      "cal_0073",
       "cal_0074",
+      "cal_0075",
       "cal_0076"
     ],
     "tags": [
-      "work",
+      "business",
+      "family"
+    ]
+  },
+  {
+    "type": "question",
+    "content": "Darius is inquiring about the publisher's interest in his book proposal, but has not received a response yet.",
+    "source_refs": [
+      "e_0064",
+      "e_0065"
+    ],
+    "tags": [
+      "writing",
       "career"
     ]
   },
   {
-    "type": "learning",
-    "content": "Darius is expanding his business through client payments, as seen in the revenue entry.",
+    "type": "truth",
+    "content": "Darius's financial obligations are significant, with recurring alimony/child support payments.",
     "source_refs": [
-      "t_0082",
-      "t_0083",
-      "t_0079"
+      "e_0067",
+      "t_0083"
+    ],
+    "tags": [
+      "finances",
+      "alimony"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Darius is developing his brand strategy expertise, evidenced by multiple LinkedIn posts on the topic.",
+    "source_refs": [
+      "s_0048",
+      "s_0050"
+    ],
+    "tags": [
+      "brand_strategy",
+      "thought_leadership"
+    ]
+  },
+  {
+    "type": "urgent",
+    "content": "Darius needs to prepare for Q2 estimated taxes due on June 15.",
+    "source_refs": [
+      "e_0068"
+    ],
+    "tags": [
+      "taxes"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "There is a recurring pattern of Darius picking up his kids from art class, with entries spanning multiple dates.",
+    "source_refs": [
+      "e_0070",
+      "e_0071"
+    ],
+    "tags": [
+      "parenting",
+      "art_class"
+    ]
+  },
+  {
+    "type": "unfinished",
+    "content": "Darius started writing a book but is struggling with the content, as evidenced by his social media post.",
+    "source_refs": [
+      "s_0049"
+    ],
+    "tags": [
+      "writing",
+      "creative_block"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Darius is expanding his business operations, as seen in the new hire onboarding and milestone client payment.",
+    "source_refs": [
+      "cal_0078",
+      "t_0087"
+    ],
+    "tags": [
+      "business_expansion"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Darius is consistently working on client projects and closing significant deals.",
+    "source_refs": [
+      "t_0087",
+      "t_0090"
     ],
     "tags": [
       "business",
@@ -2185,119 +1794,18 @@
   },
   {
     "type": "learning",
-    "content": "Darius is refining his understanding of brand strategy, emphasizing the emotional impact over visual elements.",
+    "content": "Darius has developed a routine of checking his recovery data to adjust his activities accordingly.",
     "source_refs": [
-      "s_0048",
-      "s_0050"
+      "e_0073"
     ],
     "tags": [
-      "brandstrategy"
-    ]
-  },
-  {
-    "type": "pattern",
-    "content": "There's a recurring pattern of alimony/child support payments on the same day each month, indicating a regular financial commitment.",
-    "source_refs": [
-      "t_0083",
-      "t_0086"
-    ],
-    "tags": [
-      "finances"
-    ]
-  },
-  {
-    "type": "truth",
-    "content": "Darius has ongoing legal and personal obligations related to his ex-partner, including custody schedules and financial support.",
-    "source_refs": [
-      "f_0039",
-      "cal_0076",
-      "e_0067"
-    ],
-    "tags": [
-      "family"
+      "health",
+      "wellness"
     ]
   },
   {
     "type": "urgent",
-    "content": "Darius needs to prepare for Q2 estimated tax payments by June 15, as reminded in the email from his accountant.",
-    "source_refs": [
-      "e_0068",
-      "t_0084"
-    ],
-    "tags": [
-      "taxes"
-    ]
-  },
-  {
-    "type": "unfinished",
-    "content": "Darius has started writing a book but is struggling with the content, as evidenced by his self-doubt and comments about the quality of his work.",
-    "source_refs": [
-      "s_0049"
-    ],
-    "tags": [
-      "writing"
-    ]
-  },
-  {
-    "type": "learning",
-    "content": "Darius is expanding his professional network through emails to publishers and clients, indicating a focus on career growth.",
-    "source_refs": [
-      "e_0069",
-      "e_0071"
-    ],
-    "tags": [
-      "career"
-    ]
-  },
-  {
-    "type": "pattern",
-    "content": "Darius has multiple recurring meetings with his team, including an all-hands meeting and a new hire onboarding session.",
-    "source_refs": [
-      "cal_0077",
-      "cal_0078"
-    ],
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "type": "learning",
-    "content": "Darius is investing in his agency's brand system, creating detailed guidelines for visual and verbal branding elements.",
-    "source_refs": [
-      "f_0040"
-    ],
-    "tags": [
-      "brandstrategy"
-    ]
-  },
-  {
-    "type": "truth",
-    "content": "Darius has a recurring payment of $6,200 for payroll every month.",
-    "source_refs": [
-      "t_0093",
-      "t_0094"
-    ],
-    "tags": [
-      "business",
-      "finances"
-    ]
-  },
-  {
-    "type": "learning",
-    "content": "Darius is actively working on a book proposal, showing his commitment to career growth.",
-    "source_refs": [
-      "e_0074",
-      "t_0091",
-      "e_0078"
-    ],
-    "tags": [
-      "writing",
-      "career"
-    ]
-  },
-  {
-    "type": "urgent",
-    "content": "Darius needs to pay his Q2 estimated taxes by June 15, as reminded in an email from his accountant.",
+    "content": "Darius needs to address upcoming tax payments due on June 15th.",
     "source_refs": [
       "e_0076"
     ],
@@ -2307,49 +1815,23 @@
     ]
   },
   {
-    "type": "pattern",
-    "content": "Darius frequently confirms and schedules Maya's art class on Tuesdays afternoons, indicating a regular routine for his daughter.",
-    "source_refs": [
-      "e_0071",
-      "e_0077"
-    ],
-    "tags": [
-      "parenting",
-      "family"
-    ]
-  },
-  {
     "type": "unfinished",
-    "content": "Darius started working on the Varela Hospitality rebrand but hasn't completed it, as evidenced by multiple client payments.",
+    "content": "Darius has multiple ongoing inquiries for his book proposal but hasn't received a response.",
     "source_refs": [
-      "t_0087",
-      "e_0072",
-      "t_0090"
+      "e_0074",
+      "e_0075",
+      "e_0078"
     ],
     "tags": [
-      "business",
-      "rebrand",
-      "revenue"
-    ]
-  },
-  {
-    "type": "learning",
-    "content": "Darius is taking steps to improve his recovery, as seen in the Whoop alert and calendar entries.",
-    "source_refs": [
-      "e_0073",
-      "cal_0080"
-    ],
-    "tags": [
-      "health",
-      "recovery"
+      "writing",
+      "career"
     ]
   },
   {
     "type": "pattern",
-    "content": "Darius frequently mentions client meetings, indicating a busy schedule focused on business growth.",
+    "content": "Darius frequently works on client projects and attends meetings with clients, often involving travel.",
     "source_refs": [
-      "cal_0079",
-      "e_0072",
+      "cal_0078",
       "cal_0080"
     ],
     "tags": [
@@ -2358,129 +1840,115 @@
     ]
   },
   {
-    "type": "pattern",
-    "content": "Darius has a regular monthly payment of $6,200 for payroll, which suggests he is managing a business with consistent employee compensation.",
+    "type": "unfinished",
+    "content": "Darius started a new art class for his daughter Maya but hasn't completed it yet.",
+    "source_refs": [
+      "e_0071",
+      "e_0074",
+      "e_0077"
+    ],
+    "tags": [
+      "family",
+      "parenting"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Darius has learned to manage his time by scheduling recovery days and reducing work before these times.",
+    "source_refs": [
+      "cal_0079"
+    ],
+    "tags": [
+      "health",
+      "productivity"
+    ]
+  },
+  {
+    "type": "unfinished",
+    "content": "Darius started writing a book but has not completed it, as evidenced by the ongoing email communication about the proposal.",
+    "source_refs": [
+      "e_0078"
+    ],
+    "tags": [
+      "career",
+      "writing"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Darius has a consistent payroll expense of $6,200 every month, indicating regular business operations.",
     "source_refs": [
       "t_0093",
       "t_0094",
       "t_0095",
-      "t_0100",
-      "t_0101",
-      "t_0102",
-      "t_0103",
-      "t_0104",
-      "t_0105",
-      "t_0106"
-    ],
-    "tags": []
-  },
-  {
-    "type": "learning",
-    "content": "Darius is actively working on his career by inquiring about a book proposal, indicating he is looking to grow as an author.",
-    "source_refs": [
-      "e_0078"
-    ],
-    "tags": []
-  },
-  {
-    "type": "truth",
-    "content": "Darius has a recurring monthly expense of $2,800 for mortgage/rent and alimony/child support, which represents significant financial commitments.",
-    "source_refs": [
-      "t_0092",
       "t_0096",
-      "t_0101"
+      "t_0097",
+      "t_0100",
+      "t_0102",
+      "t_0105"
     ],
-    "tags": []
+    "tags": [
+      "business",
+      "finances"
+    ]
   },
   {
-    "type": "urgent",
-    "content": "Darius needs to make a Q2 estimated tax payment by June 15, as reminded by his accountant.",
+    "type": "pattern",
+    "content": "Darius receives quarterly reminders from his accountant about estimated tax payments, suggesting a regular financial review process.",
     "source_refs": [
-      "e_0079"
-    ],
-    "tags": []
-  },
-  {
-    "type": "unfinished",
-    "content": "Darius started working on a brand strategy book but hasn't completed it yet, as evidenced by the ongoing email thread.",
-    "source_refs": [
-      "e_0078",
+      "e_0079",
       "t_0106"
     ],
-    "tags": []
+    "tags": [
+      "taxes",
+      "finances"
+    ]
   },
   {
     "type": "pattern",
-    "content": "Darius has a consistent subscription to Peloton for health and fitness, indicating his commitment to maintaining physical well-being.",
+    "content": "Darius has a recurring monthly expense of $94.00 for QuickBooks, indicating ongoing business management.",
     "source_refs": [
-      "t_0096"
-    ],
-    "tags": []
-  },
-  {
-    "type": "empathy",
-    "content": "Darius is dealing with the complexities of coparenting as seen in the email about Thanksgiving schedules.",
-    "source_refs": [
-      "e_0080"
-    ],
-    "tags": []
-  },
-  {
-    "type": "pattern",
-    "content": "Darius has a recurring monthly expense of $94.00 for QuickBooks, indicating he is likely managing his business finances regularly.",
-    "source_refs": [
+      "t_0102",
       "t_0103",
       "t_0104"
     ],
     "tags": [
       "business",
-      "finance"
-    ]
-  },
-  {
-    "type": "learning",
-    "content": "Darius has been consistently spending on team lunches, which could be a strategy to boost morale or maintain relationships within his business.",
-    "source_refs": [
-      "t_0112",
-      "t_0114",
-      "t_0116"
-    ],
-    "tags": [
-      "business",
-      "team"
+      "finances"
     ]
   },
   {
     "type": "urgent",
-    "content": "The recurring payroll expenses of $6,200.00 every two months are time-sensitive and require regular attention to ensure accuracy.",
+    "content": "Darius needs to pay his alimony/child support by July 1st, as evidenced by the recent bank transaction.",
     "source_refs": [
-      "t_0105",
-      "t_0118",
-      "t_0119"
+      "t_0107"
     ],
     "tags": [
-      "business",
-      "automation",
-      "payroll",
-      "finance"
-    ]
-  },
-  {
-    "type": "learning",
-    "content": "Darius's regular spending on health subscriptions ($22.00 and $189.00) indicates a commitment to his well-being, possibly influenced by the Peloton subscription.",
-    "source_refs": [
-      "t_0110",
-      "t_0111",
-      "t_0117"
-    ],
-    "tags": [
-      "health"
+      "family",
+      "finances"
     ]
   },
   {
     "type": "pattern",
-    "content": "Darius's spending on office supplies ($45.00) is consistent, suggesting he prioritizes maintaining his business environment.",
+    "content": "Darius has a recurring monthly expense of $2,800 for mortgage/rent and dining out, indicating regular personal and business commitments.",
     "source_refs": [
+      "t_0093",
+      "t_0095",
+      "t_0101",
+      "t_0107"
+    ],
+    "tags": [
+      "housing",
+      "dining"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Darius has a consistent monthly spending pattern of $240.00 on team lunches, suggesting regular team events.",
+    "source_refs": [
+      "t_0112",
+      "t_0114",
+      "t_0116",
       "t_0109",
       "t_0115"
     ],
@@ -2489,24 +1957,53 @@
     ]
   },
   {
-    "type": "pattern",
-    "content": "Darius's mortgage/rent payments are consistent at $2,800.00, indicating a stable housing situation.",
+    "type": "unfinished",
+    "content": "Darius started a Peloton subscription but did not mention discontinuing it, indicating an ongoing commitment.",
     "source_refs": [
-      "t_0113"
+      "t_0110",
+      "t_0118",
+      "t_0117"
     ],
     "tags": [
-      "housing"
+      "health"
+    ]
+  },
+  {
+    "type": "urgent",
+    "content": "Darius has multiple payroll expenses of $6,200.00 every month, which require regular attention.",
+    "source_refs": [
+      "t_0105",
+      "t_0113",
+      "t_0118",
+      "t_0119"
+    ],
+    "tags": [
+      "business"
+    ]
+  },
+  {
+    "type": "unfinished",
+    "content": "The irregularity in the payment amount ($6,200 vs $2,800) suggests an unfinished or interrupted business cycle.",
+    "source_refs": [
+      "t_0118",
+      "t_0119",
+      "t_0120"
+    ],
+    "tags": [
+      "payroll",
+      "business",
+      "finances"
     ]
   },
   {
     "type": "learning",
-    "content": "Darius is managing his business finances more proactively by consulting with an accountant quarterly.",
+    "content": "Darius is engaging with a quarterly accountant to manage his business finances, indicating a commitment to financial oversight.",
     "source_refs": [
       "t_0120"
     ],
     "tags": [
-      "business",
-      "finance"
+      "accountant",
+      "financial management"
     ]
   }
 ]

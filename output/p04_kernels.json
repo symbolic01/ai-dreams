@@ -1,7 +1,7 @@
 [
   {
     "type": "learning",
-    "content": "Sunita is effectively using AI to enhance her teaching, creating lesson plans and finding it surprisingly helpful.",
+    "content": "Sunita is effectively integrating AI into her teaching, finding it helpful for lesson planning.",
     "source_refs": [
       "c_0001",
       "s_0001",
@@ -13,171 +13,140 @@
     ]
   },
   {
-    "type": "truth",
-    "content": "Sunita's AP Chemistry students consistently perform well, with 35 passing and 11 scoring a 5.",
+    "type": "learning",
+    "content": "Sunita is leveraging AI tools for administrative tasks, demonstrating adaptability in integrating technology into her workflow.",
     "source_refs": [
-      "ll_0001",
-      "s_0002"
+      "t_0006",
+      "ll_0008"
     ],
     "tags": [
+      "AI",
+      "productivity",
       "teaching",
-      "performance"
+      "efficiency"
     ]
   },
   {
-    "type": "urgent",
-    "content": "Sunita needs to manage her health expenses, with recurring pharmacy visits.",
+    "type": "truth",
+    "content": "Sunita's teaching career spans 22 years, and she remains passionate about her role despite the passage of time.",
     "source_refs": [
-      "t_0001",
-      "t_0003",
-      "t_0004"
+      "s_0003"
     ],
     "tags": [
-      "health"
+      "career",
+      "passion"
     ]
   },
   {
     "type": "pattern",
-    "content": "Sunita frequently checks in on her family members, especially during significant life events.",
+    "content": "Sunita regularly spends quality time with her sister via phone calls, which helps maintain their long-distance relationship despite the time difference.",
     "source_refs": [
-      "e_0001",
       "ll_0003",
-      "ll_0004"
+      "ll_0006"
     ],
     "tags": [
-      "family"
-    ]
-  },
-  {
-    "type": "empathy",
-    "content": "Sunita is concerned about her son's job situation and wants to support him without overstepping.",
-    "source_refs": [
-      "c_0002"
-    ],
-    "tags": [
-      "parenting",
-      "support"
+      "family",
+      "long_distance",
+      "communication"
     ]
   },
   {
     "type": "learning",
-    "content": "Sunita is effectively using AI tools for educational advocacy and letter drafting, showing adaptability in technology integration.",
+    "content": "Sunita is attending professional development sessions on AI in education, indicating a commitment to staying current with technological advancements.",
     "source_refs": [
-      "t_0004",
-      "e_0005",
-      "ll_0007",
-      "t_0006",
-      "t_0007",
       "cal_0006"
     ],
     "tags": [
-      "ai_use",
-      "teaching",
-      "advocacy"
+      "professional_development",
+      "AI"
     ]
   },
   {
     "type": "truth",
-    "content": "Sunita's family calls are a regular and important part of her life, despite the time difference.",
+    "content": "Sunita's family values tradition and heritage as evidenced by the Diwali photo taken in 2024.",
     "source_refs": [
-      "ll_0003",
-      "ll_0004",
-      "ll_0005",
-      "ll_0006"
+      "f_0003"
     ],
     "tags": [
       "family",
-      "relationships"
-    ]
-  },
-  {
-    "type": "pattern",
-    "content": "Sunita frequently calls her sister and spends significant time on these calls, indicating a strong familial bond.",
-    "source_refs": [
-      "ll_0003",
-      "ll_0006"
-    ],
-    "tags": [
-      "family",
-      "relationships"
+      "traditions"
     ]
   },
   {
     "type": "learning",
-    "content": "Sunita is actively researching travel itineraries and planning for the future, showing forward-thinking behavior.",
+    "content": "Sunita is actively involved in her community, advocating for resources and materials needed for her students' success.",
     "source_refs": [
-      "ll_0005",
-      "f_0003"
+      "e_0004",
+      "e_0005"
     ],
     "tags": [
-      "travel",
-      "planning"
+      "advocacy",
+      "resources"
     ]
   },
   {
     "type": "truth",
-    "content": "Sunita's AP Chemistry students consistently perform well, with a 74% pass rate and several achieving the highest score.",
+    "content": "Sunita's AP Chemistry students have achieved a high pass rate, with 35 passing and 11 scoring a perfect 5.",
     "source_refs": [
       "s_0003",
       "e_0006"
     ],
     "tags": [
       "teaching",
-      "students"
+      "success"
     ]
   },
   {
     "type": "unfinished",
-    "content": "Sunita started researching Japan itineraries but did not complete the planning, as evidenced by printing out pages of research.",
+    "content": "Sunita started researching Japan itineraries but did not complete the planning, indicating an interrupted project.",
     "source_refs": [
       "ll_0005"
     ],
     "tags": [
       "travel",
-      "planning"
-    ]
-  },
-  {
-    "type": "learning",
-    "content": "Sunita is leveraging technology for professional development and improving her teaching methods through AI tools.",
-    "source_refs": [
-      "cal_0006"
-    ],
-    "tags": [
-      "technology",
-      "teaching"
-    ]
-  },
-  {
-    "type": "learning",
-    "content": "Sunita is effectively using AI tools for teaching and lesson planning, showing growth in tech integration skills.",
-    "source_refs": [
-      "ll_0008",
-      "t_0006",
-      "s_0004"
-    ],
-    "tags": [
-      "teaching",
-      "AI_use"
-    ]
-  },
-  {
-    "type": "learning",
-    "content": "Sunita is expanding her knowledge of AI tools, as seen in her use of ChatGPT for lesson planning.",
-    "source_refs": [
-      "ll_0015",
-      "s_0007",
-      "f_0005"
-    ],
-    "tags": [
-      "teaching",
-      "technology",
-      "ai_use"
+      "research"
     ]
   },
   {
     "type": "truth",
-    "content": "Sunita's teaching career spans 22 years, and she remains passionate about chemistry.",
+    "content": "Sunita experiences regular health insurance copays, indicating ongoing healthcare needs.",
+    "source_refs": [
+      "t_0006",
+      "t_0008",
+      "t_0009",
+      "t_0010"
+    ],
+    "tags": [
+      "health"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Sunita is integrating AI into her teaching, showing a willingness to adapt and use new technologies.",
+    "source_refs": [
+      "ll_0008",
+      "s_0004",
+      "t_0010"
+    ],
+    "tags": [
+      "teaching",
+      "technology"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Sunita frequently books trips, indicating a strong desire for travel and exploration.",
+    "source_refs": [
+      "ll_0011",
+      "ll_0012"
+    ],
+    "tags": [
+      "travel"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Sunita finds joy in her teaching career, continuing to be excited about chemistry despite 22 years of experience.",
     "source_refs": [
       "s_0005",
       "s_0006"
@@ -188,65 +157,59 @@
     ]
   },
   {
-    "type": "pattern",
-    "content": "Sunita dedicates early mornings to teaching-related tasks before the household wakes up, indicating a structured routine.",
+    "type": "unfinished",
+    "content": "Sunita started a lab materials request but did not complete the email, suggesting an ongoing task.",
     "source_refs": [
-      "ll_0018",
-      "cal_0012"
+      "e_0007"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Sunita is integrating AI into her teaching, finding it surprisingly helpful despite initial hesitation.",
+    "source_refs": [
+      "f_0005",
+      "s_0007"
     ],
     "tags": [
       "teaching",
-      "work",
-      "morning_routine"
+      "AI"
     ]
   },
   {
     "type": "urgent",
-    "content": "Sunita has multiple upcoming financial obligations, including mortgage payments and physical therapy sessions.",
+    "content": "Sunita has ongoing physical therapy appointments, indicating a health concern that requires attention.",
     "source_refs": [
       "t_0010",
       "t_0012",
       "t_0013"
     ],
     "tags": [
-      "finances",
       "health"
     ]
   },
   {
-    "type": "unfinished",
-    "content": "Sunita has started planning a trip to Portugal but hasn't completed the travel itinerary.",
+    "type": "pattern",
+    "content": "Sunita frequently engages in morning routines involving coffee and correcting lab reports before 7am.",
     "source_refs": [
-      "ll_0012",
-      "ll_0013"
+      "ll_0018"
     ],
     "tags": [
-      "travel",
-      "planning"
+      "morning_routine",
+      "work"
     ]
   },
   {
     "type": "empathy",
-    "content": "Sunita's parent-teacher conferences are emotionally rewarding, as evidenced by the positive feedback from parents.",
+    "content": "Sunita values family relationships, spending significant time on calls with her sister despite the time difference.",
     "source_refs": [
-      "cal_0010",
-      "ll_0014"
-    ],
-    "tags": [
-      "teaching",
-      "community"
-    ]
-  },
-  {
-    "type": "pattern",
-    "content": "Sunita's weekends are dedicated to both personal and professional activities, including researching travel itineraries and grading lab reports.",
-    "source_refs": [
-      "ll_0013",
       "ll_0016"
     ],
     "tags": [
-      "teaching",
-      "weekend"
+      "family",
+      "relationships"
     ]
   },
   {
@@ -264,10 +227,44 @@
   },
   {
     "type": "truth",
-    "content": "Sunita values her family deeply, as evidenced by her financial support and emotional encouragement.",
+    "content": "Sunita's teaching has a significant positive impact on her students, as evidenced by their exam results.",
+    "source_refs": [
+      "ll_0022"
+    ],
+    "tags": [
+      "education",
+      "students"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Sunita frequently uses the morning before waking others to complete tasks that require focused thinking.",
+    "source_refs": [
+      "ll_0017",
+      "ll_0018"
+    ],
+    "tags": [
+      "morning routine",
+      "productivity"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Sunita is actively planning for her retirement, showing a proactive approach to financial security.",
+    "source_refs": [
+      "e_0011"
+    ],
+    "tags": [
+      "retirement",
+      "finances"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Sunita frequently checks in on family members and supports them emotionally, as seen with her interaction with Rohan.",
     "source_refs": [
       "e_0009",
-      "ll_0021"
+      "ll_0019"
     ],
     "tags": [
       "family",
@@ -275,33 +272,47 @@
     ]
   },
   {
-    "type": "urgent",
-    "content": "Sunita needs to address her physical therapy expenses, which are recurring and growing.",
+    "type": "learning",
+    "content": "Sunita is balancing multiple responsibilities, including teaching, family support, and personal goals.",
     "source_refs": [
-      "t_0013"
+      "ll_0018",
+      "e_0009",
+      "s_0007"
     ],
     "tags": [
-      "health",
-      "finances"
+      "work-life balance"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Sunita values her family deeply, as evidenced by the care and support she provides.",
+    "source_refs": [
+      "ll_0020",
+      "e_0009"
+    ],
+    "tags": [
+      "family",
+      "empathy"
     ]
   },
   {
     "type": "learning",
-    "content": "Sunita is using her weekends for personal and professional development, such as researching travel itineraries and planning curriculum.",
+    "content": "Sunita is finding AI tools, particularly ChatGPT, increasingly useful for lesson planning.",
     "source_refs": [
-      "ll_0017",
-      "cal_0013"
+      "s_0009",
+      "ll_0023"
     ],
     "tags": [
-      "planning",
-      "travel"
+      "teaching",
+      "technology"
     ]
   },
   {
-    "type": "learning",
-    "content": "Sunita is proud of her students' achievements, as shown by the celebration of their AP Chemistry exam results.",
+    "type": "truth",
+    "content": "Sunita's AP Chemistry class has a strong performance, with 35 students passing and an average of 3.6.",
     "source_refs": [
-      "ll_0022"
+      "ll_0022",
+      "e_0013"
     ],
     "tags": [
       "teaching",
@@ -309,46 +320,22 @@
     ]
   },
   {
-    "type": "truth",
-    "content": "Sunita's AP Chemistry class consistently performs well, with 35 students passing the exam and an average class score of 3.6.",
-    "source_refs": [
-      "ll_0022",
-      "e_0013"
-    ],
-    "tags": [
-      "teaching",
-      "performance"
-    ]
-  },
-  {
-    "type": "learning",
-    "content": "Sunita is increasingly finding AI tools helpful for lesson planning, though she still needs to refine her process.",
-    "source_refs": [
-      "s_0010",
-      "ll_0025"
-    ],
-    "tags": [
-      "technology",
-      "teaching"
-    ]
-  },
-  {
     "type": "urgent",
-    "content": "Sunita and Venkat are concerned about their retirement savings, as they are behind where expected.",
+    "content": "Sunita and Venkat are concerned about their retirement savings being behind schedule, which has caused them anxiety.",
     "source_refs": [
-      "ll_0023",
-      "ll_0025"
+      "ll_0025",
+      "c_0003"
     ],
     "tags": [
-      "retirement",
-      "financial"
+      "finances",
+      "retirement"
     ]
   },
   {
     "type": "pattern",
-    "content": "Sunita frequently walks after dinner to manage her knee pain, indicating a recurring habit.",
+    "content": "Sunita frequently walks after dinner to manage her knee pain, with each walk being a small victory.",
     "source_refs": [
-      "ll_0023",
+      "ll_0021",
       "ll_0024"
     ],
     "tags": [
@@ -357,21 +344,93 @@
     ]
   },
   {
+    "type": "unfinished",
+    "content": "Sunita started learning to use AI for lesson planning but has not yet fully integrated it into her teaching routine.",
+    "source_refs": [
+      "s_0010"
+    ],
+    "tags": [
+      "teaching",
+      "technology"
+    ]
+  },
+  {
     "type": "empathy",
-    "content": "Sunita emphasizes to her students that their AP scores do not define their worth, showing a supportive and caring approach.",
+    "content": "Sunita emphasizes that the AP exam and grades do not measure students' worth, showing a supportive teaching philosophy.",
     "source_refs": [
       "s_0009"
     ],
     "tags": [
-      "education",
+      "teaching",
       "students"
     ]
   },
   {
-    "type": "learning",
-    "content": "Sunita is exploring financial planning tools through AARP membership to better manage her retirement savings.",
+    "type": "truth",
+    "content": "Sunita's teaching has a lasting positive impact on her students and their families.",
     "source_refs": [
-      "e_0009"
+      "s_0011",
+      "s_0013"
+    ],
+    "tags": [
+      "teaching",
+      "milestone"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Sunita is integrating technology into her teaching, finding it helpful despite initial hesitation.",
+    "source_refs": [
+      "ll_0027",
+      "ll_0028"
+    ],
+    "tags": [
+      "teaching",
+      "technology"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Sunita's annual AP Exam results are a consistent source of pride and validation.",
+    "source_refs": [
+      "e_0013",
+      "e_0014",
+      "s_0011",
+      "s_0013"
+    ],
+    "tags": [
+      "teaching",
+      "milestone"
+    ]
+  },
+  {
+    "type": "unfinished",
+    "content": "Sunita has started a formal letter to the principal requesting classroom lab equipment but hasn't completed it.",
+    "source_refs": [
+      "f_0009"
+    ],
+    "tags": [
+      "teaching",
+      "advocacy"
+    ]
+  },
+  {
+    "type": "empathy",
+    "content": "Sunita is supporting her son's career aspirations, showing pride and encouragement.",
+    "source_refs": [
+      "ll_0030",
+      "ll_0029"
+    ],
+    "tags": [
+      "family",
+      "parenting"
+    ]
+  },
+  {
+    "type": "urgent",
+    "content": "Sunita needs to follow up on the TRS retirement info session and plan accordingly.",
+    "source_refs": [
+      "cal_0020"
     ],
     "tags": [
       "finances",
@@ -380,96 +439,41 @@
   },
   {
     "type": "truth",
-    "content": "Sunita's teaching has a significant positive impact on her students, as evidenced by their AP exam results and the gratitude of parents.",
+    "content": "Sunita continues to find joy in teaching despite her advancing age and physical challenges.",
     "source_refs": [
-      "e_0013",
-      "s_0011",
-      "e_0014",
-      "s_0012"
+      "s_0013",
+      "t_0020",
+      "ll_0032",
+      "ll_0034",
+      "ll_0035",
+      "s_0014"
     ],
     "tags": [
       "teaching",
-      "students",
-      "parental_gratitude"
-    ]
-  },
-  {
-    "type": "learning",
-    "content": "Sunita is integrating technology into her teaching, finding that tools like ChatGPT can be helpful despite initial hesitation.",
-    "source_refs": [
-      "ll_0027",
-      "ll_0028"
-    ],
-    "tags": [
-      "technology",
-      "teaching_methods"
-    ]
-  },
-  {
-    "type": "urgent",
-    "content": "Sunita is planning a significant trip to Portugal, which requires careful preparation and financial planning.",
-    "source_refs": [
-      "ll_0027",
-      "ll_0029"
-    ],
-    "tags": [
-      "travel_planning",
-      "financial_planning"
+      "aging",
+      "joy"
     ]
   },
   {
     "type": "pattern",
-    "content": "Sunita frequently mentions her teaching achievements, indicating a strong sense of professional fulfillment and dedication.",
+    "content": "There is a recurring pattern of Sunita celebrating significant milestones with Venkat, such as paying off the car and going out for dosas.",
     "source_refs": [
-      "f_0008",
-      "s_0011",
-      "e_0014",
-      "s_0013"
+      "ll_0036",
+      "ll_0037",
+      "ll_0038"
     ],
     "tags": [
-      "teaching",
-      "professionalism"
-    ]
-  },
-  {
-    "type": "unfinished",
-    "content": "Sunita has started a formal letter to the principal requesting classroom lab equipment, but no further action is recorded.",
-    "source_refs": [
-      "f_0009"
-    ],
-    "tags": [
-      "equipment_request",
-      "uncompleted_tasks"
-    ]
-  },
-  {
-    "type": "empathy",
-    "content": "Sunita supports her son Rohan's career aspirations, showing a deep emotional connection and pride in his endeavors.",
-    "source_refs": [
-      "ll_0030"
-    ],
-    "tags": [
-      "parenting",
-      "support"
+      "milestone",
+      "family",
+      "teaching"
     ]
   },
   {
     "type": "learning",
-    "content": "Sunita is taking steps to secure her financial future by attending retirement info sessions.",
+    "content": "Despite 22 years of teaching, Sunita still finds joy in the small successes of her students.",
     "source_refs": [
-      "cal_0020"
-    ],
-    "tags": [
-      "financial_planning",
-      "retirement"
-    ]
-  },
-  {
-    "type": "learning",
-    "content": "Sunita continues to find joy and purpose in her teaching despite the passage of time, as evidenced by her excitement over successful chemistry experiments.",
-    "source_refs": [
-      "e_0017",
-      "s_0014"
+      "s_0014",
+      "s_0015"
     ],
     "tags": [
       "teaching",
@@ -477,23 +481,10 @@
     ]
   },
   {
-    "type": "pattern",
-    "content": "Sunita frequently reflects on the passage of time, both in her personal life and professional career.",
+    "type": "urgent",
+    "content": "Sunita is facing health issues that require attention, as she had to use the elevator for the first time in a year.",
     "source_refs": [
-      "ll_0032",
-      "ll_0035"
-    ],
-    "tags": [
-      "reflection",
-      "aging"
-    ]
-  },
-  {
-    "type": "truth",
-    "content": "Sunita's knee pain is a recurring issue that impacts her daily life, requiring occasional use of the elevator.",
-    "source_refs": [
-      "cal_0021",
-      "ll_0035"
+      "ll_0033"
     ],
     "tags": [
       "health",
@@ -501,106 +492,45 @@
     ]
   },
   {
-    "type": "learning",
-    "content": "Sunita is actively planning a trip to Portugal, indicating an interest in travel and personal growth.",
-    "source_refs": [
-      "cal_0022"
-    ],
-    "tags": [
-      "travel"
-    ]
-  },
-  {
     "type": "unfinished",
-    "content": "Sunita started a conversation with Rohan about his job search but did not follow up or receive a response.",
-    "source_refs": [
-      "f_0010",
-      "e_0018"
-    ],
-    "tags": [
-      "family",
-      "parenting"
-    ]
-  },
-  {
-    "type": "learning",
-    "content": "Sunita acknowledges that while AI can assist in learning, it cannot replace the human element of curiosity and wonder.",
-    "source_refs": [
-      "ll_0034"
-    ],
-    "tags": [
-      "teaching",
-      "AI"
-    ]
-  },
-  {
-    "type": "truth",
-    "content": "Sunita's career as a chemistry teacher is deeply fulfilling, marked by consistent joy and achievement.",
-    "source_refs": [
-      "s_0014",
-      "s_0015"
-    ],
-    "tags": [
-      "teaching",
-      "career"
-    ]
-  },
-  {
-    "type": "learning",
-    "content": "Sunita continues to grow in her teaching role, as evidenced by the formal letter requesting lab equipment and updating her CV.",
-    "source_refs": [
-      "f_0011",
-      "t_0025",
-      "f_0012"
-    ],
-    "tags": [
-      "teaching",
-      "career"
-    ]
-  },
-  {
-    "type": "pattern",
-    "content": "Sunita frequently celebrates significant financial milestones, such as paying off the car and transferring money to family members.",
-    "source_refs": [
-      "ll_0038",
-      "e_0018",
-      "ll_0039"
-    ],
-    "tags": [
-      "finances",
-      "milestones"
-    ]
-  },
-  {
-    "type": "unfinished",
-    "content": "Sunita started planning a trip to both Portugal and Japan but hasn't decided which destination to prioritize first.",
+    "content": "Sunita started planning her travel but hasn't decided on her destination, showing indecision about her next big adventure.",
     "source_refs": [
       "c_0004"
     ],
     "tags": [
       "travel",
-      "planning",
-      "decision"
-    ]
-  },
-  {
-    "type": "empathy",
-    "content": "Sunita is supportive of her son Rohan, encouraging him even when he applies for a job outside his field.",
-    "source_refs": [
-      "ll_0037"
-    ],
-    "tags": [
-      "family",
-      "parenting"
+      "planning"
     ]
   },
   {
     "type": "learning",
-    "content": "Sunita continues to find joy in teaching, even after 22 years, as evidenced by her excitement over successful AP Chemistry exams.",
+    "content": "Sunita is advocating for better classroom equipment, indicating a commitment to improving student learning experiences.",
+    "source_refs": [
+      "f_0011"
+    ],
+    "tags": [
+      "teaching",
+      "advocacy"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Sunita has developed a strong sense of accomplishment and joy in her teaching career, even after 22 years.",
     "source_refs": [
       "s_0015",
-      "s_0016",
-      "ll_0043"
+      "s_0016"
+    ],
+    "tags": [
+      "teaching",
+      "career"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Sunita continues to find joy in teaching chemistry, despite the passage of time.",
+    "source_refs": [
+      "s_0017",
+      "s_0018"
     ],
     "tags": [
       "teaching",
@@ -608,70 +538,8 @@
     ]
   },
   {
-    "type": "pattern",
-    "content": "Sunita frequently engages in planning and research for her Portugal trip, indicating a recurring interest or commitment to this travel goal.",
-    "source_refs": [
-      "t_0027",
-      "cal_0026",
-      "cal_0028"
-    ],
-    "tags": [
-      "travel",
-      "planning"
-    ]
-  },
-  {
-    "type": "urgent",
-    "content": "Rohan's financial situation is a concern, as Sunita has provided him with undisclosed monetary support and he seems to be struggling.",
-    "source_refs": [
-      "e_0020",
-      "ll_0043"
-    ],
-    "tags": [
-      "family",
-      "financial"
-    ]
-  },
-  {
-    "type": "truth",
-    "content": "Sunita's career as a teacher has been long and rewarding, with significant milestones like 11 students scoring a perfect 5 on the AP Chemistry exam.",
-    "source_refs": [
-      "s_0016",
-      "ll_0044"
-    ],
-    "tags": [
-      "career",
-      "teaching"
-    ]
-  },
-  {
-    "type": "unfinished",
-    "content": "Sunita has started planning her Portugal trip but hasn't completed the booking process, as evidenced by ongoing research and discussions.",
-    "source_refs": [
-      "t_0027",
-      "cal_0026",
-      "e_0022"
-    ],
-    "tags": [
-      "travel",
-      "planning"
-    ]
-  },
-  {
-    "type": "empathy",
-    "content": "Sunita's emotional state is marked by a mix of professional satisfaction and personal concern, as seen in her reflections on aging and support for family members.",
-    "source_refs": [
-      "ll_0040",
-      "ll_0043"
-    ],
-    "tags": [
-      "empathy",
-      "reflection"
-    ]
-  },
-  {
     "type": "learning",
-    "content": "Sunita is increasingly comfortable using AI tools for lesson planning and advocacy, showing growth in tech integration.",
+    "content": "Sunita is increasingly integrating AI tools into her teaching and administrative tasks, finding them helpful but still needing to verify the output.",
     "source_refs": [
       "ll_0047",
       "ll_0045",
@@ -679,17 +547,26 @@
     ],
     "tags": [
       "ai_use",
-      "teaching",
-      "advocacy"
+      "teaching"
     ]
   },
   {
-    "type": "unfinished",
-    "content": "Sunita has started multiple research sessions for the Portugal trip but hasn't yet left, indicating a strong intention to go.",
+    "type": "pattern",
+    "content": "Sunita frequently spends time researching and planning for her Portugal trip, indicating a strong desire to travel.",
     "source_refs": [
       "cal_0028",
       "cal_0029",
       "cal_0030"
+    ],
+    "tags": [
+      "travel"
+    ]
+  },
+  {
+    "type": "unfinished",
+    "content": "Sunita has started and booked the Portugal trip, but there are still details to be finalized.",
+    "source_refs": [
+      "ll_0046"
     ],
     "tags": [
       "travel",
@@ -697,47 +574,20 @@
     ]
   },
   {
-    "type": "truth",
-    "content": "Sunita's teaching career is a source of joy and excitement, as evidenced by her enthusiasm for chemistry demonstrations.",
+    "type": "pattern",
+    "content": "Sunita frequently books travel-related expenses, indicating a regular interest in traveling.",
     "source_refs": [
-      "s_0017",
-      "s_0018"
+      "t_0032"
     ],
     "tags": [
-      "teaching",
-      "science"
-    ]
-  },
-  {
-    "type": "urgent",
-    "content": "Sunita needs to address the library book fines, as they are recurring and could impact her budget.",
-    "source_refs": [
-      "t_0029",
-      "t_0031"
-    ],
-    "tags": [
-      "finances"
+      "travel"
     ]
   },
   {
     "type": "learning",
-    "content": "Sunita's ability to effectively use AI for both lesson planning and advocacy shows her adaptability in leveraging technology.",
+    "content": "Sunita has developed a skill in using AI to assist with her teaching advocacy efforts.",
     "source_refs": [
-      "ll_0047",
-      "ll_0045",
-      "e_0023"
-    ],
-    "tags": [
-      "ai_use",
-      "teaching"
-    ]
-  },
-  {
-    "type": "learning",
-    "content": "Sunita is effectively using AI to aid in her teaching advocacy efforts, demonstrating adaptability and innovation.",
-    "source_refs": [
-      "ll_0048",
-      "e_0023"
+      "ll_0048"
     ],
     "tags": [
       "teaching",
@@ -747,10 +597,9 @@
   },
   {
     "type": "pattern",
-    "content": "Sunita frequently spends time on curriculum planning, indicating a strong commitment to her teaching and students.",
+    "content": "Sunita frequently spends time on summer curriculum planning, indicating a commitment to her teaching role.",
     "source_refs": [
       "cal_0032",
-      "cal_0034",
       "cal_0035"
     ],
     "tags": [
@@ -759,21 +608,9 @@
     ]
   },
   {
-    "type": "unfinished",
-    "content": "Sunita started a formal letter to the principal about lab equipment but did not complete it, suggesting she may need support in following through.",
-    "source_refs": [
-      "f_0016"
-    ],
-    "tags": [
-      "teaching",
-      "advocacy"
-    ]
-  },
-  {
     "type": "empathy",
-    "content": "Sunita's concern for her son Rohan is evident, as she provided financial support without prior communication, showing a deep emotional connection.",
+    "content": "Sunita is concerned about her son Rohan's financial situation and provides support discreetly.",
     "source_refs": [
-      "ll_0050",
       "ll_0049"
     ],
     "tags": [
@@ -783,7 +620,7 @@
   },
   {
     "type": "truth",
-    "content": "Sunita has been teaching chemistry for 22 years and still finds joy in the subject, highlighting her passion and dedication.",
+    "content": "Sunita has been teaching chemistry for 22 years, showing a long-standing dedication to her profession.",
     "source_refs": [
       "s_0018"
     ],
@@ -793,23 +630,12 @@
     ]
   },
   {
-    "type": "urgent",
-    "content": "Sunita is facing financial pressures with mortgage payments and health expenses, which require immediate attention.",
-    "source_refs": [
-      "t_0034",
-      "t_0035"
-    ],
-    "tags": [
-      "finances",
-      "health"
-    ]
-  },
-  {
     "type": "learning",
-    "content": "Sunita's approach to teaching has evolved from informal requests to formal advocacy, showing growth in her professional role.",
+    "content": "Sunita is actively seeking improvements in lab equipment for her AP Chemistry class, demonstrating a commitment to quality education.",
     "source_refs": [
       "e_0023",
-      "e_0024"
+      "e_0024",
+      "f_0016"
     ],
     "tags": [
       "teaching",
@@ -817,45 +643,69 @@
     ]
   },
   {
-    "type": "pattern",
-    "content": "Sunita frequently checks her son's job status and provides financial support, indicating a pattern of parental involvement.",
+    "type": "truth",
+    "content": "Sunita is seven years away from full retirement benefits, which she acknowledges with mixed feelings.",
     "source_refs": [
-      "f_0015",
-      "ll_0049"
+      "ll_0050"
     ],
     "tags": [
+      "retirement",
+      "teaching",
       "family",
-      "parenting"
+      "finances"
     ]
   },
   {
-    "type": "learning",
-    "content": "Sunita is integrating AI in her teaching, finding it helpful despite initial hesitation.",
+    "type": "unfinished",
+    "content": "Sunita started a formal letter to the principal requesting lab equipment but hasn't completed it yet.",
     "source_refs": [
-      "f_0018",
-      "ll_0054"
+      "classroom_lab_equipment_request.docx"
     ],
     "tags": [
-      "ai_use",
-      "teaching"
+      "teaching",
+      "advocacy"
     ]
   },
   {
     "type": "truth",
-    "content": "Sunita's family plays a significant role in her life, with frequent calls and support.",
+    "content": "Sunita values her family deeply, spending significant time and effort maintaining familial relationships.",
     "source_refs": [
       "s_0019",
+      "f_0017",
       "e_0026",
+      "s_0021"
+    ],
+    "tags": [
+      "family",
+      "personal"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Sunita is integrating technology into her teaching, finding both challenges and benefits.",
+    "source_refs": [
+      "ll_0053",
+      "f_0018"
+    ],
+    "tags": [
+      "teaching",
+      "technology"
+    ]
+  },
+  {
+    "type": "urgent",
+    "content": "Sunita's son Rohan is facing financial difficulties, which are causing her emotional distress.",
+    "source_refs": [
       "ll_0055"
     ],
     "tags": [
       "family",
-      "support"
+      "finances"
     ]
   },
   {
     "type": "pattern",
-    "content": "Sunita's spending on classroom supplies is consistent, indicating a regular need.",
+    "content": "Sunita consistently spends time and money on teaching supplies, indicating a strong commitment to her profession.",
     "source_refs": [
       "t_0038",
       "t_0039"
@@ -866,46 +716,11 @@
     ]
   },
   {
-    "type": "urgent",
-    "content": "Rohan's job situation is concerning and needs attention from Sunita.",
-    "source_refs": [
-      "ll_0055"
-    ],
-    "tags": [
-      "family",
-      "finances"
-    ]
-  },
-  {
-    "type": "unfinished",
-    "content": "Sunita started using AI for lesson plans but hasn't fully integrated it into her teaching yet.",
-    "source_refs": [
-      "f_0018",
-      "ll_0053"
-    ],
-    "tags": [
-      "ai_use",
-      "teaching"
-    ]
-  },
-  {
-    "type": "learning",
-    "content": "Sunita is planning for retirement, which has a significant emotional impact on her.",
-    "source_refs": [
-      "cal_0036",
-      "ll_0052"
-    ],
-    "tags": [
-      "retirement",
-      "teaching"
-    ]
-  },
-  {
     "type": "empathy",
-    "content": "Sunita acknowledges the emotional labor involved in her teaching and the impact she has on students.",
+    "content": "Sunita feels a strong sense of purpose and fulfillment from her work, as evidenced by the emotional reactions she receives during parent-teacher conferences.",
     "source_refs": [
-      "s_0021",
-      "t_0036"
+      "t_0039",
+      "ll_0056"
     ],
     "tags": [
       "teaching",
@@ -913,34 +728,20 @@
     ]
   },
   {
-    "type": "pattern",
-    "content": "Sunita's financial transactions related to her mortgage and retirement are regular, indicating a stable but busy lifestyle.",
-    "source_refs": [
-      "t_0035",
-      "cal_0035",
-      "t_0037"
-    ],
-    "tags": [
-      "finances",
-      "housing"
-    ]
-  },
-  {
     "type": "learning",
-    "content": "Sunita is deepening her understanding of the challenges faced by younger teachers, indicating a growing empathy and possibly a shift in perspective on her own career.",
+    "content": "Sunita is expanding her teaching methods with AI, which has led to the creation of multiple lesson plans.",
     "source_refs": [
-      "ll_0057"
+      "f_0018"
     ],
     "tags": [
       "teaching",
-      "career"
+      "ai_use"
     ]
   },
   {
     "type": "learning",
-    "content": "Sunita is adapting to new technology in education, finding it surprisingly helpful despite initial hesitation.",
+    "content": "Sunita is using AI tools to enhance her teaching, finding it surprisingly helpful despite initial hesitation.",
     "source_refs": [
-      "c_0005",
       "s_0024",
       "ll_0063"
     ],
@@ -950,102 +751,45 @@
     ]
   },
   {
-    "type": "truth",
-    "content": "Sunita has a long and accomplished career in teaching, with 22 years of experience at RRISD.",
-    "source_refs": [
-      "f_0019"
-    ],
-    "tags": [
-      "career",
-      "teaching"
-    ]
-  },
-  {
-    "type": "pattern",
-    "content": "Sunita frequently spends time on curriculum planning and AP exam preparation, indicating a strong focus on student success.",
-    "source_refs": [
-      "cal_0041",
-      "cal_0042"
-    ],
-    "tags": [
-      "teaching",
-      "planning"
-    ]
-  },
-  {
-    "type": "unfinished",
-    "content": "Sunita started learning to use AI for lesson planning but hasn't fully integrated it into her routine.",
-    "source_refs": [
-      "s_0025"
-    ],
-    "tags": [
-      "technology",
-      "teaching"
-    ]
-  },
-  {
     "type": "learning",
-    "content": "Sunita is aware of the value of technology in education and is actively seeking to improve her skills.",
-    "source_refs": [
-      "c_0005",
-      "s_0025"
-    ],
-    "tags": [
-      "technology",
-      "teaching"
-    ]
-  },
-  {
-    "type": "pattern",
-    "content": "Sunita's work-life balance includes both professional and personal milestones, such as teaching achievements and family time.",
-    "source_refs": [
-      "ll_0061",
-      "f_0020",
-      "s_0024"
-    ],
-    "tags": [
-      "career",
-      "family"
-    ]
-  },
-  {
-    "type": "empathy",
-    "content": "Sunita is reflecting on her identity and the passage of time, feeling a mix of pride in her career and awareness of aging.",
-    "source_refs": [
-      "ll_0062"
-    ],
-    "tags": [
-      "aging",
-      "identity"
-    ]
-  },
-  {
-    "type": "learning",
-    "content": "Sunita is leveraging AI tools for administrative tasks like letter drafting, demonstrating a practical approach to technology integration.",
-    "source_refs": [
-      "ll_0060"
-    ],
-    "tags": [
-      "technology",
-      "teaching"
-    ]
-  },
-  {
-    "type": "unfinished",
-    "content": "Sunita started using AI for lesson planning but hasn't fully integrated it into her routine, as seen in multiple social media posts.",
+    "content": "Sunita is finding that AI tools can be surprisingly helpful for lesson planning, despite initial hesitation.",
     "source_refs": [
       "s_0025",
       "s_0026",
       "s_0027"
     ],
     "tags": [
-      "technology",
-      "teaching"
+      "teaching",
+      "technology"
     ]
   },
   {
     "type": "pattern",
-    "content": "Sunita frequently revisits and updates the classroom lab equipment request, indicating a persistent need or ongoing advocacy for better resources.",
+    "content": "Sunita frequently references her husband Venkat in her lifelog, indicating a strong emotional connection and support system.",
+    "source_refs": [
+      "ll_0064",
+      "ll_0065"
+    ],
+    "tags": [
+      "family",
+      "empathy"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Sunita's retirement savings are behind schedule, causing anxiety for both her and Venkat.",
+    "source_refs": [
+      "e_0032",
+      "ll_0064"
+    ],
+    "tags": [
+      "finances",
+      "retirement"
+    ]
+  },
+  {
+    "type": "unfinished",
+    "content": "Sunita started drafting a formal letter to the principal about classroom lab equipment but did not complete it.",
     "source_refs": [
       "f_0021",
       "f_0022"
@@ -1056,97 +800,36 @@
     ]
   },
   {
-    "type": "truth",
-    "content": "Sunita's family life is marked by a blend of domestic activities and financial concerns, often intertwined with her professional responsibilities.",
-    "source_refs": [
-      "ll_0063",
-      "ll_0064",
-      "t_0045"
-    ],
-    "tags": [
-      "family",
-      "finances"
-    ]
-  },
-  {
     "type": "learning",
-    "content": "Sunita is learning to use AI tools for lesson planning, finding them useful but still in the process of integration.",
+    "content": "Sunita is exploring various AI tools for lesson planning, including ChatGPT and other platforms.",
     "source_refs": [
       "s_0025",
       "ll_0066"
     ],
     "tags": [
-      "technology",
-      "teaching"
-    ]
-  },
-  {
-    "type": "urgent",
-    "content": "Sunita needs to address her retirement account, as she and Venkat are behind schedule and feeling anxious about their financial future.",
-    "source_refs": [
-      "ll_0064",
-      "e_0033"
-    ],
-    "tags": [
-      "retirement",
-      "anxiety"
-    ]
-  },
-  {
-    "type": "empathy",
-    "content": "Sunita's family dynamic, particularly the positive feedback from Venkat about her cooking, suggests a need for emotional validation and connection.",
-    "source_refs": [
-      "ll_0065"
-    ],
-    "tags": [
-      "family",
-      "cooking"
-    ]
-  },
-  {
-    "type": "learning",
-    "content": "Sunita is finding that AI tools are surprisingly helpful for lesson planning, despite initial hesitation.",
-    "source_refs": [
-      "ll_0066",
-      "s_0026",
-      "s_0027"
-    ],
-    "tags": [
-      "technology",
-      "teaching"
+      "teaching",
+      "technology"
     ]
   },
   {
     "type": "truth",
-    "content": "Sunita is experiencing a mix of career satisfaction and the desire to leave teaching, indicating an internal struggle.",
+    "content": "Sunita is experiencing a mix of personal and professional challenges, including knee pain and the desire to leave teaching.",
     "source_refs": [
-      "ll_0069",
-      "f_0023"
+      "ll_0066",
+      "t_0047",
+      "ll_0069"
     ],
     "tags": [
-      "career",
-      "teaching"
-    ]
-  },
-  {
-    "type": "urgent",
-    "content": "Sunita is facing financial planning and utility bills that need attention, as evidenced by emails and bank transactions.",
-    "source_refs": [
-      "e_0034",
-      "e_0035",
-      "e_0036",
-      "t_0048"
-    ],
-    "tags": [
-      "finances",
-      "utilities"
+      "health",
+      "career"
     ]
   },
   {
     "type": "pattern",
-    "content": "Sunita frequently checks on Rohan and supports him, as seen in emails and a lifelog entry about his job application.",
+    "content": "Sunita frequently checks in on her son Rohan, both through emails and by sharing job resources.",
     "source_refs": [
       "e_0034",
+      "f_0024",
       "ll_0072"
     ],
     "tags": [
@@ -1155,32 +838,42 @@
     ]
   },
   {
-    "type": "empathy",
-    "content": "Sunita is feeling proud of her students and wants to reassure them about their worth, indicating a need for emotional support.",
+    "type": "learning",
+    "content": "Sunita is expanding her use of AI tools for lesson planning, creating multiple plans with assistance.",
     "source_refs": [
+      "f_0023"
+    ],
+    "tags": [
+      "technology",
+      "teaching"
+    ]
+  },
+  {
+    "type": "empathy",
+    "content": "Sunita acknowledges the stress of teaching and the pressure to leave, showing a deep understanding of her profession's challenges.",
+    "source_refs": [
+      "ll_0069"
+    ],
+    "tags": [
+      "career",
+      "teaching"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Sunita is leveraging community resources like parent-teacher conferences to support student well-being and engagement.",
+    "source_refs": [
+      "cal_0047",
       "s_0028"
     ],
     "tags": [
-      "students",
+      "teaching",
       "community"
     ]
   },
   {
-    "type": "truth",
-    "content": "Sunita values family connections and spends quality time with her sister.",
-    "source_refs": [
-      "f_0025",
-      "s_0029",
-      "s_0030"
-    ],
-    "tags": [
-      "family",
-      "food"
-    ]
-  },
-  {
-    "type": "unfinished",
-    "content": "Sunita started writing an advocacy letter but didn't complete it, suggesting ongoing work in this area.",
+    "type": "learning",
+    "content": "Sunita is developing her advocacy skills by learning to frame requests in a way that highlights student impact.",
     "source_refs": [
       "e_0038",
       "c_0006"
@@ -1192,82 +885,64 @@
   },
   {
     "type": "pattern",
-    "content": "Sunita frequently books travel, indicating a desire for personal growth and exploration.",
+    "content": "Sunita often cooks and calls her sister on Sundays, indicating a consistent family routine.",
     "source_refs": [
-      "ll_0073",
-      "ll_0075"
+      "s_0029",
+      "s_0030"
     ],
     "tags": [
-      "travel",
-      "milestone"
-    ]
-  },
-  {
-    "type": "learning",
-    "content": "Sunita is reflecting on her career and understanding the challenges of teaching, but remains committed.",
-    "source_refs": [
-      "ll_0070",
-      "ll_0074"
-    ],
-    "tags": [
-      "teaching",
-      "career"
+      "family",
+      "food"
     ]
   },
   {
     "type": "truth",
-    "content": "Sunita has access to various financial benefits through her membership, including travel discounts.",
+    "content": "Sunita has been teaching for 22 years, which is a significant milestone in her career.",
     "source_refs": [
-      "e_0035",
-      "e_0036"
+      "f_0025"
     ],
     "tags": [
-      "finances",
-      "personal"
+      "career",
+      "teaching"
     ]
   },
   {
     "type": "urgent",
-    "content": "Sunita needs to follow up on her lab materials request for the AP Chemistry class.",
+    "content": "Sunita's knee issues are worsening, as evidenced by the need for physical therapy and using an elevator after walking.",
     "source_refs": [
-      "t_0049",
-      "e_0037"
+      "ll_0073",
+      "cal_0049"
     ],
     "tags": [
-      "teaching",
-      "materials"
+      "health"
     ]
   },
   {
-    "type": "pattern",
-    "content": "Sunita regularly engages in physical therapy, indicating ongoing knee issues.",
+    "type": "unfinished",
+    "content": "Sunita started planning a long-desired trip to Portugal but has not yet taken the actual trip.",
     "source_refs": [
-      "ll_0073",
-      "cal_0049",
-      "cal_0050"
+      "ll_0075"
     ],
     "tags": [
-      "health",
-      "aging"
+      "travel",
+      "dreams"
     ]
   },
   {
     "type": "empathy",
-    "content": "Sunita feels a mix of pride and concern for her son Rohan, supporting him in his job search.",
+    "content": "Sunita reflects on her own career dissatisfaction, understanding more deeply than before but not ready to leave yet.",
     "source_refs": [
-      "ll_0072",
-      "f_0024"
+      "[ll_0070]"
     ],
     "tags": [
-      "family",
-      "parenting"
+      "career",
+      "reflection"
     ]
   },
   {
     "type": "learning",
-    "content": "Sunita is reflecting on her identity and the passage of time, recognizing that she has grown beyond her younger self.",
+    "content": "Sunita is reflecting on her identity and the passage of time, recognizing that she has aged significantly since her teaching days.",
     "source_refs": [
-      "s_0030",
       "ll_0074"
     ],
     "tags": [
@@ -1276,35 +951,21 @@
     ]
   },
   {
-    "type": "pattern",
-    "content": "Sunita frequently cooks and calls her sister on Sundays, indicating a strong family bond.",
+    "type": "truth",
+    "content": "Sunita's family is supportive, as evidenced by her sister\u2019s call and Rohan sharing job applications with her.",
     "source_refs": [
       "s_0030",
-      "s_0031"
+      "ll_0076"
     ],
     "tags": [
       "family",
-      "routine"
-    ]
-  },
-  {
-    "type": "truth",
-    "content": "Sunita values education and teaching, as evidenced by her advocacy for updated lab materials and encouraging her son.",
-    "source_refs": [
-      "c_0006",
-      "ll_0078",
-      "s_0032"
-    ],
-    "tags": [
-      "teaching",
-      "education"
+      "support"
     ]
   },
   {
     "type": "urgent",
-    "content": "Sunita needs to book flights for the Portugal trip soon, as she has found good fares and is considering booking.",
+    "content": "Sunita needs to book flights for the Portugal trip, as she and Venkat are considering September dates.",
     "source_refs": [
-      "e_0038",
       "e_0039",
       "e_0040"
     ],
@@ -1314,21 +975,32 @@
     ]
   },
   {
-    "type": "unfinished",
-    "content": "Sunita started a formal letter to the principal requesting classroom lab equipment but did not complete it.",
+    "type": "pattern",
+    "content": "Sunita frequently cooks dal and rice on Sundays, indicating a routine or ritual.",
     "source_refs": [
-      "f_0027"
+      "s_0030",
+      "s_0031"
+    ],
+    "tags": [
+      "routine",
+      "culinary"
+    ]
+  },
+  {
+    "type": "unfinished",
+    "content": "Sunita started drafting an advocacy letter for updated chemistry lab materials but did not complete it.",
+    "source_refs": [
+      "c_0006"
     ],
     "tags": [
       "teaching",
-      "uncompleted_tasks"
+      "advocacy"
     ]
   },
   {
     "type": "learning",
-    "content": "Sunita is considering the role of AI in education, recognizing its limitations and potential benefits.",
+    "content": "Sunita is contemplating the role of AI in education, recognizing its limitations while acknowledging its potential benefits.",
     "source_refs": [
-      "ll_0075",
       "ll_0078"
     ],
     "tags": [
@@ -1337,122 +1009,70 @@
     ]
   },
   {
-    "type": "empathy",
-    "content": "Sunita is proud of her son's career aspirations, even if they are not in his field, showing support and encouragement.",
-    "source_refs": [
-      "ll_0076"
-    ],
-    "tags": [
-      "parenting",
-      "support"
-    ]
-  },
-  {
     "type": "learning",
-    "content": "Sunita is preparing for retirement by attending TRS info sessions and planning her trip to Portugal, indicating a focus on future security.",
+    "content": "Sunita has developed a structured morning routine that enhances her productivity.",
     "source_refs": [
-      "cal_0051",
-      "cal_0052",
-      "e_0038",
-      "ll_0075"
+      "f_0027",
+      "ll_0080"
     ],
     "tags": [
-      "retirement",
-      "planning"
-    ]
-  },
-  {
-    "type": "learning",
-    "content": "Sunita reflects on the unique role of human teachers in fostering creativity and critical thinking, distinguishing them from AI.",
-    "source_refs": [
-      "e_0043",
-      "ll_0083"
-    ],
-    "tags": [
-      "teaching",
-      "AI",
-      "reflection"
-    ]
-  },
-  {
-    "type": "truth",
-    "content": "Sunita's family is planning a trip to Portugal in September, but the exact dates are still undecided.",
-    "source_refs": [
-      "e_0039",
-      "e_0040",
-      "e_0042"
-    ],
-    "tags": [
-      "travel",
-      "family"
-    ]
-  },
-  {
-    "type": "urgent",
-    "content": "Sunita and Venkat are concerned about their retirement savings, which have fallen behind expectations.",
-    "source_refs": [
-      "cal_0053",
-      "ll_0081"
-    ],
-    "tags": [
-      "finances",
-      "retirement"
+      "morning_routine",
+      "productivity"
     ]
   },
   {
     "type": "pattern",
-    "content": "Sunita dedicates mornings to work before the house wakes up, indicating a consistent early morning routine.",
+    "content": "Sunita frequently references her retirement in relation to her teaching and personal life, indicating a strong connection between the two.",
     "source_refs": [
       "cal_0053",
-      "ll_0080"
-    ],
-    "tags": [
-      "morning_routine"
-    ]
-  },
-  {
-    "type": "unfinished",
-    "content": "Sunita started researching Japan itineraries but did not complete the planning, as indicated by the printed pages in her lifelog.",
-    "source_refs": [
       "ll_0081",
-      "ll_0082"
+      "s_0032"
     ],
     "tags": [
-      "travel"
+      "retirement",
+      "financial_worry",
+      "teaching"
     ]
   },
   {
-    "type": "learning",
-    "content": "Sunita emphasizes to her students that their AP scores do not define their worth, promoting a growth mindset.",
+    "type": "truth",
+    "content": "Sunita's teaching approach emphasizes the value of effort over grades, reflecting her commitment to student well-being.",
     "source_refs": [
       "s_0032"
     ],
     "tags": [
       "teaching",
-      "students"
+      "student_wellbeing"
     ]
   },
   {
-    "type": "truth",
-    "content": "Sunita's teaching career remains deeply fulfilling despite the physical and emotional challenges.",
+    "type": "unfinished",
+    "content": "Sunita started planning a trip to Portugal but hasn't finalized the booking, as seen in multiple email entries.",
     "source_refs": [
-      "e_0043",
-      "s_0033",
-      "s_0034",
-      "ll_0085"
+      "e_0039",
+      "e_0040",
+      "e_0041",
+      "e_0042"
     ],
     "tags": [
-      "teaching",
-      "career",
-      "empathy"
+      "travel_planning"
     ]
   },
   {
     "type": "learning",
-    "content": "Sunita is exploring the integration of AI in her teaching, finding it both challenging and beneficial.",
+    "content": "Sunita recognizes the limitations of AI in education, emphasizing human qualities like curiosity and wonder.",
     "source_refs": [
-      "ll_0083",
-      "s_0034",
+      "ll_0083"
+    ],
+    "tags": [
+      "AI_in_education",
+      "human_qualities"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Sunita is exploring the use of AI in lesson planning, finding it surprisingly helpful.",
+    "source_refs": [
       "s_0035"
     ],
     "tags": [
@@ -1461,142 +1081,200 @@
     ]
   },
   {
-    "type": "urgent",
-    "content": "Sunita needs to address her knee pain, as it is affecting her daily activities.",
+    "type": "truth",
+    "content": "Sunita's AP Chemistry students consistently perform well, with a class average of 3.6 and 11 out of 35 students achieving a perfect score.",
     "source_refs": [
-      "t_0058",
-      "ll_0086"
+      "[e_0043]",
+      "[s_0034]"
+    ],
+    "tags": [
+      "teaching",
+      "performance"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Sunita frequently spends time on AP exam preparation sessions and parent-teacher conferences, indicating a strong commitment to her students.",
+    "source_refs": [
+      "[cal_0056]",
+      "[ll_0083]",
+      "[ll_0084]",
+      "[ll_0085]",
+      "[cal_0059]"
+    ],
+    "tags": [
+      "teaching",
+      "commitment"
+    ]
+  },
+  {
+    "type": "urgent",
+    "content": "Sunita needs to update the AP Chemistry lab inventory, as evidenced by her email request.",
+    "source_refs": [
+      "[e_0044]"
+    ],
+    "tags": [
+      "teaching",
+      "materials"
+    ]
+  },
+  {
+    "type": "unfinished",
+    "content": "Sunita started learning to use AI for lesson planning but hasn't fully integrated it into her routine yet.",
+    "source_refs": [
+      "[s_0035]"
+    ],
+    "tags": [
+      "teaching",
+      "technology"
+    ]
+  },
+  {
+    "type": "empathy",
+    "content": "Sunita understands the struggles of younger teachers considering leaving the profession, reflecting on her own feelings.",
+    "source_refs": [
+      "[ll_0084]"
+    ],
+    "tags": [
+      "career",
+      "reflection"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Sunita Rajan frequently uses AI tools for teaching and personal tasks, finding them helpful despite initial hesitation.",
+    "source_refs": [
+      "s_0035",
+      "ll_0088",
+      "ll_0093"
+    ],
+    "tags": [
+      "ai_use",
+      "teaching",
+      "personal_growth"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Sunita is reflecting on the impact of her teaching and the value it holds for students, as evidenced by parents' gratitude during conferences.",
+    "source_refs": [
+      "ll_0095"
+    ],
+    "tags": [
+      "teaching",
+      "reflection"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Sunita's family life is centered around her sister and son Rohan, with regular calls and support for each other.",
+    "source_refs": [
+      "c_0007",
+      "f_0031",
+      "ll_0098"
+    ],
+    "tags": [
+      "family",
+      "support"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Sunita frequently engages in teaching-related activities, such as creating lesson plans and attending conferences.",
+    "source_refs": [
+      "f_0031",
+      "cal_0061",
+      "e_0048"
+    ],
+    "tags": [
+      "teaching"
+    ]
+  },
+  {
+    "type": "urgent",
+    "content": "Sunita and Venkat are concerned about their retirement savings, as indicated by the anxiety noted in their lifelog.",
+    "source_refs": [
+      "ll_0096"
+    ],
+    "tags": [
+      "retirement",
+      "finance"
+    ]
+  },
+  {
+    "type": "unfinished",
+    "content": "Sunita started a letter to request lab materials for her AP Chemistry class but did not complete it, as evidenced by the email summary.",
+    "source_refs": [
+      "e_0049"
+    ],
+    "tags": [
+      "teaching",
+      "request"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Sunita is exploring how AI can be used in education and acknowledges its limitations, particularly in terms of human intuition and creativity.",
+    "source_refs": [
+      "ll_0094"
+    ],
+    "tags": [
+      "ai",
+      "education"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Sunita's health is a concern, as evidenced by multiple entries related to pharmacy purchases and insurance copays.",
+    "source_refs": [
+      "t_0063",
+      "t_0064"
     ],
     "tags": [
       "health"
     ]
   },
   {
-    "type": "pattern",
-    "content": "Sunita frequently spends time in the library for AP exam prep sessions, indicating a strong focus on student success.",
-    "source_refs": [
-      "cal_0056",
-      "cal_0059"
-    ],
-    "tags": [
-      "teaching"
-    ]
-  },
-  {
-    "type": "unfinished",
-    "content": "Sunita started learning to use AI for lesson planning but hasn't fully integrated it yet.",
-    "source_refs": [
-      "s_0035"
-    ],
-    "tags": [
-      "technology",
-      "learning"
-    ]
-  },
-  {
-    "type": "question",
-    "content": "Sunita is unsure about her future in teaching, as younger teachers are leaving the profession.",
-    "source_refs": [
-      "ll_0084"
-    ],
-    "tags": [
-      "career",
-      "teaching"
-    ]
-  },
-  {
-    "type": "learning",
-    "content": "Sunita is increasingly using AI tools for teaching and personal tasks, finding them surprisingly helpful despite initial hesitation.",
-    "source_refs": [
-      "s_0035",
-      "ll_0088",
-      "ll_0091",
-      "t_0060",
-      "ll_0093"
-    ],
-    "tags": [
-      "teaching",
-      "technology",
-      "ai_use"
-    ]
-  },
-  {
-    "type": "pattern",
-    "content": "Sunita frequently checks her retirement and financial accounts, indicating a high level of concern for future security.",
-    "source_refs": [
-      "f_0029",
-      "e_0045",
-      "e_0046",
-      "e_0047"
-    ],
-    "tags": [
-      "retirement",
-      "finances"
-    ]
-  },
-  {
     "type": "empathy",
-    "content": "Sunita's interactions with Rohan show deep emotional support and concern, especially when he is struggling.",
+    "content": "Sunita is supportive of her son Rohan, encouraging him to apply for a job outside his field and expressing pride in his efforts.",
     "source_refs": [
-      "ll_0092",
-      "e_0045"
+      "ll_0097",
+      "ll_0098"
     ],
     "tags": [
-      "family",
-      "parenting"
+      "parenting",
+      "support"
     ]
   },
   {
     "type": "truth",
-    "content": "Sunita's teaching has a significant positive impact on her students, as evidenced by their hard work and the gratitude expressed during parent-teacher conferences.",
+    "content": "Sunita's teaching achievements are a source of personal pride and professional fulfillment.",
     "source_refs": [
-      "ll_0090",
-      "ll_0091"
+      "s_0038",
+      "ll_0102"
     ],
     "tags": [
       "teaching",
-      "community"
-    ]
-  },
-  {
-    "type": "urgent",
-    "content": "Rohan's job search is ongoing and causing stress, as evidenced by his emotional state during their conversations.",
-    "source_refs": [
-      "ll_0092",
-      "f_0030"
-    ],
-    "tags": [
-      "family",
-      "parenting"
-    ]
-  },
-  {
-    "type": "truth",
-    "content": "Sunita values family time and spends quality moments with her sister.",
-    "source_refs": [
-      "c_0007"
-    ],
-    "tags": [
-      "family",
-      "personal"
+      "career"
     ]
   },
   {
     "type": "learning",
-    "content": "Sunita is integrating AI into her teaching, creating lesson plans with its assistance.",
+    "content": "Sunita is exploring the use of AI in lesson planning, showing her willingness to adapt and integrate new technologies.",
     "source_refs": [
-      "f_0031"
+      "s_0039",
+      "e_0051"
     ],
     "tags": [
-      "teaching",
-      "ai"
+      "technology",
+      "teaching"
     ]
   },
   {
     "type": "urgent",
-    "content": "Sunita and Venkat are concerned about their retirement savings being behind schedule.",
+    "content": "Sunita and Venkat are concerned about their retirement savings, which is causing anxiety.",
     "source_refs": [
-      "ll_0096"
+      "ll_0100"
     ],
     "tags": [
       "finances",
@@ -1605,44 +1283,54 @@
   },
   {
     "type": "pattern",
-    "content": "Parent-teacher conferences are a recurring event in Sunita's calendar, impacting her time and emotions.",
+    "content": "Sunita frequently makes purchases from Amazon for classroom supplies, indicating a consistent need or habit.",
     "source_refs": [
-      "cal_0060",
-      "ll_0095"
+      "t_0064",
+      "t_0065"
     ],
     "tags": [
       "teaching",
-      "community"
+      "work"
     ]
   },
   {
     "type": "unfinished",
-    "content": "Sunita started a formal letter to the principal about lab equipment but did not send it.",
+    "content": "Sunita attended a PD session on AI in the classroom but did not fully engage with it, leaving tasks to be completed later.",
     "source_refs": [
-      "f_0032",
-      "e_0049"
+      "ll_0103"
     ],
     "tags": [
-      "teaching",
-      "advocacy"
+      "technology",
+      "learning"
     ]
   },
   {
     "type": "empathy",
-    "content": "Sunita is proud of Rohan's job application, even though it\u2019s not in his field.",
+    "content": "Sunita's morning routine before the house wakes up reflects her dedication and the emotional toll of early mornings.",
     "source_refs": [
-      "ll_0097"
+      "ll_0105"
     ],
     "tags": [
-      "family",
-      "parenting"
+      "morning_routine",
+      "work"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Sunita is actively seeking out resources to improve her teaching methods, specifically through the use of AI and PD sessions.",
+    "source_refs": [
+      "s_0039",
+      "ll_0103"
+    ],
+    "tags": [
+      "teaching",
+      "professional_development"
     ]
   },
   {
     "type": "truth",
-    "content": "Sunita engages in regular physical activity to maintain her health.",
+    "content": "Sunita's health is improving, as evidenced by her ability to walk for 40 minutes without knee pain.",
     "source_refs": [
-      "t_0063",
       "ll_0099"
     ],
     "tags": [
@@ -1652,154 +1340,45 @@
   },
   {
     "type": "learning",
-    "content": "Sunita is adapting to new technologies in her teaching, specifically using AI for lesson planning.",
-    "source_refs": [
-      "s_0039",
-      "e_0051"
-    ],
-    "tags": [
-      "teaching",
-      "technology"
-    ]
-  },
-  {
-    "type": "truth",
-    "content": "Sunita's teaching has a significant impact on her students, with many parents expressing gratitude during conferences.",
-    "source_refs": [
-      "ll_0104",
-      "ll_0105"
-    ],
-    "tags": [
-      "teaching",
-      "parental_gratitude"
-    ]
-  },
-  {
-    "type": "pattern",
-    "content": "Sunita frequently spends money on Amazon for classroom supplies, indicating a consistent need or habit.",
-    "source_refs": [
-      "t_0064",
-      "t_0065"
-    ],
-    "tags": [
-      "teaching",
-      "spending"
-    ]
-  },
-  {
-    "type": "truth",
-    "content": "Sunita's health is improving, as evidenced by the successful knee walk and the number of students passing AP Chemistry.",
-    "source_refs": [
-      "ll_0099",
-      "ll_0102"
-    ],
-    "tags": [
-      "health",
-      "teaching"
-    ]
-  },
-  {
-    "type": "learning",
-    "content": "Sunita finds joy in teaching, particularly when experiments work as expected, and she is exploring new methods like AI.",
-    "source_refs": [
-      "s_0038",
-      "ll_0104"
-    ],
-    "tags": [
-      "teaching",
-      "joy"
-    ]
-  },
-  {
-    "type": "pattern",
-    "content": "Sunita has multiple recurring events with Venkat, including anniversary dinners and financial discussions.",
-    "source_refs": [
-      "cal_0062",
-      "cal_0063",
-      "ll_0100"
-    ],
-    "tags": [
-      "relationship",
-      "finances"
-    ]
-  },
-  {
-    "type": "question",
-    "content": "Sunita is unsure about how to effectively use AI in her teaching, as the recent PD session was too fast for her.",
-    "source_refs": [
-      "ll_0103"
-    ],
-    "tags": [
-      "teaching",
-      "technology",
-      "learning"
-    ]
-  },
-  {
-    "type": "learning",
-    "content": "Sunita is effectively using AI tools for both personal and professional purposes, such as lesson planning and letter drafting.",
+    "content": "Sunita is effectively using AI tools in her teaching and advocacy, showing growth in technology integration.",
     "source_refs": [
       "f_0033",
       "t_0068",
       "ll_0106",
-      "t_0069"
+      "ll_0107"
     ],
     "tags": [
-      "ai_use",
-      "teaching"
+      "teaching",
+      "ai_use"
     ]
   },
   {
     "type": "truth",
-    "content": "Sunita's teaching has a significant positive impact on her students, as evidenced by the emotional reactions of parents during conferences.",
+    "content": "Sunita dedicates significant time to her morning routine, which is essential for her productivity.",
     "source_refs": [
       "ll_0104",
-      "cal_0067"
-    ],
-    "tags": [
-      "teaching",
-      "community"
-    ]
-  },
-  {
-    "type": "pattern",
-    "content": "Sunita starts her day with coffee and lab report corrections, a routine that appears consistent across multiple entries.",
-    "source_refs": [
-      "ll_0103",
       "ll_0105",
       "ll_0106"
     ],
     "tags": [
-      "morning_routine",
-      "work"
+      "morning_routine"
     ]
   },
   {
-    "type": "unfinished",
-    "content": "Sunita started a teaching CV but did not complete it, indicating an ongoing task or project.",
+    "type": "urgent",
+    "content": "Sunita has multiple upcoming commitments, including district PD and TRS retirement info session.",
     "source_refs": [
-      "f_0034"
+      "cal_0065",
+      "cal_0067",
+      "cal_0068"
     ],
     "tags": [
-      "career",
-      "teaching"
+      "commitments"
     ]
   },
   {
-    "type": "learning",
-    "content": "Sunita is actively seeking information about her retirement benefits through district sessions and emails.",
-    "source_refs": [
-      "e_0052",
-      "e_0053",
-      "e_0054"
-    ],
-    "tags": [
-      "retirement"
-    ]
-  },
-  {
-    "type": "truth",
-    "content": "Sunita's financial benefits as an AARP member include access to various tools and discounts, which she is aware of.",
+    "type": "pattern",
+    "content": "Sunita frequently receives emails from AARP and TRS, indicating ongoing engagement with retirement planning.",
     "source_refs": [
       "e_0051",
       "e_0052",
@@ -1810,22 +1389,10 @@
     ]
   },
   {
-    "type": "empathy",
-    "content": "Sunita's dedication to her students is evident, as she emphasizes their hard work and personal growth in a community message.",
+    "type": "unfinished",
+    "content": "Sunita started creating lesson plans using AI but did not complete the process.",
     "source_refs": [
-      "s_0040"
-    ],
-    "tags": [
-      "teaching",
-      "students"
-    ]
-  },
-  {
-    "type": "learning",
-    "content": "Sunita has effectively leveraged AI tools for professional tasks, showing adaptability and growth in technology integration.",
-    "source_refs": [
-      "ll_0107",
-      "cal_0070"
+      "f_0033"
     ],
     "tags": [
       "ai_use",
@@ -1833,11 +1400,32 @@
     ]
   },
   {
-    "type": "truth",
-    "content": "Sunita's teaching career spans 22 years with a strong professional history, indicating long-term commitment and expertise.",
+    "type": "learning",
+    "content": "Sunita is continuously learning about AI in education through district PD and personal research.",
     "source_refs": [
-      "f_0034",
-      "f_0036"
+      "cal_0065",
+      "e_0054"
+    ],
+    "tags": [
+      "technology",
+      "teaching"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Sunita values her work, as evidenced by the emotional impact of parent-teacher conferences.",
+    "source_refs": [
+      "ll_0104"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Sunita has a long-standing commitment to her career, having taught for 22 years in RRISD.",
+    "source_refs": [
+      "f_0034"
     ],
     "tags": [
       "career",
@@ -1845,8 +1433,19 @@
     ]
   },
   {
+    "type": "learning",
+    "content": "Sunita is leveraging AI tools effectively for administrative tasks and advocacy, as seen with the letter to the district about curriculum materials.",
+    "source_refs": [
+      "ll_0107"
+    ],
+    "tags": [
+      "ai_use",
+      "teaching"
+    ]
+  },
+  {
     "type": "pattern",
-    "content": "Sunita frequently shops at H-E-B for groceries and health items, suggesting a consistent preference or routine.",
+    "content": "Sunita frequently shops at H-E-B for groceries and health items, indicating a regular routine.",
     "source_refs": [
       "t_0070",
       "t_0071",
@@ -1859,32 +1458,29 @@
   },
   {
     "type": "unfinished",
-    "content": "Sunita has started multiple formal letters and requests but hasn't completed them, such as the lab materials request and retirement statement.",
+    "content": "Sunita has started the process of updating her AP Chemistry lab inventory but hasn't completed it yet.",
     "source_refs": [
-      "e_0055",
-      "f_0036",
-      "f_0035"
+      "e_0055"
     ],
     "tags": [
       "teaching",
-      "retirement"
+      "lab_inventory"
     ]
   },
   {
     "type": "empathy",
-    "content": "Sunita's parent-teacher conferences were emotionally rewarding, as evidenced by the positive feedback from parents.",
+    "content": "Parent-teacher conferences are emotionally rewarding for Sunita, as evidenced by the positive feedback from parents during these sessions.",
     "source_refs": [
-      "ll_0109",
-      "ll_0112"
+      "ll_0109"
     ],
     "tags": [
       "teaching",
-      "community"
+      "parent_conference"
     ]
   },
   {
     "type": "learning",
-    "content": "Sunita attended a professional development session on AI in education, indicating her commitment to staying updated with technology.",
+    "content": "Sunita is expanding her knowledge on AI in education through professional development workshops, as seen with the district PD session.",
     "source_refs": [
       "cal_0069"
     ],
@@ -1894,12 +1490,22 @@
     ]
   },
   {
-    "type": "pattern",
-    "content": "There is a recurring theme of family milestones and celebrations, such as paying off the car and booking a trip to Portugal.",
+    "type": "urgent",
+    "content": "Sunita needs to follow up on her classroom lab equipment request for cost estimates and impact statements, as indicated in the formal letter.",
     "source_refs": [
-      "ll_0108",
-      "ll_0113",
-      "s_0042"
+      "f_0036"
+    ],
+    "tags": [
+      "teaching",
+      "equipment_request"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Sunita has a recurring pattern of celebrating significant financial milestones with her husband Venkat, such as paying off the car and booking a trip.",
+    "source_refs": [
+      "ll_0109",
+      "ll_0113"
     ],
     "tags": [
       "family",
@@ -1907,24 +1513,23 @@
     ]
   },
   {
-    "type": "learning",
-    "content": "Sunita has shown resilience in supporting her son's career aspirations, even when they don't align with his field of interest.",
+    "type": "unfinished",
+    "content": "Sunita has started planning for her retirement, as seen in the annual statement of benefit projections.",
     "source_refs": [
-      "ll_0112"
+      "f_0035"
     ],
     "tags": [
-      "parenting",
-      "hope"
+      "retirement",
+      "planning"
     ]
   },
   {
-    "type": "truth",
-    "content": "Sunita has been looking forward to the Portugal trip for ten years, and it finally happened.",
+    "type": "pattern",
+    "content": "There's a recurring theme of Sunita booking travel plans, with Portugal being the latest milestone after years of anticipation.",
     "source_refs": [
       "ll_0113",
-      "ll_0111",
-      "s_0042",
-      "ll_0116"
+      "ll_0116",
+      "ll_0111"
     ],
     "tags": [
       "travel",
@@ -1933,7 +1538,7 @@
   },
   {
     "type": "learning",
-    "content": "Sunita is experimenting with AI tools for lesson planning, finding them surprisingly helpful despite initial hesitation.",
+    "content": "Sunita is learning to use AI for lesson planning, and while it's helpful, she still needs time to fully integrate the tool.",
     "source_refs": [
       "s_0043",
       "ll_0115"
@@ -1945,7 +1550,7 @@
   },
   {
     "type": "urgent",
-    "content": "Sunita has a knee issue that requires attention, as she had to take the elevator for the first time in a year.",
+    "content": "Sunita has a knee issue that requires attention, as evidenced by her use of the elevator for the first time in a year.",
     "source_refs": [
       "ll_0117"
     ],
@@ -1955,13 +1560,32 @@
     ]
   },
   {
-    "type": "pattern",
-    "content": "Sunita frequently checks in on family members, both through calls and emails, showing strong familial bonds.",
+    "type": "unfinished",
+    "content": "Sunita started using AI tools but hasn't fully integrated them into her teaching routine, as shown by her continued slow typing and second-guessing.",
     "source_refs": [
-      "ll_0113",
-      "ll_0114",
-      "e_0056",
+      "ll_0115"
+    ],
+    "tags": [
+      "teaching",
+      "technology"
+    ]
+  },
+  {
+    "type": "empathy",
+    "content": "Sunita is supporting her family members through financial assistance, as seen in the email to Rohan and the transfer of money.",
+    "source_refs": [
       "e_0057"
+    ],
+    "tags": [
+      "family",
+      "finances"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Sunita values her relationships, as demonstrated by her long phone calls with her sister and regular check-ins.",
+    "source_refs": [
+      "ll_0114"
     ],
     "tags": [
       "family",
@@ -1970,118 +1594,147 @@
   },
   {
     "type": "truth",
-    "content": "Sunita has a strong sense of pride and support for her family, especially Rohan.",
+    "content": "Sunita values family deeply, spending significant time and effort maintaining connections.",
     "source_refs": [
-      "ll_0112",
-      "e_0056"
+      "e_0057",
+      "cal_0075",
+      "s_0046"
     ],
     "tags": [
-      "family",
-      "parenting"
-    ]
-  },
-  {
-    "type": "pattern",
-    "content": "Sunita's travel plans are well-planned and significant, with multiple entries confirming the booking of her trip to Portugal.",
-    "source_refs": [
-      "ll_0113",
-      "s_0042",
-      "t_0073",
-      "t_0074"
-    ],
-    "tags": [
-      "travel",
-      "milestone"
+      "family"
     ]
   },
   {
     "type": "learning",
-    "content": "Sunita is effectively using AI for lesson planning, finding it surprisingly helpful despite initial uncertainty.",
+    "content": "Sunita is leveraging AI to enhance her teaching methods, showing a willingness to adapt and improve.",
     "source_refs": [
+      "t_0075",
       "s_0044"
     ],
     "tags": [
       "technology",
-      "education"
+      "teaching"
     ]
   },
   {
-    "type": "truth",
-    "content": "Sunita consistently spends on health-related expenses, indicating a focus on her well-being.",
+    "type": "pattern",
+    "content": "Sunita experiences regular pharmacy visits, likely due to ongoing health issues.",
     "source_refs": [
-      "t_0075",
-      "t_0076",
-      "t_0077"
+      "t_0077",
+      "t_0078",
+      "t_0079"
     ],
     "tags": [
       "health"
     ]
   },
   {
-    "type": "pattern",
-    "content": "Sunita frequently calls Rohan on Sundays, suggesting a regular pattern of communication.",
-    "source_refs": [
-      "cal_0075",
-      "ll_0121"
-    ],
-    "tags": [
-      "family",
-      "communication"
-    ]
-  },
-  {
     "type": "unfinished",
-    "content": "Sunita started the classroom equipment request but did not follow through with a formal letter to the principal.",
+    "content": "Sunita started a formal letter requesting lab equipment for her classroom but did not complete it.",
     "source_refs": [
       "f_0038"
     ],
     "tags": [
       "teaching",
-      "administration"
+      "advocacy"
     ]
   },
   {
-    "type": "learning",
-    "content": "Sunita is actively seeking resources for Rohan's job search, indicating support and involvement in his career development.",
+    "type": "urgent",
+    "content": "There is an upcoming TRS retirement info session that Sunita needs to attend.",
     "source_refs": [
-      "f_0039"
+      "cal_0074"
     ],
     "tags": [
-      "family",
-      "career"
+      "retirement"
     ]
   },
   {
-    "type": "empathy",
-    "content": "Sunita's desire to visit Portugal after years of planning and her recent booking of the trip reflect a long-held dream that she is now making happen.",
+    "type": "truth",
+    "content": "Sunita is passionate about travel and has long desired to visit Portugal.",
     "source_refs": [
       "ll_0119",
       "s_0045"
     ],
     "tags": [
-      "travel",
-      "personal",
-      "family"
-    ]
-  },
-  {
-    "type": "learning",
-    "content": "Sunita's AP Chemistry class achieved an impressive average score, with 35 students passing and 11 scoring a perfect 5.",
-    "source_refs": [
-      "t_0076",
-      "ll_0121"
-    ],
-    "tags": [
-      "education",
-      "teaching"
+      "travel"
     ]
   },
   {
     "type": "truth",
-    "content": "Sunita's teaching has a significant positive impact on her students, as evidenced by the high pass rate and individual student achievements.",
+    "content": "Sunita values family time and spends significant effort on it.",
     "source_refs": [
-      "s_0046",
-      "ll_0121"
+      "s_0046"
+    ],
+    "tags": [
+      "family",
+      "personal"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Sunita is experimenting with AI tools to enhance her teaching but remains cautious about their limitations.",
+    "source_refs": [
+      "ll_0123",
+      "ll_0124",
+      "ll_0125"
+    ],
+    "tags": [
+      "teaching",
+      "ai"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Sunita frequently uses AI tools for writing and administrative tasks, finding them helpful but not fully reliable.",
+    "source_refs": [
+      "ll_0124",
+      "ll_0126",
+      "ll_0125"
+    ],
+    "tags": [
+      "ai_use"
+    ]
+  },
+  {
+    "type": "unfinished",
+    "content": "Sunita started using AI tools for lesson planning but did not fully complete the process.",
+    "source_refs": [
+      "ll_0125"
+    ],
+    "tags": [
+      "teaching",
+      "technology"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Sunita is dedicated to her teaching and finds personal satisfaction in student success.",
+    "source_refs": [
+      "ll_0121",
+      "s_0047"
+    ],
+    "tags": [
+      "teaching",
+      "milestone"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Sunita is exploring financial planning resources to better manage her personal finances.",
+    "source_refs": [
+      "e_0060"
+    ],
+    "tags": [
+      "finances"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Sunita's teaching has a lasting positive impact on her students.",
+    "source_refs": [
+      "s_0047",
+      "s_0049"
     ],
     "tags": [
       "teaching",
@@ -2090,115 +1743,44 @@
   },
   {
     "type": "learning",
-    "content": "Sunita is adapting to new technologies like AI chatbots, recognizing their potential while maintaining her own role in the learning process.",
-    "source_refs": [
-      "ll_0123",
-      "ll_0124",
-      "ll_0125"
-    ],
-    "tags": [
-      "ai",
-      "teaching"
-    ]
-  },
-  {
-    "type": "pattern",
-    "content": "Sunita frequently checks in on her son Rohan, both emotionally and financially, showing a strong familial bond.",
-    "source_refs": [
-      "f_0039",
-      "e_0059"
-    ],
-    "tags": [
-      "family",
-      "parenting"
-    ]
-  },
-  {
-    "type": "learning",
-    "content": "Sunita is actively seeking financial planning resources, indicating a proactive approach to her future.",
-    "source_refs": [
-      "e_0060"
-    ],
-    "tags": [
-      "finances",
-      "planning"
-    ]
-  },
-  {
-    "type": "truth",
-    "content": "Sunita values family and personal celebrations, as evidenced by the anniversary dinner and car payment celebration.",
-    "source_refs": [
-      "s_0046",
-      "ll_0122"
-    ],
-    "tags": [
-      "family",
-      "personal"
-    ]
-  },
-  {
-    "type": "urgent",
-    "content": "Sunita has a significant amount of time until retirement, which she acknowledges as both short and long depending on the context.",
-    "source_refs": [
-      "ll_0120"
-    ],
-    "tags": [
-      "retirement",
-      "time"
-    ]
-  },
-  {
-    "type": "truth",
-    "content": "Sunita's teaching passion remains strong after 22 years, as evidenced by her students' success and the joy she finds in chemistry lessons.",
-    "source_refs": [
-      "s_0047",
-      "s_0049"
-    ],
-    "tags": [
-      "teaching",
-      "passion"
-    ]
-  },
-  {
-    "type": "learning",
-    "content": "Sunita is increasingly comfortable using AI tools for lesson planning, though she still hesitates and second-guesses.",
+    "content": "Sunita is integrating AI tools into her teaching, finding them helpful but still needing to verify the content.",
     "source_refs": [
       "ll_0125",
       "ll_0126",
-      "ll_0127",
+      "ll_0128",
       "ll_0129"
     ],
     "tags": [
-      "ai_use",
-      "teaching"
+      "teaching",
+      "AI"
     ]
   },
   {
     "type": "pattern",
-    "content": "Sunita's electric bills are consistently $88.00, indicating a stable utility usage pattern.",
+    "content": "Sunita frequently travels to Portugal, likely for family visits.",
     "source_refs": [
-      "t_0083",
-      "t_0084",
-      "t_0085"
-    ],
-    "tags": [
-      "utilities"
-    ]
-  },
-  {
-    "type": "unfinished",
-    "content": "Sunita is planning a trip to Portugal for September, but hasn't yet made the final decision or booked tickets.",
-    "source_refs": [
+      "t_0081",
       "e_0061"
     ],
     "tags": [
       "travel",
-      "planning"
+      "family"
     ]
   },
   {
-    "type": "empathy",
-    "content": "Sunita values family relationships deeply and makes time for long-distance calls, even when it's challenging due to time differences.",
+    "type": "learning",
+    "content": "Sunita is learning about AI in the classroom through professional development but finds it challenging.",
+    "source_refs": [
+      "ll_0129"
+    ],
+    "tags": [
+      "teaching",
+      "professional_development"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Sunita values family relationships and makes time for long phone calls despite the time difference.",
     "source_refs": [
       "ll_0132"
     ],
@@ -2209,181 +1791,69 @@
   },
   {
     "type": "learning",
-    "content": "Despite the district PD being too fast-paced, Sunita is still seeking out new information on AI in education to improve her practice.",
+    "content": "Sunita is exploring retirement options, finding it both exciting and daunting.",
     "source_refs": [
-      "ll_0129"
+      "ll_0127"
     ],
     "tags": [
-      "pd",
-      "ai"
-    ]
-  },
-  {
-    "type": "pattern",
-    "content": "Sunita's regular physical therapy sessions and walks indicate a commitment to maintaining her knee health.",
-    "source_refs": [
-      "cal_0080",
-      "ll_0131"
-    ],
-    "tags": [
-      "health",
-      "habits"
-    ]
-  },
-  {
-    "type": "learning",
-    "content": "Sunita is advocating for better curriculum materials by drafting a letter to the district, showing her dedication to student success.",
-    "source_refs": [
-      "ll_0126"
-    ],
-    "tags": [
-      "advocacy",
-      "curriculum"
-    ]
-  },
-  {
-    "type": "truth",
-    "content": "Sunita consistently spends significant time with her sister despite the time difference, indicating a strong familial bond.",
-    "source_refs": [
-      "ll_0132",
-      "e_0062"
-    ],
-    "tags": [
-      "family",
-      "relationships"
-    ]
-  },
-  {
-    "type": "learning",
-    "content": "Sunita is integrating AI tools into her teaching and found the district PD session helpful, even if it was fast-paced.",
-    "source_refs": [
-      "ll_0134",
-      "ll_0135"
-    ],
-    "tags": [
-      "teaching",
-      "technology"
-    ]
-  },
-  {
-    "type": "urgent",
-    "content": "Sunita and Venkat are concerned about their retirement savings, as they found themselves quiet after reviewing the statements.",
-    "source_refs": [
-      "e_0064",
-      "ll_0138"
-    ],
-    "tags": [
-      "finances",
-      "retirement"
-    ]
-  },
-  {
-    "type": "pattern",
-    "content": "Sunita frequently checks her retirement account and receives annual statements, showing a regular concern for financial security.",
-    "source_refs": [
-      "e_0064",
-      "e_0065",
-      "t_0088"
-    ],
-    "tags": [
-      "finances",
-      "retirement"
-    ]
-  },
-  {
-    "type": "unfinished",
-    "content": "Sunita started using the AI chatbot to draft a letter but only made minor changes, suggesting she may need more support in this area.",
-    "source_refs": [
-      "ll_0134"
-    ],
-    "tags": [
-      "teaching",
-      "technology"
-    ]
-  },
-  {
-    "type": "empathy",
-    "content": "Sunita understands the challenges of leaving teaching but is not ready to do so, reflecting her deep commitment and emotional investment.",
-    "source_refs": [
-      "ll_0137"
-    ],
-    "tags": [
-      "career",
+      "retirement",
       "teaching"
     ]
   },
   {
-    "type": "learning",
-    "content": "Sunita has been using the AI chatbot for various tasks, including drafting letters to the district, indicating a willingness to adapt to new technologies.",
-    "source_refs": [
-      "ll_0134",
-      "ll_0136"
-    ],
-    "tags": [
-      "teaching",
-      "technology"
-    ]
-  },
-  {
     "type": "truth",
-    "content": "Sunita's AP Chemistry students consistently perform well, with 35 passing and 11 scoring a perfect 5.",
+    "content": "Sunita consistently achieves significant teaching milestones, which she finds personally rewarding.",
     "source_refs": [
       "s_0049",
-      "t_0087",
       "s_0050"
     ],
     "tags": [
       "teaching",
-      "milestone"
-    ]
-  },
-  {
-    "type": "learning",
-    "content": "Sunita is exploring financial planning tools and benefits, indicating a proactive approach to her personal finances.",
-    "source_refs": [
-      "e_0066"
-    ],
-    "tags": [
-      "finances",
-      "personal"
-    ]
-  },
-  {
-    "type": "empathy",
-    "content": "Sunita acknowledges the challenges faced by younger teachers and empathizes with their desire to leave, reflecting her own past experiences.",
-    "source_refs": [
-      "ll_0144"
-    ],
-    "tags": [
-      "career",
-      "decision",
-      "reflection",
-      "empathy",
-      "teaching"
+      "milestone",
+      "career"
     ]
   },
   {
     "type": "truth",
-    "content": "Financial concerns and family support are recurrent themes in Sunita's life, particularly regarding Rohan\u2019s job search and Venkat\u2019s retirement.",
+    "content": "Sunita still identifies as the young teacher despite her age and career progression.",
     "source_refs": [
-      "ll_0136",
-      "e_0065",
-      "ll_0140",
-      "t_0092",
-      "t_0093"
+      "t_0089",
+      "ll_0141"
     ],
     "tags": [
-      "finances",
-      "family"
+      "identity",
+      "aging"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Sunita has developed a pre-morning routine that maximizes her productivity and thinking time.",
+    "source_refs": [
+      "ll_0142"
+    ],
+    "tags": [
+      "morning_routine",
+      "productivity"
+    ]
+  },
+  {
+    "type": "urgent",
+    "content": "Rohan's job situation is causing stress, as evidenced by his changed demeanor during their conversation and Sunita\u2019s support.",
+    "source_refs": [
+      "ll_0136",
+      "ll_0140"
+    ],
+    "tags": [
+      "family",
+      "parenting"
     ]
   },
   {
     "type": "pattern",
-    "content": "Sunita frequently checks and updates her financial benefits, indicating a proactive approach to securing her future.",
+    "content": "Sunita frequently checks her retirement accounts, indicating ongoing anxiety about financial security.",
     "source_refs": [
+      "t_0089",
       "e_0065",
-      "e_0066",
-      "e_0067",
       "e_0068"
     ],
     "tags": [
@@ -2393,11 +1863,10 @@
   },
   {
     "type": "unfinished",
-    "content": "Sunita and Venkat are planning a trip to Portugal but haven't finalized the booking.",
+    "content": "Sunita and Venkat started planning a trip to Portugal but haven't booked the flights.",
     "source_refs": [
       "t_0092",
       "e_0067",
-      "e_0068",
       "e_0069"
     ],
     "tags": [
@@ -2406,189 +1875,178 @@
   },
   {
     "type": "learning",
-    "content": "Sunita is learning to manage her emotions and thoughts about aging, recognizing the passage of time without feeling sadness.",
+    "content": "Sunita has learned to manage her emotions and maintain a positive outlook despite life\u2019s challenges.",
     "source_refs": [
       "ll_0138",
-      "ll_0141"
+      "ll_0144"
     ],
     "tags": [
-      "aging"
+      "emotional_resilience"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Sunita is learning to cope with the realities of retirement, as evidenced by her reflection on the financial statements and discussions with Venkat.",
+    "source_refs": [
+      "ll_0148"
+    ],
+    "tags": [
+      "retirement",
+      "financial anxiety"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Sunita has a long-standing desire to travel to Portugal, which she finally realized in September.",
+    "source_refs": [
+      "ll_0150",
+      "t_0100"
+    ],
+    "tags": [
+      "travel aspirations",
+      "milestone"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Sunita frequently walks after dinner and reports small victories, indicating a consistent effort to maintain her health.",
+    "source_refs": [
+      "ll_0145",
+      "ll_0147"
+    ],
+    "tags": [
+      "health habits",
+      "physical activity"
+    ]
+  },
+  {
+    "type": "unfinished",
+    "content": "Sunita started planning for the Portugal trip but didn't complete all her research, as seen in the library visits and email exchanges.",
+    "source_refs": [
+      "ll_0143",
+      "ll_0146",
+      "e_0070",
+      "e_0072"
+    ],
+    "tags": [
+      "travel planning",
+      "unfinished tasks"
+    ]
+  },
+  {
+    "type": "empathy",
+    "content": "Sunita understands the struggles of her younger colleagues in teaching, reflecting a deep emotional connection to her profession.",
+    "source_refs": [
+      "ll_0144"
+    ],
+    "tags": [
+      "career reflection",
+      "emotional intelligence"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Sunita is learning the importance of saving for retirement through her interactions with financial statements and discussions with Venkat.",
+    "source_refs": [
+      "ll_0148",
+      "e_0071",
+      "e_0073"
+    ],
+    "tags": [
+      "financial education",
+      "retirement planning"
     ]
   },
   {
     "type": "urgent",
-    "content": "Rohan\u2019s job search is ongoing and causing stress for Sunita, who has provided financial support.",
+    "content": "Sunita needs to address her knee pain, as she reports walking for 40 minutes and experiencing small victories.",
     "source_refs": [
-      "ll_0136",
-      "ll_0140"
+      "ll_0145"
+    ],
+    "tags": [
+      "health concerns",
+      "knee pain"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Sunita is learning to balance her professional life with personal relationships, as seen in her calls with her sister.",
+    "source_refs": [
+      "ll_0149"
+    ],
+    "tags": [
+      "family time",
+      "relationship management"
+    ]
+  },
+  {
+    "type": "learning",
+    "content": "Sunita is consistently booking physical therapy sessions, indicating a commitment to her health and well-being.",
+    "source_refs": [
+      "t_0102",
+      "t_0103",
+      "t_0104",
+      "t_0105"
+    ],
+    "tags": [
+      "health",
+      "therapy"
+    ]
+  },
+  {
+    "type": "truth",
+    "content": "Sunita's projected monthly retirement benefit is $4,210 at age 65.",
+    "source_refs": [
+      "e_0072",
+      "e_0073",
+      "e_0074",
+      "e_0078",
+      "e_0079"
+    ],
+    "tags": [
+      "retirement",
+      "finances"
+    ]
+  },
+  {
+    "type": "pattern",
+    "content": "Sunita frequently checks in with her son Rohan, suggesting a close familial relationship.",
+    "source_refs": [
+      "t_0106",
+      "e_0075",
+      "e_0077"
     ],
     "tags": [
       "family"
     ]
   },
   {
-    "type": "truth",
-    "content": "Sunita\u2019s morning routine of making coffee and correcting lab reports before the house wakes up is a stable part of her day.",
+    "type": "learning",
+    "content": "Sunita is actively involved in her teaching and advocacy for school resources.",
     "source_refs": [
-      "ll_0142"
+      "t_0108",
+      "e_0075"
     ],
     "tags": [
-      "morning_routine"
-    ]
-  },
-  {
-    "type": "pattern",
-    "content": "Sunita frequently visits the library, both to return books and borrow new ones, indicating an ongoing interest in reading and learning.",
-    "source_refs": [
-      "t_0090",
-      "t_0094",
-      "t_0095"
-    ],
-    "tags": [
-      "hobbies"
-    ]
-  },
-  {
-    "type": "truth",
-    "content": "Sunita and Venkat have a shared financial concern about their retirement savings.",
-    "source_refs": [
-      "t_0096",
-      "ll_0148",
-      "e_0072"
-    ],
-    "tags": [
-      "finances",
-      "retirement"
-    ]
-  },
-  {
-    "type": "pattern",
-    "content": "Sunita regularly walks after dinner to manage her knee pain, showing a consistent health routine.",
-    "source_refs": [
-      "ll_0145",
-      "ll_0147"
-    ],
-    "tags": [
-      "health",
-      "habits"
-    ]
-  },
-  {
-    "type": "urgent",
-    "content": "Sunita and Venkat need to decide on booking the Portugal trip soon, as they have already booked flights.",
-    "source_refs": [
-      "t_0094",
-      "ll_0150",
-      "e_0071"
-    ],
-    "tags": [
-      "travel"
+      "teaching",
+      "advocacy"
     ]
   },
   {
     "type": "unfinished",
-    "content": "Sunita started researching a Japan itinerary but didn't complete it, as she ended up booking the Portugal trip instead.",
+    "content": "Sunita started planning for the Portugal trip but hasn't completed all the necessary arrangements.",
     "source_refs": [
-      "ll_0146",
-      "t_0100"
-    ],
-    "tags": [
-      "travel"
-    ]
-  },
-  {
-    "type": "truth",
-    "content": "Sunita's physical therapy sessions are a recurring expense, indicating ongoing health issues.",
-    "sourceRefs": [
-      "t_0099",
-      "t_0101",
-      "e_0074",
-      "t_0102",
-      "t_0103",
-      "t_0104",
-      "t_0105"
-    ],
-    "tags": [
-      "health"
-    ],
-    "source_refs": []
-  },
-  {
-    "type": "learning",
-    "content": "Sunita is actively managing her finances, evidenced by regular transfers and budgeting for travel.",
-    "sourceRefs": [
-      "e_0072",
-      "t_0099",
-      "e_0075",
-      "e_0076",
-      "e_0077"
-    ],
-    "tags": [
-      "finances"
-    ],
-    "source_refs": []
-  },
-  {
-    "type": "urgent",
-    "content": "Sunita is planning a significant trip to Portugal, which requires timely booking.",
-    "sourceRefs": [
       "ll_0150",
-      "t_0100",
       "e_0073",
       "e_0076"
     ],
     "tags": [
       "travel"
-    ],
-    "source_refs": []
-  },
-  {
-    "type": "unfinished",
-    "content": "Sunita has started planning for her retirement but hasn't completed the necessary steps, such as booking flights.",
-    "sourceRefs": [
-      "ll_0150",
-      "e_0072",
-      "e_0074",
-      "e_0076"
-    ],
-    "tags": [
-      "retirement"
-    ],
-    "source_refs": []
-  },
-  {
-    "type": "pattern",
-    "content": "Sunita frequently checks her retirement account, suggesting she is closely monitoring her financial future.",
-    "sourceRefs": [
-      "e_0072",
-      "e_0074",
-      "e_0078",
-      "e_0079"
-    ],
-    "tags": [
-      "retirement"
-    ],
-    "source_refs": []
-  },
-  {
-    "type": "empathy",
-    "content": "Sunita's regular physical therapy sessions and health expenses indicate she is dealing with ongoing health challenges, which may require emotional support.",
-    "sourceRefs": [
-      "t_0099",
-      "t_0101",
-      "t_0102",
-      "t_0103",
-      "t_0104",
-      "t_0105"
-    ],
-    "tags": [
-      "health"
-    ],
-    "source_refs": []
+    ]
   },
   {
     "type": "truth",
-    "content": "Sunita's projected retirement benefit remains consistent, providing stability in her financial planning.",
+    "content": "Sunita's projected retirement benefit is stable at $4,210 per month.",
     "source_refs": [
       "e_0078",
       "e_0079"
@@ -2599,21 +2057,8 @@
     ]
   },
   {
-    "type": "pattern",
-    "content": "Sunita frequently spends on classroom supplies, indicating a commitment to her teaching role.",
-    "source_refs": [
-      "t_0108",
-      "t_0114",
-      "t_0115"
-    ],
-    "tags": [
-      "teaching",
-      "work"
-    ]
-  },
-  {
     "type": "learning",
-    "content": "Sunita is actively seeking to update her lab materials, showing a dedication to professional development and student resources.",
+    "content": "Sunita frequently requests lab materials for her teaching, indicating a commitment to quality education.",
     "source_refs": [
       "e_0080"
     ],
@@ -2623,10 +2068,11 @@
     ]
   },
   {
-    "type": "urgent",
-    "content": "There are recurring expenses for physical therapy, indicating an ongoing health concern that needs attention.",
+    "type": "pattern",
+    "content": "Sunita regularly spends on physical therapy and health insurance copays, suggesting ongoing health concerns.",
     "source_refs": [
       "t_0109",
+      "t_0116",
       "t_0118"
     ],
     "tags": [
@@ -2634,11 +2080,11 @@
     ]
   },
   {
-    "type": "unfinished",
-    "content": "Sunita has multiple incomplete book purchases, suggesting she started reading but may have been interrupted or lost interest.",
+    "type": "urgent",
+    "content": "Sunita has outstanding library book fines, which could impact her borrowing privileges.",
     "source_refs": [
       "t_0116",
-      "t_0117"
+      "t_0120"
     ],
     "tags": [
       "books",
@@ -2646,14 +2092,13 @@
     ]
   },
   {
-    "type": "question",
-    "content": "Sunita's frequent travel expenses, especially to Portugal, raise questions about whether she is using these trips for personal or professional reasons.",
+    "type": "unfinished",
+    "content": "Sunita started a travel plan to Portugal but has not completed it yet, as evidenced by the initial booking.",
     "source_refs": [
       "t_0111"
     ],
     "tags": [
-      "travel",
-      "milestone"
+      "travel"
     ]
   },
   {

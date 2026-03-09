@@ -666,7 +666,7 @@ async function loadData() {
   try {
     const params = new URLSearchParams(window.location.search);
     const persona = params.get('persona') || 'p05';
-    const res = await fetch(`output/${persona}_report_data.json?v=${Date.now()}`);
+    const res = await fetch(`output/${persona}_report_data.json`);
     DATA = await res.json();
     DATA.timeline_entries.forEach(e => entryMap[e.id] = e);
     render();
