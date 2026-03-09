@@ -12,7 +12,7 @@ Built for [The Data Portability Hackathon](https://trapezoidal-shake-91a.notion.
 
 ## Architecture
 
-<img width="848" height="1264" alt="Gemini_Generated_Image_6bsg3f6bsg3f6bsg" src="https://github.com/user-attachments/assets/aa13938c-25a2-4ef5-b414-91abb78c0e18" />
+<img width="1376" height="768" alt="Gemini_Generated_Image_xoc13wxoc13wxoc1" src="https://github.com/user-attachments/assets/81c99e62-c502-40a1-b70b-aaf3edb2e35b" />
 
 **95% of computation runs locally.** The only cloud step is a single Claude API call for final synthesis (~15K tokens). All raw data stays on your machine.
 
