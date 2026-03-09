@@ -6,7 +6,7 @@ A synthesis engine that ingests your exported digital life and distills it into 
 
 Built for [The Data Portability Hackathon](https://trapezoidal-shake-91a.notion.site/The-Data-Portability-Hackathon-30e0743dff2c81c58434f79d754a05ae) — Track 3: Personal Data, Personal Value.
 
-**[Live Demo](http://goodsoftwaredevelopment.com/dreams/)**
+**[Live Demo](https://dreamai.solutions/)**
 
 <!-- TODO: replace with Nanobanana infographic -->
 
